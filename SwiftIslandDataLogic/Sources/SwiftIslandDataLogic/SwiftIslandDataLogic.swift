@@ -85,8 +85,13 @@ public class SwiftIslandDataLogic: DataLogic, ObservableObject {
     /// Fetches all the stored locations
     /// - Returns: Array of `Location`
     public func fetchLocations() async -> [Location] {
-        let request = AllLocationsRequest()
-        return await fetchFromFirebase(forRequest: request)
+        do {
+            let data = try await DataSync.fetchURL("api/locations.json")
+            return try JSONDecoder().decode([Location].self, from: data)
+        } catch {
+            print("Failed to load locations: \(error)")
+            return []
+        }
     }
 
     /// Fetches all the mentors from Firebase
@@ -104,8 +109,13 @@ public class SwiftIslandDataLogic: DataLogic, ObservableObject {
     /// Fetches all the pages from Firebase and stores
     /// - Returns: Array of `Page`
     public func fetchPages() async -> [Page] {
-        let request = AllPagesRequest()
-        return await fetchFromFirebase(forRequest: request)
+        do {
+            let data = try await DataSync.fetchURL("api/pages.json")
+            return try JSONDecoder().decode([Page].self, from: data)
+        } catch {
+            print("Failed to load pages: \(error)")
+            return []
+        }
     }
 
     /// Fetches all the activities available.
@@ -114,11 +124,15 @@ public class SwiftIslandDataLogic: DataLogic, ObservableObject {
     /// - Returns: Array of `Activity`
     @discardableResult
     public func fetchActivities() async -> [Activity] {
-        let request = AllActivitiesRequest()
-
-        let activities = await fetchFromFirebase(forRequest: request)
-        self.activities = activities
-        return activities
+        do {
+            let data = try await DataSync.fetchURL("api/activities.json")
+            let activities = try JSONDecoder().decode([Activity].self, from: data)
+            self.activities = activities
+            return activities
+        } catch {
+            print("Failed to load activities: \(error)")
+            return []
+        }
     }
 
     /// Fetches the db events from firebase and converts them to a `Event`
@@ -128,22 +142,32 @@ public class SwiftIslandDataLogic: DataLogic, ObservableObject {
             await fetchActivities()
         }
 
-        let request = AllEventsRequest()
-        let dbEvents = await fetchFromFirebase(forRequest: request)
+        do {
+            let data = try await DataSync.fetchURL("api/events.json")
+            let dbEvents = try JSONDecoder().decode([DBEvent].self, from: data)
+            
+            let events: [Event] = dbEvents.compactMap { dbEvent in
+                guard let activity = activities.first(where: { $0.id == dbEvent.activityId }) else { return nil }
+                return Event(dbEvent: dbEvent, activity: activity)
+            }.sorted(by: { $0.startDate < $1.startDate })
 
-        let events: [Event] = dbEvents.compactMap { dbEvent in
-            guard let activity = activities.first(where: { $0.id == dbEvent.activityId }) else { return nil }
-            return Event(dbEvent: dbEvent, activity: activity)
-        }.sorted(by: { $0.startDate < $1.startDate })
-
-        return events
+            return events
+        } catch {
+            print("Failed to load events: \(error)")
+            return []
+        }
     }
 
     /// Fetches the default setup of the packing items available on Firebase. Should only be fetched once per instance
     /// - Returns: Array of `PackingItem` from firebase
     public func fetchPackingListItemsFromFirebase() async -> [PackingItem] {
-        let request = AllPackingListItems()
-        return await fetchFromFirebase(forRequest: request).sorted(by: { $0.order < $1.order })
+        do {
+            let data = try await DataSync.fetchURL("api/packing-items.json")
+            return try JSONDecoder().decode([PackingItem].self, from: data).sorted(by: { $0.order < $1.order })
+        } catch {
+            print("Failed to load packing items: \(error)")
+            return []
+        }
     }
 
     public func fetchFAQItems() async -> [FAQItem] {
@@ -189,8 +213,13 @@ public class SwiftIslandDataLogic: DataLogic, ObservableObject {
     }
 
     public func fetchPuzzles() async -> [Puzzle] {
-        let request = AllPuzzlesRequest()
-        return await fetchFromFirebase(forRequest: request).sorted(by: { $0.order < $1.order })
+        do {
+            let data = try await DataSync.fetchURL("api/puzzles.json")
+            return try JSONDecoder().decode([Puzzle].self, from: data).sorted(by: { $0.order < $1.order })
+        } catch {
+            print("Failed to load puzzles: \(error)")
+            return []
+        }
     }
 }
 
