@@ -10,6 +10,11 @@ import Foundation
 enum Conf {
     static let org = "SwiftIsland"     // fill
     static let repo = "app"   // fill
+    
+    /// Get the branch name from environment variable, defaults to "main"
+    static var branch: String {
+        ProcessInfo.processInfo.environment["SWIFTISLAND_BRANCH"] ?? "main"
+    }
 }
 
 
@@ -78,7 +83,7 @@ final class DataSync {
 
     
     private static func fileURL(for path: String) throws -> URL {
-        let s = "https://raw.githubusercontent.com/\(Conf.org)/\(Conf.repo)/refs/heads/main/\(path)"
+        let s = "https://raw.githubusercontent.com/\(Conf.org)/\(Conf.repo)/refs/heads/\(Conf.branch)/\(path)"
         guard let u = URL(string: s) else { throw URLError(.badURL) }
         return u
     }

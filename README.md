@@ -35,6 +35,37 @@ If you wish to access ticket functionality you need to have a Tito token. This t
 }
 ```
 
+### Static API Content
+The app uses static JSON files for content like mentors and FAQ items. By default, these are fetched from the `main` branch of this repository.
+
+#### Specifying a Different Branch
+To fetch static content from a different branch (useful for development or testing), set the `SWIFTISLAND_BRANCH` environment variable:
+
+**In Xcode:**
+1. Go to Product → Scheme → Edit Scheme...
+2. Select "Run" in the left sidebar
+3. Go to the "Arguments" tab
+4. Under "Environment Variables", add:
+   - Name: `SWIFTISLAND_BRANCH`
+   - Value: `your-branch-name` (e.g., `feature/static-backend`)
+
+**From Command Line:**
+```bash
+# Set environment variable and run
+export SWIFTISLAND_BRANCH=feature/static-backend
+# Then build/run your app
+
+# Or inline for a single run
+SWIFTISLAND_BRANCH=develop xcodebuild ...
+```
+
+**Default Behavior:**
+If no environment variable is set, the app will fetch static content from the `main` branch.
+
+**Static Content URLs:**
+- Default: `https://raw.githubusercontent.com/SwiftIsland/app/refs/heads/main/api/mentors.json`
+- Custom: `https://raw.githubusercontent.com/SwiftIsland/app/refs/heads/{BRANCH}/api/mentors.json`
+
 ## Author
 This app is mainly build by [Paul Peelen](https://paulpeelen.com) [[Github](https://github.com/ppeelen)] [[Twitter](https://twitter.com/ppeelen)], for use for Swift Island 2023.
 
