@@ -1,0 +1,65 @@
+[
+  {
+    "id": "1",
+    "title": "Main Conference Venue",
+    "type": "venue",
+    "coordinate": {
+      "latitude": 53.11486048459769,
+      "longitude": 4.897194963296373
+    }
+  },
+  {
+    "id": "2", 
+    "title": "De Texelse Brouwerij",
+    "type": "restaurant",
+    "coordinate": {
+      "latitude": 53.1123,
+      "longitude": 4.8945
+    }
+  },
+  {
+    "id": "3",
+    "title": "Workshop Room A",
+    "type": "workshopRoom",
+    "coordinate": {
+      "latitude": 53.1155,
+      "longitude": 4.8978
+    }
+  },
+  {
+    "id": "4",
+    "title": "Bungalow Park - Block 1",
+    "type": "bungalow", 
+    "coordinate": {
+      "latitude": 53.1142,
+      "longitude": 4.8960
+    }
+  },
+  {
+    "id": "5",
+    "title": "Main Parking Area",
+    "type": "parking",
+    "coordinate": {
+      "latitude": 53.1160,
+      "longitude": 4.8985
+    }
+  },
+  {
+    "id": "6",
+    "title": "Lighthouse Point",
+    "type": "poi",
+    "coordinate": {
+      "latitude": 53.1180,
+      "longitude": 4.9020
+    }
+  },
+  {
+    "id": "7",
+    "title": "Restrooms & Facilities",
+    "type": "restroom",
+    "coordinate": {
+      "latitude": 53.1145,
+      "longitude": 4.8970
+    }
+  }
+]

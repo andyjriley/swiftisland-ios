@@ -1,0 +1,92 @@
+[
+  {
+    "id": "1",
+    "title": "SwiftUI Masterclass: Advanced Animations",
+    "description": "Dive deep into SwiftUI animations and transitions. Learn how to create smooth, performant animations that delight users. We'll cover timing curves, spring animations, matched geometry effects, and custom transition types.",
+    "mentors": ["mentor-1", "mentor-3"],
+    "type": "Workshop",
+    "duration": 5400,
+    "location": "Workshop Room A"
+  },
+  {
+    "id": "2",
+    "title": "Server-Side Swift with Vapor",
+    "description": "Build robust backend services using Swift and the Vapor framework. Learn about routing, middleware, database integration, and API design patterns that scale.",
+    "mentors": ["mentor-2"],
+    "type": "Workshop", 
+    "duration": 5400,
+    "location": "Workshop Room B"
+  },
+  {
+    "id": "3",
+    "title": "Welcome Breakfast",
+    "description": "Start your day with a delicious breakfast and meet fellow Swift developers. Continental breakfast with local Texel specialties.",
+    "mentors": [],
+    "type": "Meal",
+    "duration": 1800,
+    "location": "Main Dining Hall"
+  },
+  {
+    "id": "4",
+    "title": "Async/Await Deep Dive",
+    "description": "Master Swift's concurrency model. Learn about async/await, actors, task groups, and how to write safe concurrent code that performs well.",
+    "mentors": ["mentor-4", "mentor-5"],
+    "type": "Workshop",
+    "duration": 5400,
+    "location": "Workshop Room C"
+  },
+  {
+    "id": "5",
+    "title": "Beach Cycling Tour",
+    "description": "Explore the beautiful Texel coastline on bikes. Guided tour of local beaches, dunes, and wildlife areas. Weather permitting.",
+    "mentors": [],
+    "type": "Social",
+    "duration": 7200,
+    "location": "Beach Path Starting Point"
+  },
+  {
+    "id": "6",
+    "title": "Testing Strategies for iOS Apps",
+    "description": "Comprehensive guide to testing iOS applications. Unit tests, UI tests, snapshot testing, and test-driven development practices.",
+    "mentors": ["mentor-6"],
+    "type": "Workshop",
+    "duration": 5400,
+    "location": "Workshop Room A"
+  },
+  {
+    "id": "7",
+    "title": "Conference Dinner",
+    "description": "Join us for a special conference dinner featuring local Texel cuisine. Network with speakers and fellow attendees in a relaxed setting.",
+    "mentors": [],
+    "type": "Meal",
+    "duration": 3600,
+    "location": "Main Dining Hall"
+  },
+  {
+    "id": "8",
+    "title": "Check-in & Registration",
+    "description": "Arrive at the venue, check into your accommodation, and collect your conference materials. Welcome desk open all day.",
+    "mentors": [],
+    "type": "Mandatory event activity",
+    "duration": 3600,
+    "location": "Reception Lobby"
+  },
+  {
+    "id": "9",
+    "title": "Shuttle to Schiphol Airport",
+    "description": "Comfortable coach transportation back to Schiphol Airport. Please check departure times in advance.",
+    "mentors": [],
+    "type": "Transport",
+    "duration": 7200,
+    "location": "Main Entrance"
+  },
+  {
+    "id": "10",
+    "title": "Mentor Dinner Discussion",
+    "description": "Exclusive dinner session for invited participants to discuss advanced Swift topics with our mentors in an intimate setting.",
+    "mentors": ["mentor-1", "mentor-2", "mentor-3", "mentor-4"],
+    "type": "Invite only activity",
+    "duration": 5400,
+    "location": "Private Dining Room"
+  }
+]

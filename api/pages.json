@@ -1,0 +1,20 @@
+[
+  {
+    "id": "1",
+    "title": "Getting to Texel",
+    "content": "# Welcome to Swift Island 2025!\n\n## Getting Here\n\nTexel is the largest and most populated island in the Wadden Sea. Getting to the island is straightforward - you'll need to take a ferry from Den Helder on the mainland.\n\n### By Ferry\nThe TESO ferry runs regularly between Den Helder and 't Horntje on Texel. The journey takes about 20 minutes.\n\n### Ferry Schedule\n- **Summer Schedule (March - October)**: Every 30 minutes during peak hours\n- **Winter Schedule (November - February)**: Every hour\n\n## From Schiphol Airport\n\nIf you're flying into Amsterdam Schiphol Airport:\n\n1. Take the train to Den Helder Centraal (approximately 1.5 hours)\n2. Take bus 33 from the station to the ferry terminal (10 minutes)\n3. Board the TESO ferry to Texel\n\n## Conference Transportation\n\nWe provide hassle-free bus transportation from Schiphol Airport for all attendees. Check your confirmation email for pickup times and locations.\n\n**Important**: Please arrive at least 30 minutes before your scheduled pickup time.",
+    "imageName": "schiphol"
+  },
+  {
+    "id": "2", 
+    "title": "Accommodation Info",
+    "content": "# Your Stay at Swift Island\n\n## Accommodation Types\n\nWe offer two types of accommodation at our beautiful venue:\n\n### Bungalows\n- 3 private bedrooms per bungalow\n- Shared kitchen and living area\n- Perfect for groups who want to cook together\n- Garden terrace with outdoor seating\n\n### Hotel Rooms\n- Private bathroom in each room\n- Daily housekeeping service\n- Room service available\n- Perfect for those who prefer hotel amenities\n\n## What's Included\n\n- 4 nights accommodation (Monday - Friday)\n- Daily breakfast\n- Lunch and dinner during conference days\n- Access to all conference facilities\n- Bicycle rental for the duration of your stay\n\n## Check-in Information\n\n- **Check-in**: Monday, September 1st from 3:00 PM\n- **Check-out**: Friday, September 5th by 11:00 AM\n- **Reception**: Open 24/7 for assistance\n\n## Room Preferences\n\nWhile we try our best to accommodate room type preferences, we cannot guarantee your preferred choice due to limited availability.",
+    "imageName": ""
+  },
+  {
+    "id": "3",
+    "title": "Conference Schedule Overview", 
+    "content": "# Swift Island 2025 Schedule\n\n## Conference Days\n\n**Tuesday, September 2nd - Thursday, September 4th**\n\n### Daily Schedule\n\n#### Morning Session (9:00 AM - 12:00 PM)\n- Welcome & Breakfast (9:00 - 9:30)\n- Workshop Session 1 (9:30 - 11:00)\n- Coffee Break (11:00 - 11:15)\n- Workshop Session 2 (11:15 - 12:00)\n\n#### Afternoon Session (1:30 PM - 5:30 PM)\n- Lunch (12:00 - 1:30)\n- Workshop Session 3 (1:30 - 3:00)\n- Coffee Break (3:00 - 3:15)\n- Workshop Session 4 (3:15 - 4:30)\n- Daily Wrap-up (4:30 - 5:30)\n\n#### Evening\n- Dinner (6:30 - 8:00)\n- Social Activities (8:00 - 11:00)\n\n## Workshop Tracks\n\nEach day features multiple workshop tracks:\n- **SwiftUI & UI Frameworks**\n- **Server-Side Swift**\n- **iOS Development Best Practices**\n- **Swift Concurrency & Performance**\n- **Testing & Quality Assurance**\n\n## Special Events\n\n- **Monday Evening**: Welcome Reception\n- **Wednesday Evening**: Beach BBQ & Games\n- **Thursday Evening**: Closing Ceremony\n\nDetailed schedules will be available in the conference app closer to the event date.",
+    "imageName": ""
+  }
+]

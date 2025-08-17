@@ -1,0 +1,107 @@
+[
+  {
+    "id": "1",
+    "title": "Laptop & Charger",
+    "subTitle": "Your main development machine",
+    "checked": false,
+    "order": 1
+  },
+  {
+    "id": "2",
+    "title": "iPhone/iPad",
+    "subTitle": "For testing your apps",
+    "checked": false,
+    "order": 2
+  },
+  {
+    "id": "3",
+    "title": "Lightning/USB-C Cables",
+    "subTitle": "Don't forget your device cables",
+    "checked": false,
+    "order": 3
+  },
+  {
+    "id": "4",
+    "title": "Comfortable Clothes",
+    "subTitle": "Casual dress code for workshops",
+    "checked": false,
+    "order": 4
+  },
+  {
+    "id": "5",
+    "title": "Rain Jacket",
+    "subTitle": "Weather can be unpredictable",
+    "checked": false,
+    "order": 5
+  },
+  {
+    "id": "6",
+    "title": "Comfortable Walking Shoes",
+    "subTitle": "For exploring the island",
+    "checked": false,
+    "order": 6
+  },
+  {
+    "id": "7",
+    "title": "Sunscreen",
+    "subTitle": "Protect yourself from UV rays",
+    "checked": false,
+    "order": 7
+  },
+  {
+    "id": "8",
+    "title": "Camera",
+    "subTitle": "Capture memories of beautiful Texel",
+    "checked": false,
+    "order": 8
+  },
+  {
+    "id": "9",
+    "title": "Notebook & Pen",
+    "subTitle": "For taking notes during workshops",
+    "checked": false,
+    "order": 9
+  },
+  {
+    "id": "10",
+    "title": "Swimwear",
+    "subTitle": "Optional - if you want to swim",
+    "checked": false,
+    "order": 10
+  },
+  {
+    "id": "11",
+    "title": "Personal Medications",
+    "subTitle": "Bring any required prescriptions",
+    "checked": false,
+    "order": 11
+  },
+  {
+    "id": "12",
+    "title": "Travel Adapter",
+    "subTitle": "EU plug type C for international visitors",
+    "checked": false,
+    "order": 12
+  },
+  {
+    "id": "13",
+    "title": "Business Cards",
+    "subTitle": "For networking with other developers",
+    "checked": false,
+    "order": 13
+  },
+  {
+    "id": "14",
+    "title": "Headphones",
+    "subTitle": "For focused coding sessions",
+    "checked": false,
+    "order": 14
+  },
+  {
+    "id": "15",
+    "title": "Personal Toiletries",
+    "subTitle": "Toothbrush, toothpaste, shampoo, etc.",
+    "checked": false,
+    "order": 15
+  }
+]
