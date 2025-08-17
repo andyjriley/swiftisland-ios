@@ -147,8 +147,13 @@ public class SwiftIslandDataLogic: DataLogic, ObservableObject {
     }
 
     public func fetchFAQItems() async -> [FAQItem] {
-        let request = AllFAQRequest()
-        return await fetchFromFirebase(forRequest: request)
+        do {
+            let data = try await DataSync.fetchURL("api/faq.json")
+            return try JSONDecoder().decode([FAQItem].self, from: data)
+        } catch {
+            print("Failed to load FAQ items: \(error)")
+            return []
+        }
     }
 
     public func fetchTicket(slug: String, from checkinList: String) async throws -> Ticket {
