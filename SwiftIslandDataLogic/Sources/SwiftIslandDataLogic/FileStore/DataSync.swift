@@ -27,7 +27,7 @@ final class ETagStore {
     func set(_ v: String?, _ url: URL) { let k = "eetag::" + url.absoluteString; v == nil ? d.removeObject(forKey: k) : d.set(v, forKey: k) }
 }
 
-enum Net {
+private enum Net {
     static func getWithETag(_ url: URL, etag: String?) async throws -> (code: Int, data: Data?, etag: String?) {
         var req = URLRequest(url: url)
 //        req.setValue("gzip", forHTTPHeaderField: "Accept-Encoding")
@@ -84,6 +84,7 @@ final class DataSync {
     
     private static func fileURL(for path: String) throws -> URL {
         let s = "https://raw.githubusercontent.com/\(Conf.org)/\(Conf.repo)/refs/heads/\(Conf.branch)/\(path)"
+        debugPrint("➡️ Fetching from: \(s)")
         guard let u = URL(string: s) else { throw URLError(.badURL) }
         return u
     }
