@@ -48,6 +48,10 @@ public protocol DataLogic {
     func fetchPuzzles() async -> [Puzzle]
 
     func fetchSponsors() async throws -> Sponsors
+    
+    /// Downloads mentor images in the background
+    /// - Parameter mentors: Array of mentors to download images for
+    func downloadMentorImages(for mentors: [Mentor]) async
 }
 
 public enum DataLogicError: Error {
@@ -219,6 +223,26 @@ public class SwiftIslandDataLogic: DataLogic, ObservableObject {
         } catch {
             print("Failed to load puzzles: \(error)")
             return []
+        }
+    }
+    
+    public func downloadMentorImages(for mentors: [Mentor]) async {
+        await withTaskGroup(of: Void.self) { group in
+            for mentor in mentors {
+                for image in mentor.image {
+                    group.addTask {
+                        do {
+                            // Check if image is already cached
+                            if !DataSync.hasLocalImage(for: image.url) {
+                                _ = try await DataSync.fetchImage(image.url)
+                                print("Downloaded image: \(image.url)")
+                            }
+                        } catch {
+                            print("Failed to download image \(image.url): \(error)")
+                        }
+                    }
+                }
+            }
         }
     }
 }

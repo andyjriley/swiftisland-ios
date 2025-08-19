@@ -65,7 +65,7 @@ struct FileStore {
 
 // MARK: - Sync
 
-final class DataSync {
+public final class DataSync {
     
     static func fetchURL(_ path: String) async throws -> Data {
         let url = try fileURL(for: path)
@@ -81,15 +81,15 @@ final class DataSync {
         return body
     }
     
-    static func fetchImage(_ imagePath: String) async throws -> Data {
+    public static func fetchImage(_ imagePath: String) async throws -> Data {
         return try await fetchURL(imagePath)
     }
     
-    static func localImageURL(for imagePath: String) -> URL {
+    public static func localImageURL(for imagePath: String) -> URL {
         return FileStore.base.appendingPathComponent(imagePath)
     }
     
-    static func hasLocalImage(for imagePath: String) -> Bool {
+    public static func hasLocalImage(for imagePath: String) -> Bool {
         let localURL = localImageURL(for: imagePath)
         return FileManager.default.fileExists(atPath: localURL.path)
     }
