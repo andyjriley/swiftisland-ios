@@ -199,4 +199,8 @@ internal class DataLogicMock: DataLogic {
     func fetchSponsors() async throws -> Sponsors {
         return fetchSponsorsReturnValue
     }
+    
+    func downloadMentorImages(for mentors: [Mentor]) async {
+        // Mock implementation - no-op
+    }
 }
