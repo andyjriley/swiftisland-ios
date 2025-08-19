@@ -40,9 +40,10 @@ Swift Island iOS app - official app for Swift Island conference. Built with Swif
 - ETag-based caching with local file storage in Application Support
 
 **Data Flow:**
-1. `SwiftIslandDataLogic` package fetches from static JSON endpoints
+1. `SwiftIslandDataLogic` package fetches from static JSON endpoints (automatically adds "api/" prefix)
 2. `AppDataModel` manages app state and coordinates data fetching
 3. Views consume data through published properties
+4. Remote images are downloaded automatically after fetching mentors
 
 **Key Entities:**
 - `Event`/`Activity`: Schedule items (Activity = template, Event = instance)

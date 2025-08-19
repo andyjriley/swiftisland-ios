@@ -158,6 +158,12 @@ private extension AppDataModel {
     func fetchData() {
         Task {
             mentors = await fetchMentors().shuffled()
+            
+            // Download mentor images in background
+            Task {
+                await dataLogic.downloadMentorImages(for: mentors)
+            }
+            
             pages = await fetchPages()
             activities = await fetchActivities()
             events = await fetchEvents()

@@ -86,7 +86,7 @@
          </EnvironmentVariable>
          <EnvironmentVariable
             key = "SWIFTISLAND_BRANCH"
-            value = "feature/static-backend"
+            value = "feature/github-images"
             isEnabled = "YES">
          </EnvironmentVariable>
       </EnvironmentVariables>

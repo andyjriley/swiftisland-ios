@@ -65,7 +65,7 @@ struct FileStore {
 
 // MARK: - Sync
 
-final class DataSync {
+public final class DataSync {
     
     static func fetchURL(_ path: String) async throws -> Data {
         let url = try fileURL(for: path)
@@ -80,10 +80,27 @@ final class DataSync {
         if let e = res.etag { ETagStore.shared.set(e, url) }
         return body
     }
+    
+    public static func fetchImage(_ imagePath: String) async throws -> Data {
+        return try await fetchURL(imagePath)
+    }
+    
+    public static func localImageURL(for imagePath: String) -> URL {
+        // Automatically add "api/" prefix if not already present for consistent local storage
+        let apiPath = imagePath.hasPrefix("api/") ? imagePath : "api/\(imagePath)"
+        return FileStore.base.appendingPathComponent(apiPath)
+    }
+    
+    public static func hasLocalImage(for imagePath: String) -> Bool {
+        let localURL = localImageURL(for: imagePath)
+        return FileManager.default.fileExists(atPath: localURL.path)
+    }
 
     
     private static func fileURL(for path: String) throws -> URL {
-        let s = "https://raw.githubusercontent.com/\(Conf.org)/\(Conf.repo)/refs/heads/\(Conf.branch)/\(path)"
+        // Automatically add "api/" prefix if not already present
+        let apiPath = path.hasPrefix("api/") ? path : "api/\(path)"
+        let s = "https://raw.githubusercontent.com/\(Conf.org)/\(Conf.repo)/refs/heads/\(Conf.branch)/\(apiPath)"
         debugPrint("➡️ Fetching from: \(s)")
         guard let u = URL(string: s) else { throw URLError(.badURL) }
         return u
