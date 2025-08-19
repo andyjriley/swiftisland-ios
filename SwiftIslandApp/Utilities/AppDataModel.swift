@@ -30,7 +30,7 @@ final class AppDataModel: ObservableObject {
     @Published var weather: Weather?
     @Published var puzzles: [Puzzle] = []
     @Published var currentPuzzleSlug: String? = nil
-    @Published var sponsors: Sponsors?
+    @Published var sponsors: [Sponsor] = []
 
     private let logger = Logger(
         subsystem: Bundle.main.bundleIdentifier!, // swiftlint:disable:this force_unwrapping
@@ -205,13 +205,8 @@ private extension AppDataModel {
         }
     }
 
-    func fetchSponsors() async -> Sponsors? {
-        do {
-            return try await dataLogic.fetchSponsors()
-        } catch {
-            logger.error("Unable to fetch sponsor information, error: \(error, privacy: .public)")
-            return nil
-        }
+    func fetchSponsors() async -> [Sponsor] {
+        await dataLogic.fetchSponsors()
     }
 }
 

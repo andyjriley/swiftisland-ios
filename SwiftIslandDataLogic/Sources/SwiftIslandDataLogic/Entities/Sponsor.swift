@@ -7,48 +7,39 @@
 
 import Foundation
 
+public enum SponsorType: String, Decodable {
+    case app = "App"
+    case book = "Book"
+}
+
 public struct Sponsor: Decodable {
-    public let title: String
-    public let url: URL
-    public let image: URL
-
-    internal init(title: String, url: URL, image: URL) {
-        self.title = title
-        self.url = url
-        self.image = image
+    public let name: String
+    public let link: URL
+    public let icon: [RemoteImage]
+    public let type: SponsorType
+    
+    public var primaryImageUrl: String? {
+        return icon.first?.url
     }
+}
 
-    public init() {
-        self.init(title: "Example", url: URL(string: "http://example.com")!, image: URL(string: "http://example.com")!)
-    }
+enum CodingKeys: String, CodingKey {
+    case name, link, icon, type
 }
 
 extension Sponsor: Hashable, Identifiable {
     public var id: String {
-        return title
+        return name
     }
 }
 
 extension Sponsor {
-    public static func forPreview(title: String = "", url: URL = URL(string: "http://example.com")!, image: URL = URL(string: "https://flyingmeat.com/retrobatch/images/icon-1024.png")!) -> Sponsor {
+    public static func forPreview(title: String = "", url: URL = URL(string: "http://example.com")!) -> Sponsor {
         Sponsor(
-            title: title,
-            url: url,
-            image: image
-        )
-    }
-}
-
-public struct Sponsors: Decodable {
-    public let apps: [Sponsor]
-    public let content: [Sponsor]?
-}
-
-extension Sponsors {
-    public static func forPreview(apps: [Sponsor] = [], content: [Sponsor]? = nil) -> Sponsors {
-        Sponsors(
-            apps: apps,
-            content: content
+            name: title,
+            link: url,
+            icon: [RemoteImage.forPreview()],
+            type: .app
         )
     }
 }
