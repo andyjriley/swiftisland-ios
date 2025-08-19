@@ -146,21 +146,21 @@ public enum LocationType: String, CaseIterable, Identifiable {
     public var icon: Image {
         switch self {
         case .restaurant:
-            return Image(systemName: "fork.knife.circle.fill")
+            return Image("fork.knife.circle.fill")
         case .poi:
-            return Image(systemName: "binoculars.fill")
+            return Image("binoculars.fill")
         case .restroom:
-            return Image(systemName: "toilet.circle.fill")
+            return Image("toilet.circle.fill")
         case .venue:
-            return Image(systemName: "info.circle.fill")
+            return Image("info.circle.fill")
         case .bungalow:
-            return Image(systemName: "house.and.flag.circle.fill")
+            return Image("house.and.flag.circle.fill")
         case .workshopRoom:
-            return Image(systemName: "graduationcap.circle.fill")
+            return Image("graduationcap.circle.fill")
         case .parking:
-            return Image(systemName: "parkingsign.circle.fill")
+            return Image("parkingsign.circle.fill")
         default:
-            return Image(systemName: "mappin.circle.fill")
+            return Image("mappin.circle.fill")
         }
     }
 }
