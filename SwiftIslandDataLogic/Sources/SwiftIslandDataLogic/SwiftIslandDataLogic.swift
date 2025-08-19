@@ -90,7 +90,7 @@ public class SwiftIslandDataLogic: DataLogic, ObservableObject {
     /// - Returns: Array of `Location`
     public func fetchLocations() async -> [Location] {
         do {
-            let data = try await DataSync.fetchURL("api/locations.json")
+            let data = try await DataSync.fetchURL("locations.json")
             return try JSONDecoder().decode([Location].self, from: data)
         } catch {
             print("Failed to load locations: \(error)")
@@ -102,7 +102,7 @@ public class SwiftIslandDataLogic: DataLogic, ObservableObject {
     /// - Returns: Array of `Mentor`
     public func fetchMentors() async -> [Mentor] {
         do {
-            let data = try await DataSync.fetchURL("api/mentors.json")
+            let data = try await DataSync.fetchURL("mentors.json")
             return try JSONDecoder().decode([Mentor].self, from: data)
         } catch {
             print("Failed to load mentors: \(error)")
@@ -114,7 +114,7 @@ public class SwiftIslandDataLogic: DataLogic, ObservableObject {
     /// - Returns: Array of `Page`
     public func fetchPages() async -> [Page] {
         do {
-            let data = try await DataSync.fetchURL("api/pages.json")
+            let data = try await DataSync.fetchURL("pages.json")
             return try JSONDecoder().decode([Page].self, from: data)
         } catch {
             print("Failed to load pages: \(error)")
@@ -129,7 +129,7 @@ public class SwiftIslandDataLogic: DataLogic, ObservableObject {
     @discardableResult
     public func fetchActivities() async -> [Activity] {
         do {
-            let data = try await DataSync.fetchURL("api/activities.json")
+            let data = try await DataSync.fetchURL("activities.json")
             let activities = try JSONDecoder().decode([Activity].self, from: data)
             self.activities = activities
             return activities
@@ -147,7 +147,7 @@ public class SwiftIslandDataLogic: DataLogic, ObservableObject {
         }
 
         do {
-            let data = try await DataSync.fetchURL("api/events.json")
+            let data = try await DataSync.fetchURL("events.json")
             let dbEvents = try JSONDecoder().decode([DBEvent].self, from: data)
             
             let events: [Event] = dbEvents.compactMap { dbEvent in
@@ -166,7 +166,7 @@ public class SwiftIslandDataLogic: DataLogic, ObservableObject {
     /// - Returns: Array of `PackingItem` from firebase
     public func fetchPackingListItemsFromFirebase() async -> [PackingItem] {
         do {
-            let data = try await DataSync.fetchURL("api/packing-items.json")
+            let data = try await DataSync.fetchURL("packing-items.json")
             return try JSONDecoder().decode([PackingItem].self, from: data).sorted(by: { $0.order < $1.order })
         } catch {
             print("Failed to load packing items: \(error)")
@@ -176,7 +176,7 @@ public class SwiftIslandDataLogic: DataLogic, ObservableObject {
 
     public func fetchFAQItems() async -> [FAQItem] {
         do {
-            let data = try await DataSync.fetchURL("api/faq.json")
+            let data = try await DataSync.fetchURL("faq.json")
             return try JSONDecoder().decode([FAQItem].self, from: data)
         } catch {
             print("Failed to load FAQ items: \(error)")
@@ -218,7 +218,7 @@ public class SwiftIslandDataLogic: DataLogic, ObservableObject {
 
     public func fetchPuzzles() async -> [Puzzle] {
         do {
-            let data = try await DataSync.fetchURL("api/puzzles.json")
+            let data = try await DataSync.fetchURL("puzzles.json")
             return try JSONDecoder().decode([Puzzle].self, from: data).sorted(by: { $0.order < $1.order })
         } catch {
             print("Failed to load puzzles: \(error)")

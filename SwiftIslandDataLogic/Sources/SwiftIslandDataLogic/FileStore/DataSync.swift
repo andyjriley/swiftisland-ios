@@ -86,7 +86,9 @@ public final class DataSync {
     }
     
     public static func localImageURL(for imagePath: String) -> URL {
-        return FileStore.base.appendingPathComponent(imagePath)
+        // Automatically add "api/" prefix if not already present for consistent local storage
+        let apiPath = imagePath.hasPrefix("api/") ? imagePath : "api/\(imagePath)"
+        return FileStore.base.appendingPathComponent(apiPath)
     }
     
     public static func hasLocalImage(for imagePath: String) -> Bool {
@@ -96,7 +98,9 @@ public final class DataSync {
 
     
     private static func fileURL(for path: String) throws -> URL {
-        let s = "https://raw.githubusercontent.com/\(Conf.org)/\(Conf.repo)/refs/heads/\(Conf.branch)/\(path)"
+        // Automatically add "api/" prefix if not already present
+        let apiPath = path.hasPrefix("api/") ? path : "api/\(path)"
+        let s = "https://raw.githubusercontent.com/\(Conf.org)/\(Conf.repo)/refs/heads/\(Conf.branch)/\(apiPath)"
         debugPrint("➡️ Fetching from: \(s)")
         guard let u = URL(string: s) else { throw URLError(.badURL) }
         return u

@@ -43,12 +43,11 @@ struct RemoteImageView: View {
             isLoading = false
             return
         }
-        let apiImagePath = "api/\(imagePath)"
         
         do {
             // Check if image is already cached locally
-            let localURL = DataSync.localImageURL(for: apiImagePath)
-            if DataSync.hasLocalImage(for: apiImagePath) {
+            let localURL = DataSync.localImageURL(for: imagePath)
+            if DataSync.hasLocalImage(for: imagePath) {
                 // Load from local cache
                 if let data = try? Data(contentsOf: localURL),
                    let image = UIImage(data: data) {
@@ -61,7 +60,7 @@ struct RemoteImageView: View {
             }
             
             // Download the image
-            let imageData = try await DataSync.fetchImage(apiImagePath)
+            let imageData = try await DataSync.fetchImage(imagePath)
             if let image = UIImage(data: imageData) {
                 await MainActor.run {
                     self.uiImage = image
@@ -73,7 +72,7 @@ struct RemoteImageView: View {
                 }
             }
         } catch {
-            print("Failed to load image at \(apiImagePath): \(error)")
+            print("Failed to load image at \(imagePath): \(error)")
             await MainActor.run {
                 self.isLoading = false
             }
