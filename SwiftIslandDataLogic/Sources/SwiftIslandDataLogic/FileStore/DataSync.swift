@@ -80,6 +80,19 @@ final class DataSync {
         if let e = res.etag { ETagStore.shared.set(e, url) }
         return body
     }
+    
+    static func fetchImage(_ imagePath: String) async throws -> Data {
+        return try await fetchURL(imagePath)
+    }
+    
+    static func localImageURL(for imagePath: String) -> URL {
+        return FileStore.base.appendingPathComponent(imagePath)
+    }
+    
+    static func hasLocalImage(for imagePath: String) -> Bool {
+        let localURL = localImageURL(for: imagePath)
+        return FileManager.default.fileExists(atPath: localURL.path)
+    }
 
     
     private static func fileURL(for path: String) throws -> URL {
