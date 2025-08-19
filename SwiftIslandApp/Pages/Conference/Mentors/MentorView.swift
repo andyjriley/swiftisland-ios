@@ -116,7 +116,7 @@ struct MentorView: View {
                                     .matchedGeometryEffect(id: "\(mentor.id)-imageName", in: namespace)
                             // Content
                             if isShowContent {
-                                Text(mentor.biography)
+                                Text(mentor.description)
                                     .foregroundColor(Color(.darkGray))
                                     .font(.system(.body, design: .rounded))
                                     .padding(.horizontal)
