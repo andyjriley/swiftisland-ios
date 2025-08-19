@@ -1,0 +1,198 @@
+[
+  {
+    "checked" : false,
+    "id" : "0",
+    "order" : 0,
+    "subTitle" : "",
+    "title" : "MacBook"
+  },
+  {
+    "checked" : false,
+    "id" : "1",
+    "order" : 1,
+    "subTitle" : "",
+    "title" : "iPhone"
+  },
+  {
+    "checked" : false,
+    "id" : "2",
+    "order" : 2,
+    "subTitle" : "",
+    "title" : "iPad"
+  },
+  {
+    "checked" : false,
+    "id" : "3",
+    "order" : 3,
+    "subTitle" : "",
+    "title" : "Apple Watch"
+  },
+  {
+    "checked" : false,
+    "id" : "10",
+    "order" : 10,
+    "subTitle" : "If it fits your bag, it helps a lot with sharing power outlets",
+    "title" : "Power strip"
+  },
+  {
+    "checked" : false,
+    "id" : "11",
+    "order" : 11,
+    "subTitle" : "If applicable, Type C and Type F are supported in the Netherlands",
+    "title" : "Travel plug"
+  },
+  {
+    "checked" : false,
+    "id" : "20",
+    "order" : 20,
+    "subTitle" : "",
+    "title" : "MacBook charger"
+  },
+  {
+    "checked" : false,
+    "id" : "21",
+    "order" : 21,
+    "subTitle" : "",
+    "title" : "USB-C cables"
+  },
+  {
+    "checked" : false,
+    "id" : "22",
+    "order" : 22,
+    "subTitle" : "",
+    "title" : "Lightning cables"
+  },
+  {
+    "checked" : false,
+    "id" : "23",
+    "order" : 23,
+    "subTitle" : "",
+    "title" : "Apple Watch charger"
+  },
+  {
+    "checked" : false,
+    "id" : "24",
+    "order" : 24,
+    "subTitle" : "",
+    "title" : "Battery pack"
+  },
+  {
+    "checked" : false,
+    "id" : "30",
+    "order" : 30,
+    "subTitle" : "",
+    "title" : "Water bottle"
+  },
+  {
+    "checked" : false,
+    "id" : "31",
+    "order" : 31,
+    "subTitle" : "",
+    "title" : "Sunglasses"
+  },
+  {
+    "checked" : false,
+    "id" : "32",
+    "order" : 32,
+    "subTitle" : "",
+    "title" : "Sunscreen"
+  },
+  {
+    "checked" : false,
+    "id" : "33",
+    "order" : 33,
+    "subTitle" : "",
+    "title" : "Hat"
+  },
+  {
+    "checked" : false,
+    "id" : "40",
+    "order" : 40,
+    "subTitle" : "If applicable also a VISA (check your local consulate)",
+    "title" : "Passport"
+  },
+  {
+    "checked" : false,
+    "id" : "41",
+    "order" : 41,
+    "subTitle" : "Boardgames, field games, video games, or any other game you like, as long as it’s multiplayer",
+    "title" : "Games"
+  },
+  {
+    "checked" : false,
+    "id" : "49",
+    "order" : 49,
+    "subTitle" : "You will need it for the hottub, sauna and cold dip in the sea",
+    "title" : "Swimming gear"
+  },
+  {
+    "checked" : false,
+    "id" : "50",
+    "order" : 50,
+    "subTitle" : "Or at least a sweater. It’s still summer in the Netherlands, but you never know here",
+    "title" : "Clothes for cold weather"
+  },
+  {
+    "checked" : false,
+    "id" : "51",
+    "order" : 51,
+    "subTitle" : "",
+    "title" : "Clothes for warm weather"
+  },
+  {
+    "checked" : false,
+    "id" : "52",
+    "order" : 52,
+    "subTitle" : "If you are traveling by plane, use travel-sized products and containers",
+    "title" : "Toiletries bag"
+  },
+  {
+    "checked" : false,
+    "id" : "53",
+    "order" : 53,
+    "subTitle" : "",
+    "title" : "Toothbrush"
+  },
+  {
+    "checked" : false,
+    "id" : "54",
+    "order" : 54,
+    "subTitle" : "If needed a medication passport (Get them at your doctor. Used to speed up crossing borders)",
+    "title" : "Medication"
+  },
+  {
+    "checked" : false,
+    "id" : "55",
+    "order" : 55,
+    "subTitle" : "",
+    "title" : "Mosquito\/bug spray"
+  },
+  {
+    "checked" : false,
+    "id" : "56",
+    "order" : 56,
+    "subTitle" : "A USB drive or external harddrive",
+    "title" : "External storage"
+  },
+  {
+    "checked" : false,
+    "id" : "57",
+    "order" : 57,
+    "subTitle" : "Yes, they are still a thing",
+    "title" : "Business cards"
+  },
+  {
+    "checked" : false,
+    "id" : "58",
+    "order" : 58,
+    "subTitle" : "You have a product? Made an app you want to promote?",
+    "title" : "Stickers (and\/or other swag)"
+  },
+  {
+    "checked" : false,
+    "id" : "60",
+    "order" : 60,
+    "subTitle" : "For if you want to participate our morning sessions: yoga, mediation or running. Think pants\/shorts, shirt and shoes.",
+    "title" : "Workout gear"
+  }
+]
