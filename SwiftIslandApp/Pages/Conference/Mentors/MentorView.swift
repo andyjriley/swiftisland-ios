@@ -160,14 +160,14 @@ struct MentorView: View {
     }
 }
 
-extension URL: Identifiable {
+extension URL: @retroactive Identifiable {
     public var id: String {
         absoluteString
     }
 }
 
 #Preview("No content") {
-    @Namespace var namespace
+    @Previewable @Namespace var namespace
     let mentor = Mentor.forPreview()
 
     return MentorView(namespace: namespace, mentor: mentor, isShowContent: .constant(true))
@@ -176,7 +176,7 @@ extension URL: Identifiable {
 }
 
 #Preview("Show content") {
-    @Namespace var namespace
+    @Previewable @Namespace var namespace
     let mentor = Mentor.forPreview()
 
     return MentorView(namespace: namespace, mentor: mentor, isShowContent: .constant(true))
