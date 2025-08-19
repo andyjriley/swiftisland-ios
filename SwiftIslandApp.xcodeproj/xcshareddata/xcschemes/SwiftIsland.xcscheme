@@ -84,11 +84,6 @@
             value = "YES"
             isEnabled = "YES">
          </EnvironmentVariable>
-         <EnvironmentVariable
-            key = "SWIFTISLAND_BRANCH"
-            value = "feature/github-images"
-            isEnabled = "YES">
-         </EnvironmentVariable>
       </EnvironmentVariables>
    </LaunchAction>
    <ProfileAction
