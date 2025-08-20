@@ -45,7 +45,7 @@ struct ConferenceBoxMentors: View {
                                     debugPrint("Too soon to show next mentor animation")
                                 }
                             }
-                            .frame(width: geo.size.width * 0.8)
+                            .frame(width: geo.size.width * 0.9)
                             .frame(minHeight: geo.size.width * 0.80)
                     }
                 }
