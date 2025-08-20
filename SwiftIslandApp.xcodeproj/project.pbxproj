@@ -111,6 +111,7 @@
 		B3B01ED92C71524000FFBAC9 /* ContactViewConroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B01ED82C71524000FFBAC9 /* ContactViewConroller.swift */; };
 		B3C626422A942291002754A8 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C626412A942291002754A8 /* WebView.swift */; };
 		B3C626442A94956A002754A8 /* TicketEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C626432A94956A002754A8 /* TicketEditView.swift */; };
+		B3E8134B2E5620C100F377CD /* RemoteImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E8134A2E5620BC00F377CD /* RemoteImageView.swift */; };
 		B3F443032A9765E700AFDF43 /* TicketAddButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F443022A9765E700AFDF43 /* TicketAddButton.swift */; };
 		B3F7EEF42A86D6BB001D69B6 /* TicketsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F7EEF32A86D6BB001D69B6 /* TicketsView.swift */; };
 /* End PBXBuildFile section */
@@ -262,6 +263,7 @@
 		B3B01ED82C71524000FFBAC9 /* ContactViewConroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewConroller.swift; sourceTree = "<group>"; };
 		B3C626412A942291002754A8 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 		B3C626432A94956A002754A8 /* TicketEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketEditView.swift; sourceTree = "<group>"; };
+		B3E8134A2E5620BC00F377CD /* RemoteImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImageView.swift; sourceTree = "<group>"; };
 		B3F443022A9765E700AFDF43 /* TicketAddButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketAddButton.swift; sourceTree = "<group>"; };
 		B3F7EEF32A86D6BB001D69B6 /* TicketsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -453,6 +455,7 @@
 		2A7F12752A6401B9007C28EA /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				B3E8134A2E5620BC00F377CD /* RemoteImageView.swift */,
 				2A7F12952A6B14CD007C28EA /* AppDataModel.swift */,
 				2A7F128C2A69CC39007C28EA /* Defaults.swift */,
 				2AB3AE8F2A77FF0E00F3ECB2 /* KeychainManager.swift */,
@@ -1000,6 +1003,7 @@
 				2A16EB452A4F622800CC881D /* ConferenceBoxTicket.swift in Sources */,
 				2AE440082A706211009078E3 /* ScheduleTimelineView.swift in Sources */,
 				2A090BD72A71B0E9003553D2 /* MapView.swift in Sources */,
+				B3E8134B2E5620C100F377CD /* RemoteImageView.swift in Sources */,
 				B3B01ED52C7001C200FFBAC9 /* WriteNFCView.swift in Sources */,
 				2A3AB65B2A78744B0089CF7E /* ActivityType+Color.swift in Sources */,
 				2A7F12882A65E354007C28EA /* SectionAtTheConferenceNotActivated.swift in Sources */,

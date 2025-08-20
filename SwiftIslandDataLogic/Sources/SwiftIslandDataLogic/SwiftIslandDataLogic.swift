@@ -47,7 +47,7 @@ public protocol DataLogic {
 
     func fetchPuzzles() async -> [Puzzle]
 
-    func fetchSponsors() async throws -> Sponsors
+    func fetchSponsors() async -> [Sponsor]
     
     /// Downloads mentor images in the background
     /// - Parameter mentors: Array of mentors to download images for
@@ -202,9 +202,14 @@ public class SwiftIslandDataLogic: DataLogic, ObservableObject {
         return try await fetchModel(Array<Answer>.self, from: url)
     }
 
-    public func fetchSponsors() async throws -> Sponsors {
-        let url = URL(string: "https://swiftisland.nl/api/sponsors.json")!
-        return try await fetchModel(Sponsors.self, from: url)
+    public func fetchSponsors() async -> [Sponsor] {
+        do {
+            let data = try await DataSync.fetchURL("sponsors.json")
+            return try JSONDecoder().decode([Sponsor].self, from: data)
+        } catch {
+            print("Failed to load sponsors: \(error)")
+            return []
+        }
     }
 
     public func fetchAnswers(for tickets: [Ticket], in checkinList: String) async throws -> [Int: [Answer]] {
