@@ -21,18 +21,33 @@ struct ConferenceBoxSponsors: View {
                 .padding(.top, 6)
                 .padding(.bottom, 0)
             LazyVGrid(columns: columns, spacing: spacing) {
-                ForEach(appDataModel.sponsors) { sponsor in
+                ForEach(appDataModel.sponsors.filter({$0.type == .app})) { sponsor in
                     Button {
                         currentSponsor = sponsor
                     } label: {
                         VStack {
                             RemoteImageView(
                                 imagePath: sponsor.primaryImageUrl,
-                                fallbackImageName: ""
+                                fallbackImageName: "icon-placeholder"
                             )
                             .frame(width: 70, height: 70)
                             Text(sponsor.name).font(.callout).foregroundColor(.primary)
                         }
+                    }
+                }
+            }
+            VStack {
+                ForEach(appDataModel.sponsors.filter({$0.type == .book})) { sponsor in
+                    Button {
+                        currentSponsor = sponsor
+                    } label: {
+                        VStack {
+                            RemoteImageView(
+                                imagePath: sponsor.primaryImageUrl,
+                                fallbackImageName: "book-placeholder"
+                            )
+                            Text(sponsor.name).font(.callout).foregroundColor(.primary)
+                        }.padding(.horizontal, 40)
                     }
                 }
             }
