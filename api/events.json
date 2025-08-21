@@ -313,9 +313,10 @@
     "activity" : "254f454e-b360-8134-b2ee-d688ee0c0ffc",
     "createdAt" : 1755811680,
     "id" : "256f454e-b360-8140-a4e4-d0bc7e8ca6a1",
-    "lastModified" : 1755812100,
+    "lastModified" : 1755813900,
     "startDate" : {
-      "start" : 1756728000
+      "end" : 1756742400,
+      "start" : 1756727100
     },
     "title" : "Aankomst Attendees"
   },

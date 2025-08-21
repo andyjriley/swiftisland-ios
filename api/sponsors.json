@@ -1,7 +1,7 @@
 [
   {
     "active" : true,
-    "createdAt" : "2025-08-19T20:30:00.000Z",
+    "createdAt" : 1755635400,
     "icon" : [
       {
         "name" : "dim_sum_thinking.png",
@@ -10,7 +10,7 @@
       }
     ],
     "id" : "254f454e-b360-80d7-a29d-d6f961a4d8d3",
-    "lastModified" : "2025-08-19T20:35:00.000Z",
+    "lastModified" : 1755635700,
     "link" : "https:\/\/dimsumthinking.com\/",
     "name" : "Daniel Steinberg",
     "title" : "Daniel Steinberg",
@@ -18,7 +18,7 @@
   },
   {
     "active" : true,
-    "createdAt" : "2025-08-19T20:29:00.000Z",
+    "createdAt" : 1755635340,
     "icon" : [
       {
         "name" : "daisydisk.png",
@@ -27,7 +27,7 @@
       }
     ],
     "id" : "254f454e-b360-80ee-a257-c071f1b48e5f",
-    "lastModified" : "2025-08-19T20:35:00.000Z",
+    "lastModified" : 1755635700,
     "link" : "https:\/\/daisydiskapp.com",
     "name" : "DaisyDisk",
     "title" : "DaisyDisk",
