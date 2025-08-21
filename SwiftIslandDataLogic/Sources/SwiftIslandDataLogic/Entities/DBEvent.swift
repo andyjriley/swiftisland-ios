@@ -5,6 +5,11 @@
 
 import Foundation
 
+struct DateRange: Codable {
+    let start: Int
+    let end: Int?
+}
+
 internal struct DBEvent: Response {
     public let id: String
     public let activity: String
@@ -15,8 +20,9 @@ internal struct DBEvent: Response {
         self.id = try container.decode(String.self, forKey: .id)
         self.activity = try container.decode(String.self, forKey: .activity)
 
-        let timeInterval = try container.decode(Int.self, forKey: .startDate)
-        let date = Date(timeIntervalSince1970: Double(timeInterval))
+//        let timeInterval = try container.decode(Int.self, forKey: .startDate)
+        let dateRange = try container.decode(DateRange.self, forKey: .startDate)
+        let date = Date(timeIntervalSince1970: Double(dateRange.start))
         self.startDate = date
     }
 
