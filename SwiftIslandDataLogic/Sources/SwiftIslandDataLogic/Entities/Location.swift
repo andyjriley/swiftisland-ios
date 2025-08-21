@@ -20,7 +20,7 @@ public struct Location: Response {
     public let coordinate: CLLocationCoordinate2D
 
     private enum CodingKeys: CodingKey {
-        case id, title, coordinate, type
+        case id, title, coordinate, type, latitude, longitude
     }
 
     public init(from decoder: Decoder) throws {
@@ -30,11 +30,8 @@ public struct Location: Response {
         let type = try container.decode(String.self, forKey: .type)
         self.type = LocationType(rawValue: type) ?? .unknown
 
-        let coordinates = try container.decode([String: Double].self, forKey: .coordinate)
-        guard let latitude = coordinates["latitude"], let longitude = coordinates["longitude"] else {
-            throw LocationError.parsingErrorDataNotFound
-        }
-
+        let latitude = try container.decode(Double.self, forKey: .latitude)
+        let longitude = try container.decode(Double.self, forKey: .longitude)
         self.coordinate = CLLocationCoordinate2D(latitude: latitude, longitude: longitude)
     }
 
@@ -50,9 +47,8 @@ public struct Location: Response {
         try container.encode(self.id, forKey: .id)
         try container.encode(self.title, forKey: .title)
         try container.encode(self.type.rawValue, forKey: .type)
-
-        let coordinates = ["latitude": coordinate.latitude, "longitude": coordinate.longitude]
-        try container.encode(coordinates, forKey: .coordinate)
+        try container.encode(self.coordinate.latitude, forKey: .latitude)
+        try container.encode(self.coordinate.longitude, forKey: .longitude)
     }
 }
 
