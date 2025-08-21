@@ -1,455 +1,333 @@
 [
   {
-    "activity" : "254f454e-b360-8134-b2ee-d688ee0c0ffc",
-    "createdAt" : 1755805680,
-    "id" : "256f454e-b360-8066-af4e-ed3a12b50604",
-    "lastModified" : 1755809520,
+    "activity" : "254f454e-b360-810c-bec3-f668492deccc",
+    "createdAt" : 1755811680,
+    "id" : "256f454e-b360-81c7-9730-cddaf2bdbeba",
+    "lastModified" : 1755811740,
     "startDate" : {
-      "start" : 1756728000
+      "start" : 1757052000
     },
-    "startDate(Deprecated)" : 1756720800,
-    "title" : ""
+    "title" : "Ontbijt"
   },
   {
-    "activity" : "254f454e-b360-8153-b9bb-e32d7dff6554",
-    "createdAt" : 1755637080,
-    "id" : "254f454e-b360-81e4-b397-e683f7c9f33d",
-    "lastModified" : 1755808440,
+    "activity" : "",
+    "createdAt" : 1755811680,
+    "id" : "256f454e-b360-81d5-8abb-c7616c749929",
+    "lastModified" : 1755811680,
     "startDate" : {
-      "start" : 1724998500
+      "start" : 1757010600
     },
-    "startDate(Deprecated)" : 1724998500,
-    "title" : ""
+    "title" : "Avondprogramma"
+  },
+  {
+    "activity" : "",
+    "createdAt" : 1755811680,
+    "id" : "256f454e-b360-818f-8acc-f214d8b3a6a5",
+    "lastModified" : 1755811680,
+    "startDate" : {
+      "start" : 1757001600
+    },
+    "title" : "Dinner - 3 gangen"
+  },
+  {
+    "activity" : "",
+    "createdAt" : 1755811680,
+    "id" : "256f454e-b360-815b-8704-d925ceb43caa",
+    "lastModified" : 1755811680,
+    "startDate" : {
+      "start" : 1756994400
+    },
+    "title" : "Workshop 2 - Tim\\, Burcu\\, Bruno\\, Sofia"
+  },
+  {
+    "activity" : "",
+    "createdAt" : 1755811680,
+    "id" : "256f454e-b360-812f-99cc-cc1c4664bb44",
+    "lastModified" : 1755811680,
+    "startDate" : {
+      "start" : 1756987200
+    },
+    "title" : "Shift Island - 3 - Ryan"
+  },
+  {
+    "activity" : "",
+    "createdAt" : 1755811680,
+    "id" : "256f454e-b360-8138-bf30-e33ee12a4118",
+    "lastModified" : 1755811680,
+    "startDate" : {
+      "start" : 1756981800
+    },
+    "title" : "Lunch - around the world"
+  },
+  {
+    "activity" : "",
+    "createdAt" : 1755811680,
+    "id" : "256f454e-b360-812a-8c3c-cdedf587d38d",
+    "lastModified" : 1755811680,
+    "startDate" : {
+      "start" : 1756973700
+    },
+    "title" : "Workshop 1 - Tim\\, Burcu\\, Bruno\\, Sofia"
+  },
+  {
+    "activity" : "",
+    "createdAt" : 1755811680,
+    "id" : "256f454e-b360-8192-b45b-ff12cb15feeb",
+    "lastModified" : 1755811680,
+    "startDate" : {
+      "start" : 1756972800
+    },
+    "title" : "Dag opening Niels en Sid"
+  },
+  {
+    "activity" : "",
+    "createdAt" : 1755811680,
+    "id" : "256f454e-b360-8123-b1bb-c4a703dd6133",
+    "lastModified" : 1755811680,
+    "startDate" : {
+      "start" : 1756969200
+    },
+    "title" : "Crew brief"
+  },
+  {
+    "activity" : "",
+    "createdAt" : 1755811680,
+    "id" : "256f454e-b360-815e-9b6b-ed0cae0b0e49",
+    "lastModified" : 1755811680,
+    "startDate" : {
+      "start" : 1756965600
+    },
+    "title" : "Ontbijt"
+  },
+  {
+    "activity" : "",
+    "createdAt" : 1755811680,
+    "id" : "256f454e-b360-8144-8c6b-fa2e8f3dd8df",
+    "lastModified" : 1755811680,
+    "startDate" : {
+      "start" : 1756924200
+    },
+    "title" : "Avondprogramma"
+  },
+  {
+    "activity" : "",
+    "createdAt" : 1755811680,
+    "id" : "256f454e-b360-8189-94f2-cf4fbcad59c5",
+    "lastModified" : 1755811680,
+    "startDate" : {
+      "start" : 1756915200
+    },
+    "title" : "Dinner BBQ"
+  },
+  {
+    "activity" : "",
+    "createdAt" : 1755811680,
+    "id" : "256f454e-b360-810c-bd8d-dc6e8ce7d027",
+    "lastModified" : 1755811680,
+    "startDate" : {
+      "start" : 1756908000
+    },
+    "title" : "Workshop 2 - Tim\\, Burcu\\, Bruno\\, Frank"
+  },
+  {
+    "activity" : "",
+    "createdAt" : 1755811680,
+    "id" : "256f454e-b360-8138-9ff1-da5fbab7c413",
+    "lastModified" : 1755811680,
+    "startDate" : {
+      "start" : 1756904400
+    },
+    "title" : "Pitches"
+  },
+  {
+    "activity" : "",
+    "createdAt" : 1755811680,
+    "id" : "256f454e-b360-81a8-9437-d0d98172565f",
+    "lastModified" : 1755811680,
+    "startDate" : {
+      "start" : 1756900800
+    },
+    "title" : "Shift Island - 2 - Fennade"
+  },
+  {
+    "activity" : "",
+    "createdAt" : 1755811680,
+    "id" : "256f454e-b360-81c7-8ab5-e26818a47bed",
+    "lastModified" : 1755811680,
+    "startDate" : {
+      "start" : 1756895400
+    },
+    "title" : "Lunch - wraps"
+  },
+  {
+    "activity" : "",
+    "createdAt" : 1755811680,
+    "id" : "256f454e-b360-8107-9a4d-dc03f665a655",
+    "lastModified" : 1755811680,
+    "startDate" : {
+      "start" : 1756887300
+    },
+    "title" : "Workshop 1 - Janina\\, Celine\\, Frank\\, John"
+  },
+  {
+    "activity" : "",
+    "createdAt" : 1755811680,
+    "id" : "256f454e-b360-811a-b7bb-dfdde896ce0c",
+    "lastModified" : 1755811680,
+    "startDate" : {
+      "start" : 1756886400
+    },
+    "title" : "Dag opening Niels en Sid"
+  },
+  {
+    "activity" : "",
+    "createdAt" : 1755811680,
+    "id" : "256f454e-b360-8123-a310-e5d1174fcf69",
+    "lastModified" : 1755811680,
+    "startDate" : {
+      "start" : 1756884600
+    },
+    "title" : "Journal sessie"
   },
   {
     "activity" : "254f454e-b360-810c-bec3-f668492deccc",
-    "createdAt" : 1755637080,
-    "id" : "254f454e-b360-8160-9076-fe27f1627e7e",
-    "lastModified" : 1755808440,
+    "createdAt" : 1755811680,
+    "id" : "256f454e-b360-810f-bb34-ef3e4dfa7f1d",
+    "lastModified" : 1755811920,
     "startDate" : {
-      "start" : 1724994000
+      "start" : 1756879200
     },
-    "startDate(Deprecated)" : 1724994000,
-    "title" : ""
-  },
-  {
-    "activity" : "254f454e-b360-812a-912e-ed259081cf7c",
-    "createdAt" : 1755637080,
-    "id" : "254f454e-b360-81fc-a8f3-cc1a5ac297e2",
-    "lastModified" : 1755808440,
-    "startDate" : {
-      "start" : 1724959800
-    },
-    "startDate(Deprecated)" : 1724959800,
-    "title" : ""
-  },
-  {
-    "activity" : "254f454e-b360-8122-8e13-c7d9717f7c17",
-    "createdAt" : 1755637080,
-    "id" : "254f454e-b360-8197-bdb1-fbadd79d5641",
-    "lastModified" : 1755808440,
-    "startDate" : {
-      "start" : 1724958000
-    },
-    "startDate(Deprecated)" : 1724958000,
-    "title" : ""
-  },
-  {
-    "activity" : "254f454e-b360-819f-a90b-ecc99a743147",
-    "createdAt" : 1755637080,
-    "id" : "254f454e-b360-8155-b11d-cc3ed6f8c808",
-    "lastModified" : 1755808440,
-    "startDate" : {
-      "start" : 1724947200
-    },
-    "startDate(Deprecated)" : 1724947200,
-    "title" : ""
-  },
-  {
-    "activity" : "254f454e-b360-81b1-8ceb-ef43334082aa",
-    "createdAt" : 1755637080,
-    "id" : "254f454e-b360-81b8-9f70-d5691f09b200",
-    "lastModified" : 1755808440,
-    "startDate" : {
-      "start" : 1724945400
-    },
-    "startDate(Deprecated)" : 1724945400,
-    "title" : ""
-  },
-  {
-    "activity" : "254f454e-b360-81a2-9e49-e5587f55c0cc",
-    "createdAt" : 1755637080,
-    "id" : "254f454e-b360-8103-816b-ebd5347b7321",
-    "lastModified" : 1755808440,
-    "startDate" : {
-      "start" : 1724936400
-    },
-    "startDate(Deprecated)" : 1724936400,
-    "title" : ""
-  },
-  {
-    "activity" : "254f454e-b360-813f-a7eb-c345e4143410",
-    "createdAt" : 1755637080,
-    "id" : "254f454e-b360-8156-b728-f765fccd2598",
-    "lastModified" : 1755808440,
-    "startDate" : {
-      "start" : 1724934600
-    },
-    "startDate(Deprecated)" : 1724934600,
-    "title" : ""
-  },
-  {
-    "activity" : "254f454e-b360-813d-91be-e25be4335b7a",
-    "createdAt" : 1755637080,
-    "id" : "254f454e-b360-81ec-8e55-fa11e1712fa8",
-    "lastModified" : 1755808440,
-    "startDate" : {
-      "start" : 1724931000
-    },
-    "startDate(Deprecated)" : 1724931000,
-    "title" : ""
-  },
-  {
-    "activity" : "254f454e-b360-81fd-90c1-ed297f787f0e",
-    "createdAt" : 1755637080,
-    "id" : "254f454e-b360-811c-b80d-db1fa8ddb7f6",
-    "lastModified" : 1755808440,
-    "startDate" : {
-      "start" : 1724925600
-    },
-    "startDate(Deprecated)" : 1724925600,
-    "title" : ""
-  },
-  {
-    "activity" : "254f454e-b360-81a2-9e49-e5587f55c0cc",
-    "createdAt" : 1755637080,
-    "id" : "254f454e-b360-81a5-b7a3-ee4d7f53355c",
-    "lastModified" : 1755808440,
-    "startDate" : {
-      "start" : 1724918400
-    },
-    "startDate(Deprecated)" : 1724918400,
-    "title" : ""
-  },
-  {
-    "activity" : "254f454e-b360-815f-9ffc-d45f8c095b28",
-    "createdAt" : 1755637080,
-    "id" : "254f454e-b360-81d5-a202-c249e66d51df",
-    "lastModified" : 1755808440,
-    "startDate" : {
-      "start" : 1724918400
-    },
-    "startDate(Deprecated)" : 1724918400,
-    "title" : ""
-  },
-  {
-    "activity" : "254f454e-b360-810c-bec3-f668492deccc",
-    "createdAt" : 1755637080,
-    "id" : "254f454e-b360-81aa-bf3b-f4cfbdaf6b49",
-    "lastModified" : 1755808440,
-    "startDate" : {
-      "start" : 1724911200
-    },
-    "startDate(Deprecated)" : 1724911200,
-    "title" : ""
-  },
-  {
-    "activity" : "254f454e-b360-810f-920b-ccae9afccd71",
-    "createdAt" : 1755637080,
-    "id" : "254f454e-b360-81cf-95df-d39e4654c84a",
-    "lastModified" : 1755808440,
-    "startDate" : {
-      "start" : 1724911200
-    },
-    "startDate(Deprecated)" : 1724911200,
-    "title" : ""
-  },
-  {
-    "activity" : "254f454e-b360-8148-9e2b-e524d68951be",
-    "createdAt" : 1755637080,
-    "id" : "254f454e-b360-811a-a41f-f8abf1a5af77",
-    "lastModified" : 1755808440,
-    "startDate" : {
-      "start" : 1724910300
-    },
-    "startDate(Deprecated)" : 1724910300,
-    "title" : ""
-  },
-  {
-    "activity" : "254f454e-b360-8169-94ca-df8b83208442",
-    "createdAt" : 1755637080,
-    "id" : "254f454e-b360-81d6-8432-d90670b96d71",
-    "lastModified" : 1755808440,
-    "startDate" : {
-      "start" : 1724875200
-    },
-    "startDate(Deprecated)" : 1724875200,
-    "title" : ""
-  },
-  {
-    "activity" : "254f454e-b360-819f-a90b-ecc99a743147",
-    "createdAt" : 1755637080,
-    "id" : "254f454e-b360-812f-a598-fb067897ad50",
-    "lastModified" : 1755808440,
-    "startDate" : {
-      "start" : 1724860800
-    },
-    "startDate(Deprecated)" : 1724860800,
-    "title" : ""
-  },
-  {
-    "activity" : "254f454e-b360-81a2-9e49-e5587f55c0cc",
-    "createdAt" : 1755637080,
-    "id" : "254f454e-b360-81e1-b1f2-f365c779c32d",
-    "lastModified" : 1755808440,
-    "startDate" : {
-      "start" : 1724850000
-    },
-    "startDate(Deprecated)" : 1724850000,
-    "title" : ""
-  },
-  {
-    "activity" : "254f454e-b360-813f-a7eb-c345e4143410",
-    "createdAt" : 1755637080,
-    "id" : "254f454e-b360-81ea-9f22-dc7cf88d6b23",
-    "lastModified" : 1755808440,
-    "startDate" : {
-      "start" : 1724848200
-    },
-    "startDate(Deprecated)" : 1724848200,
-    "title" : ""
-  },
-  {
-    "activity" : "254f454e-b360-8143-98c9-ddac7c6bafc9",
-    "createdAt" : 1755637080,
-    "id" : "254f454e-b360-8141-8454-ddeb9fc9c048",
-    "lastModified" : 1755808440,
-    "startDate" : {
-      "start" : 1724844600
-    },
-    "startDate(Deprecated)" : 1724844600,
-    "title" : ""
-  },
-  {
-    "activity" : "254f454e-b360-81fd-90c1-ed297f787f0e",
-    "createdAt" : 1755637080,
-    "id" : "254f454e-b360-81ea-b18a-e81d9403dfc5",
-    "lastModified" : 1755808440,
-    "startDate" : {
-      "start" : 1724839200
-    },
-    "startDate(Deprecated)" : 1724839200,
-    "title" : ""
-  },
-  {
-    "activity" : "254f454e-b360-815f-9ffc-d45f8c095b28",
-    "createdAt" : 1755637080,
-    "id" : "254f454e-b360-81a6-a9e1-c2f30b49030d",
-    "lastModified" : 1755808440,
-    "startDate" : {
-      "start" : 1724832000
-    },
-    "startDate(Deprecated)" : 1724832000,
-    "title" : ""
-  },
-  {
-    "activity" : "254f454e-b360-81ec-8632-cdf5eb03f012",
-    "createdAt" : 1755637080,
-    "id" : "254f454e-b360-81cc-896f-fd1230177262",
-    "lastModified" : 1755808440,
-    "startDate" : {
-      "start" : 1724832000
-    },
-    "startDate(Deprecated)" : 1724832000,
-    "title" : ""
-  },
-  {
-    "activity" : "254f454e-b360-810f-920b-ccae9afccd71",
-    "createdAt" : 1755637080,
-    "id" : "254f454e-b360-81e3-a567-e82fa871a9e8",
-    "lastModified" : 1755808440,
-    "startDate" : {
-      "start" : 1724824800
-    },
-    "startDate(Deprecated)" : 1724824800,
-    "title" : ""
-  },
-  {
-    "activity" : "254f454e-b360-810c-bec3-f668492deccc",
-    "createdAt" : 1755637080,
-    "id" : "254f454e-b360-8105-9cfe-cff5b050757c",
-    "lastModified" : 1755808440,
-    "startDate" : {
-      "start" : 1724824800
-    },
-    "startDate(Deprecated)" : 1724824800,
-    "title" : ""
-  },
-  {
-    "activity" : "254f454e-b360-8148-9e2b-e524d68951be",
-    "createdAt" : 1755637080,
-    "id" : "254f454e-b360-81b1-9dc1-c8ca855a701e",
-    "lastModified" : 1755808440,
-    "startDate" : {
-      "start" : 1724823900
-    },
-    "startDate(Deprecated)" : 1724823900,
-    "title" : ""
+    "title" : "Ontbijt"
   },
   {
     "activity" : "254f454e-b360-81c9-9e8d-d91285ee6e25",
-    "createdAt" : 1755637080,
-    "id" : "254f454e-b360-811a-ba24-d1cf4a827071",
-    "lastModified" : 1755808440,
+    "createdAt" : 1755811680,
+    "id" : "256f454e-b360-8143-aab9-f6012be56eab",
+    "lastModified" : 1755811920,
     "startDate" : {
-      "start" : 1724785200
+      "start" : 1756837800
     },
-    "startDate(Deprecated)" : 1724785200,
-    "title" : ""
-  },
-  {
-    "activity" : "254f454e-b360-819f-a90b-ecc99a743147",
-    "createdAt" : 1755637080,
-    "id" : "254f454e-b360-8189-8aea-c2b1ed74a26b",
-    "lastModified" : 1755808440,
-    "startDate" : {
-      "start" : 1724774400
-    },
-    "startDate(Deprecated)" : 1724774400,
-    "title" : ""
-  },
-  {
-    "activity" : "254f454e-b360-81ec-8632-cdf5eb03f012",
-    "createdAt" : 1755637080,
-    "id" : "254f454e-b360-81e2-943d-dd4f612171b3",
-    "lastModified" : 1755808440,
-    "startDate" : {
-      "start" : 1724763600
-    },
-    "startDate(Deprecated)" : 1724763600,
-    "title" : ""
-  },
-  {
-    "activity" : "254f454e-b360-813f-a7eb-c345e4143410",
-    "createdAt" : 1755637080,
-    "id" : "254f454e-b360-8153-9f2d-de7a6560be8d",
-    "lastModified" : 1755808440,
-    "startDate" : {
-      "start" : 1724761800
-    },
-    "startDate(Deprecated)" : 1724761800,
-    "title" : ""
-  },
-  {
-    "activity" : "254f454e-b360-8106-b8c8-f68b8945046f",
-    "createdAt" : 1755637080,
-    "id" : "254f454e-b360-81f4-93c2-e1131a2a07bd",
-    "lastModified" : 1755808440,
-    "startDate" : {
-      "start" : 1724758200
-    },
-    "startDate(Deprecated)" : 1724758200,
-    "title" : ""
-  },
-  {
-    "activity" : "254f454e-b360-81fd-90c1-ed297f787f0e",
-    "createdAt" : 1755637080,
-    "id" : "254f454e-b360-815a-adf9-ce1207ed20d5",
-    "lastModified" : 1755808440,
-    "startDate" : {
-      "start" : 1724752800
-    },
-    "startDate(Deprecated)" : 1724752800,
-    "title" : ""
-  },
-  {
-    "activity" : "254f454e-b360-81ec-8632-cdf5eb03f012",
-    "createdAt" : 1755637080,
-    "id" : "254f454e-b360-8116-85f1-ea0757f5a3b5",
-    "lastModified" : 1755808440,
-    "startDate" : {
-      "start" : 1724746500
-    },
-    "startDate(Deprecated)" : 1724746500,
-    "title" : ""
-  },
-  {
-    "activity" : "254f454e-b360-8104-baf1-effcc3c04a9b",
-    "createdAt" : 1755637080,
-    "id" : "254f454e-b360-8150-8d83-e9ffbd26bfa1",
-    "lastModified" : 1755808440,
-    "startDate" : {
-      "start" : 1724745600
-    },
-    "startDate(Deprecated)" : 1724745600,
-    "title" : ""
-  },
-  {
-    "activity" : "254f454e-b360-810c-bec3-f668492deccc",
-    "createdAt" : 1755637080,
-    "id" : "254f454e-b360-810f-8687-e4fe22eae3e5",
-    "lastModified" : 1755808440,
-    "startDate" : {
-      "start" : 1724738400
-    },
-    "startDate(Deprecated)" : 1724738400,
-    "title" : ""
-  },
-  {
-    "activity" : "254f454e-b360-810f-920b-ccae9afccd71",
-    "createdAt" : 1755637080,
-    "id" : "254f454e-b360-81e0-a1ee-e04a904a9cfb",
-    "lastModified" : 1755808440,
-    "startDate" : {
-      "start" : 1724738400
-    },
-    "startDate(Deprecated)" : 1724738400,
-    "title" : ""
-  },
-  {
-    "activity" : "254f454e-b360-8148-9e2b-e524d68951be",
-    "createdAt" : 1755637080,
-    "id" : "254f454e-b360-817a-bb66-fc263ab828c5",
-    "lastModified" : 1755808440,
-    "startDate" : {
-      "start" : 1724737500
-    },
-    "startDate(Deprecated)" : 1724737500,
-    "title" : ""
+    "title" : "Pubquiz"
   },
   {
     "activity" : "254f454e-b360-81e7-b93b-f7c34a3af8cd",
-    "createdAt" : 1755637080,
-    "id" : "254f454e-b360-81be-aad1-c0529e74af00",
-    "lastModified" : 1755808440,
+    "createdAt" : 1755811680,
+    "id" : "256f454e-b360-81e2-a968-d94422d6ff54",
+    "lastModified" : 1755811920,
     "startDate" : {
-      "start" : 1724691600
+      "start" : 1756828800
     },
-    "startDate(Deprecated)" : 1724691600,
-    "title" : ""
+    "title" : "Dinner - Javaans"
+  },
+  {
+    "activity" : "254f454e-b360-81ec-8632-cdf5eb03f012",
+    "createdAt" : 1755811680,
+    "id" : "256f454e-b360-8186-b8cf-d54c22f23aee",
+    "lastModified" : 1755811920,
+    "startDate" : {
+      "start" : 1756821600
+    },
+    "title" : "Workshop 2 - Janina\\, Celine\\, Frank\\, John"
+  },
+  {
+    "activity" : "254f454e-b360-8106-b8c8-f68b8945046f",
+    "createdAt" : 1755811680,
+    "id" : "256f454e-b360-81bf-9d3d-ef889bb44b77",
+    "lastModified" : 1755811860,
+    "startDate" : {
+      "start" : 1756814400
+    },
+    "title" : "Shift Island - 1 - Feli"
+  },
+  {
+    "activity" : "254f454e-b360-81fd-90c1-ed297f787f0e",
+    "createdAt" : 1755811680,
+    "id" : "256f454e-b360-813a-98cc-c2926fd9e6be",
+    "lastModified" : 1755811860,
+    "startDate" : {
+      "start" : 1756809000
+    },
+    "title" : "Lunch - Stokbrood"
+  },
+  {
+    "activity" : "254f454e-b360-81ec-8632-cdf5eb03f012",
+    "createdAt" : 1755811680,
+    "id" : "256f454e-b360-811d-8893-e9863839c63a",
+    "lastModified" : 1755811800,
+    "startDate" : {
+      "start" : 1756801800
+    },
+    "title" : "Workshop 1 - Janina\\, Celine\\, Frank\\, John"
+  },
+  {
+    "activity" : "254f454e-b360-8104-baf1-effcc3c04a9b",
+    "createdAt" : 1755811680,
+    "id" : "256f454e-b360-816f-b3c2-e0a87e1ad7cb",
+    "lastModified" : 1755811800,
+    "startDate" : {
+      "start" : 1756800000
+    },
+    "title" : "Keynote Niels en Sid + Pitches"
+  },
+  {
+    "activity" : "",
+    "createdAt" : 1755811680,
+    "id" : "256f454e-b360-8169-a931-fffe3562947b",
+    "lastModified" : 1755811680,
+    "startDate" : {
+      "start" : 1756796400
+    },
+    "title" : "Journal sessie"
+  },
+  {
+    "activity" : "254f454e-b360-810c-bec3-f668492deccc",
+    "createdAt" : 1755811680,
+    "id" : "256f454e-b360-8133-b335-c9ce0dc3ab02",
+    "lastModified" : 1755811800,
+    "startDate" : {
+      "start" : 1756792800
+    },
+    "title" : "Ontbijt"
+  },
+  {
+    "activity" : "254f454e-b360-8148-9e2b-e524d68951be",
+    "createdAt" : 1755811680,
+    "id" : "256f454e-b360-81be-91bd-f88ec448ecf1",
+    "lastModified" : 1755811800,
+    "startDate" : {
+      "start" : 1756792800
+    },
+    "title" : "Meditatie"
+  },
+  {
+    "activity" : "254f454e-b360-810f-920b-ccae9afccd71",
+    "createdAt" : 1755811680,
+    "id" : "256f454e-b360-8170-8b73-d6e75479188e",
+    "lastModified" : 1755811800,
+    "startDate" : {
+      "start" : 1756792800
+    },
+    "title" : "Sport"
+  },
+  {
+    "activity" : "254f454e-b360-8134-b2ee-d688ee0c0ffc",
+    "createdAt" : 1755811680,
+    "id" : "256f454e-b360-8140-a4e4-d0bc7e8ca6a1",
+    "lastModified" : 1755812100,
+    "startDate" : {
+      "start" : 1756728000
+    },
+    "title" : "Aankomst Attendees"
   },
   {
     "activity" : "254f454e-b360-8153-b9bb-e32d7dff6554",
     "createdAt" : 1755637080,
     "id" : "254f454e-b360-8111-956b-d7588113cafa",
-    "lastModified" : 1755809880,
+    "lastModified" : 1755812100,
     "startDate" : {
-      "end" : 1756735200,
-      "start" : 1756731600
+      "end" : 1756740600,
+      "start" : 1756729800
     },
-    "startDate(Deprecated)" : 1724677200,
-    "title" : ""
-  },
-  {
-    "activity" : "254f454e-b360-8134-b2ee-d688ee0c0ffc",
-    "createdAt" : 1755637080,
-    "id" : "254f454e-b360-818d-adf5-f71944ac8a01",
-    "lastModified" : 1755808740,
-    "startDate" : {
-      "end" : 1724677200,
-      "start" : 1724673600
-    },
-    "startDate(Deprecated)" : 1724673600,
     "title" : ""
   }
 ]
