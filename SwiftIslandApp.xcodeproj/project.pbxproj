@@ -766,6 +766,7 @@
 				2A37FB962A7D3EBE0062E63A /* Generating Acknowledgement */,
 				2AEDC48F2A4A030F00CD0180 /* Sources */,
 				2AEDC4902A4A030F00CD0180 /* Frameworks */,
+				B37B7C6A2E57CF4600B116C1 /* Copy API Data */,
 				2AEDC4912A4A030F00CD0180 /* Resources */,
 				2A987AD92A7AE4B000EE15DF /* Embed Foundation Extensions */,
 			);
@@ -919,6 +920,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "#!/usr/bin/env \nDIR=$PROJECT_TEMP_DIR/../../../SourcePackages/checkouts/AckGen\nif [ -d \"$DIR\" ]; then\n    cd $DIR\n    SDKROOT=(xcrun --sdk macosx --show-sdk-path)\n    swift run ackgen\nelse\n    echo \"warning: AckGen not found. Please install the package via SPM (https://github.com/MartinP7r/AckGen#installation)\"\nfi\n\n";
+		};
+		B37B7C6A2E57CF4600B116C1 /* Copy API Data */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Copy API Data";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "${SRCROOT}/Scripts/copy-api-data.sh\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 

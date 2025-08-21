@@ -15,6 +15,16 @@ enum Conf {
     static var branch: String {
         ProcessInfo.processInfo.environment["SWIFTISLAND_BRANCH"] ?? "main"
     }
+    
+    /// Force use of bundled data only (useful for iteration and offline testing)
+    static var useBundledDataOnly: Bool {
+        ProcessInfo.processInfo.environment["SWIFTISLAND_USE_BUNDLED_DATA"] == "YES"
+    }
+    
+    /// Check if this is likely a first app launch (no cached data exists)
+    static var isFirstLaunch: Bool {
+        !FileManager.default.fileExists(atPath: FileStore.base.path)
+    }
 }
 
 
@@ -68,17 +78,72 @@ struct FileStore {
 public final class DataSync {
     
     static func fetchURL(_ path: String) async throws -> Data {
-        let url = try fileURL(for: path)
-        let etag0 = ETagStore.shared.get(url)
-        let res = try await Net.getWithETag(url, etag: etag0)
-        let storeURL = FileStore.base.appendingPathComponent(path)
-        guard res.code != 304 else {
-            return try FileStore.read(from: storeURL)
+        // If forced to use bundled data only, skip network requests
+        if Conf.useBundledDataOnly {
+            debugPrint("🔒 Using bundled data only for: \(path)")
+            return try fetchBundledData(path)
         }
-        guard let body = res.data else { throw URLError(.badURL) }
-        try FileStore.writeAtomic(body, to: storeURL)
-        if let e = res.etag { ETagStore.shared.set(e, url) }
-        return body
+        
+        // On first launch, prioritize bundled data for immediate availability
+        if Conf.isFirstLaunch {
+            do {
+                let bundledData = try fetchBundledData(path)
+                debugPrint("🚀 First launch: using bundled data for: \(path)")
+                
+                // Start background sync for future use (don't wait for it)
+                Task {
+                    do {
+                        let url = try fileURL(for: path)
+                        let res = try await Net.getWithETag(url, etag: nil)
+                        if let body = res.data {
+                            let storeURL = FileStore.base.appendingPathComponent(path)
+                            try FileStore.writeAtomic(body, to: storeURL)
+                            if let e = res.etag { ETagStore.shared.set(e, url) }
+                            debugPrint("✅ Background sync completed for: \(path)")
+                        }
+                    } catch {
+                        debugPrint("⚠️ Background sync failed for \(path): \(error)")
+                    }
+                }
+                
+                return bundledData
+            } catch {
+                debugPrint("⚠️ Bundled data not available for \(path), falling back to network: \(error)")
+            }
+        }
+        
+        // Try to fetch from network with fallback to bundled data
+        do {
+            let url = try fileURL(for: path)
+            let etag0 = ETagStore.shared.get(url)
+            let res = try await Net.getWithETag(url, etag: etag0)
+            let storeURL = FileStore.base.appendingPathComponent(path)
+            guard res.code != 304 else {
+                return try FileStore.read(from: storeURL)
+            }
+            guard let body = res.data else { throw URLError(.badURL) }
+            try FileStore.writeAtomic(body, to: storeURL)
+            if let e = res.etag { ETagStore.shared.set(e, url) }
+            return body
+        } catch {
+            debugPrint("⚠️ Network fetch failed for \(path), falling back to bundled data: \(error)")
+            return try fetchBundledData(path)
+        }
+    }
+    
+    /// Fetch data from the app bundle
+    static func fetchBundledData(_ path: String) throws -> Data {
+        // Automatically add "api/" prefix if not already present
+        let apiPath = path.hasPrefix("api/") ? path : "api/\(path)"
+        
+        // Try to find the file in the bundle
+        guard let bundleURL = Bundle.main.url(forResource: apiPath, withExtension: nil) else {
+            debugPrint("❌ Bundled file not found: \(apiPath)")
+            throw URLError(.fileDoesNotExist)
+        }
+        
+        debugPrint("📦 Loading bundled data: \(apiPath)")
+        return try Data(contentsOf: bundleURL)
     }
     
     public static func fetchImage(_ imagePath: String) async throws -> Data {
