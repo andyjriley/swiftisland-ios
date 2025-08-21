@@ -151,7 +151,7 @@ public class SwiftIslandDataLogic: DataLogic, ObservableObject {
             let dbEvents = try JSONDecoder().decode([DBEvent].self, from: data)
             
             let events: [Event] = dbEvents.compactMap { dbEvent in
-                guard let activity = activities.first(where: { $0.id == dbEvent.activityId }) else { return nil }
+                guard let activity = activities.first(where: { $0.id == dbEvent.activity }) else { return nil }
                 return Event(dbEvent: dbEvent, activity: activity)
             }.sorted(by: { $0.startDate < $1.startDate })
 
