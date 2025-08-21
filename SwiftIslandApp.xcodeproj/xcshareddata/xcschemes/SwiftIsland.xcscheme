@@ -84,11 +84,6 @@
             value = "YES"
             isEnabled = "YES">
          </EnvironmentVariable>
-         <EnvironmentVariable
-            key = "SWIFTISLAND_BRANCH"
-            value = "feature/new-json-with-relations"
-            isEnabled = "YES">
-         </EnvironmentVariable>
       </EnvironmentVariables>
    </LaunchAction>
    <ProfileAction
