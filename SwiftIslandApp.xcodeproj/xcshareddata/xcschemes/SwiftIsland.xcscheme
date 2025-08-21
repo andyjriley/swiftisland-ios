@@ -86,7 +86,7 @@
          </EnvironmentVariable>
          <EnvironmentVariable
             key = "SWIFTISLAND_BRANCH"
-            value = "feature/sponsors"
+            value = "feature/new-json-with-relations"
             isEnabled = "YES">
          </EnvironmentVariable>
       </EnvironmentVariables>

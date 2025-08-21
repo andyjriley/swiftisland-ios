@@ -102,7 +102,7 @@ public class SwiftIslandDataLogic: DataLogic, ObservableObject {
     /// - Returns: Array of `Mentor`
     public func fetchMentors() async -> [Mentor] {
         do {
-            let data = try await DataSync.fetchURL("mentors.json")
+            let data = try await DataSync.fetchURL("presenters.json")
             return try JSONDecoder().decode([Mentor].self, from: data)
         } catch {
             print("Failed to load mentors: \(error)")

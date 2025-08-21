@@ -1,266 +1,295 @@
 [
   {
-    "description" : "Pre-conference dinner (at your own account). If you answered “would you like to have dinner at Prins Hendrik” then you have a reservation ",
-    "duration" : 10800,
-    "id" : "04271008-0C4F-4426-9CA0-EC7312EC1340",
-    "location" : "317BE6A3-CC6F-43C2-ACDA-D6B9D1E09D17",
+    "duration (seconds)" : 9000,
+    "title" : "🚌 Hassle Free travel",
+    "id" : "254f454e-b360-8153-b9bb-e32d7dff6554",
+    "lastModified" : "2025-08-19T20:33:00.000Z",
+    "createdAt" : "2025-08-19T20:16:00.000Z",
+    "type" : "Transport",
+    "location" : [
+
+    ],
     "mentors" : [
 
     ],
-    "title" : "🍛 Dinner at Prins Hendrik",
+    "description" : "When you've bought a Hassle Free travel ticket, a touring car will transport you between Schiphol Airport and the the conference venue. Tim from our crew will be at the Sheraton Hotel to welcome you!"
+  },
+  {
+    "title" : "🔮 Shift Island: Fennande van der Meulen",
+    "description" : "How to reconnect with your inner genius, ride the waves of flow and \"swiftly\" unfold a fulfilling life. Let's overcome fundamental obstacles and reframe our perspective. In short: Productivity with a dash of pleasure and joy. We will also do a cold dip afterwards🥶\n\nLocation: The Anchor",
+    "mentors" : "21cf454e-b360-8044-9930-f544c4ebf0f7",
+    "createdAt" : "2025-08-19T20:16:00.000Z",
+    "duration (seconds)" : 3600,
+    "lastModified" : "2025-08-19T21:22:00.000Z",
+    "id" : "254f454e-b360-8143-98c9-ddac7c6bafc9",
+    "location" : "254f454e-b360-81e8-91be-cfa2ad567516",
+    "type" : "Invite only activity"
+  },
+  {
+    "title" : "🗼Visit the lighthouse",
+    "description" : "Join us on a bikeride to the lighthouse and the beach next to it.",
+    "mentors" : [
+
+    ],
+    "createdAt" : "2025-08-19T20:16:00.000Z",
+    "duration (seconds)" : 7200,
+    "lastModified" : "2025-08-19T20:25:00.000Z",
+    "id" : "254f454e-b360-816e-bc27-e473d476922c",
+    "location" : "254f454e-b360-8112-9155-cf2e58896cb4",
+    "type" : "Social"
+  },
+  {
+    "title" : "🥶 Shift Island: Cold dip",
+    "description" : "To conclude and land Nizars talk, we will do a cold dip in the ocean to get some deliberate \"positive\" stress exposure.\nWe'll move from The Anchor to the dyke.",
+    "mentors" : [
+
+    ],
+    "createdAt" : "2025-08-19T20:16:00.000Z",
+    "duration (seconds)" : 1800,
+    "lastModified" : "2025-08-19T20:29:00.000Z",
+    "id" : "254f454e-b360-812a-912e-ed259081cf7c",
+    "location" : "254f454e-b360-8112-9155-cf2e58896cb4",
+    "type" : "Invite only activity"
+  },
+  {
+    "title" : "🍳Breakfast",
+    "description" : "Get some eggs, toast or yoghurt. Some coffee and orange juice? Fill your battery.\n\nVega and vegan options available.",
+    "mentors" : [
+
+    ],
+    "createdAt" : "2025-08-19T20:16:00.000Z",
+    "duration (seconds)" : 7200,
+    "lastModified" : "2025-08-19T20:17:00.000Z",
+    "id" : "254f454e-b360-810c-bec3-f668492deccc",
+    "location" : "254f454e-b360-81e7-9972-ee5c76a296c6",
     "type" : "Meal"
   },
   {
-    "description" : "Follow us to the dyke where we will gaze at the stars. We have blankets, and two telescopes. Also there is a perfect alignment of planets on the 28th so hopefully we can see this.",
-    "duration" : 7200,
-    "id" : "0907F405-F0E0-4EA3-B39E-7CE524DA1DAA",
-    "location" : "BFDA61EB-EEEA-4239-BAA0-4792565D2615",
+    "title" : "🚲 Bike Ride by Night",
+    "description" : "For who wants to join; We will have a lovely bike ride by night. We meet at the parking",
+    "mentors" : "254f454e-b360-81a2-85c0-da7625a3ef03",
+    "createdAt" : "2025-08-19T20:16:00.000Z",
+    "duration (seconds)" : 7200,
+    "lastModified" : "2025-08-19T21:18:00.000Z",
+    "id" : "254f454e-b360-8122-8e13-c7d9717f7c17",
+    "location" : "254f454e-b360-8147-bc0a-c499e7256461",
+    "type" : "Social"
+  },
+  {
+    "title" : "🙏 Morning Meditation",
+    "description" : "A guided mediation by Sidney to start your day. We have yoga mats for you to sit or lay on. Bring\/put on some relaxing clothes. This session will be given at the Playground.",
+    "mentors" : "254f454e-b360-8199-b281-d8b7e3c22a5a",
+    "createdAt" : "2025-08-19T20:16:00.000Z",
+    "duration (seconds)" : 900,
+    "lastModified" : "2025-08-19T21:19:00.000Z",
+    "id" : "254f454e-b360-8148-9e2b-e524d68951be",
+    "location" : "254f454e-b360-8153-b138-f13b75c33815",
+    "type" : "Social"
+  },
+  {
+    "title" : "🍊 Workshops: Orange",
+    "description" : "Workshop: \nAudrey - The Sandbox\nAviel -The Anchor\nJolanda - The Cove\nManu - The Outpost",
+    "mentors" : [
+
+    ],
+    "createdAt" : "2025-08-19T20:16:00.000Z",
+    "duration (seconds)" : 7200,
+    "lastModified" : "2025-08-19T20:16:00.000Z",
+    "id" : "254f454e-b360-81ec-8632-cdf5eb03f012",
+    "location" : [
+
+    ],
+    "type" : "Workshop"
+  },
+  {
+    "title" : "🛁 Sauna and hottub",
+    "description" : "Work hard, play harder. After a full day of code, impressions and being social its time to chill. Take your towel, put on your bathing suit\/swimming trunks and relax. The sauna and hottub will be fired up from 14.30 till 23.00",
+    "mentors" : [
+
+    ],
+    "createdAt" : "2025-08-19T20:16:00.000Z",
+    "duration (seconds)" : 32400,
+    "lastModified" : "2025-08-19T20:27:00.000Z",
+    "id" : "254f454e-b360-813f-a7eb-c345e4143410",
+    "location" : "254f454e-b360-8110-866c-d5228cf1eb35",
+    "type" : "Social"
+  },
+  {
+    "title" : "🔮 Shift Island: Ryan McLeod",
+    "description" : "Storytelling is magic. It helps us understand things that are complicated, imagine things that are impossible, and enter the worlds and lives of others. In this talk you'll realize that more than anything else - you are a professional storyteller.\n\nLocation: The Anchor",
+    "mentors" : "21cf454e-b360-8092-a54a-de86afe97f4c",
+    "createdAt" : "2025-08-19T20:16:00.000Z",
+    "duration (seconds)" : 3600,
+    "lastModified" : "2025-08-19T21:22:00.000Z",
+    "id" : "254f454e-b360-813d-91be-e25be4335b7a",
+    "location" : "254f454e-b360-81e8-91be-cfa2ad567516",
+    "type" : "Invite only activity"
+  },
+  {
+    "title" : "🎟️ Conference check-in starts",
+    "description" : "We can't wait to see you all on Texel!",
+    "mentors" : [
+
+    ],
+    "createdAt" : "2025-08-19T20:16:00.000Z",
+    "duration (seconds)" : 14400,
+    "lastModified" : "2025-08-19T20:27:00.000Z",
+    "id" : "254f454e-b360-8134-b2ee-d688ee0c0ffc",
+    "location" : "254f454e-b360-81fa-a2bf-fffefffefb4e",
+    "type" : "Transport"
+  },
+  {
+    "title" : "🎼 Keynote \/ Welcome",
+    "description" : "Sidney and Niels will be opening the conference",
+    "mentors" : [
+
+    ],
+    "createdAt" : "2025-08-19T20:16:00.000Z",
+    "duration (seconds)" : 900,
+    "lastModified" : "2025-08-19T20:27:00.000Z",
+    "id" : "254f454e-b360-8104-baf1-effcc3c04a9b",
+    "location" : "254f454e-b360-81e8-91be-cfa2ad567516",
+    "type" : "Transport"
+  },
+  {
+    "title" : "🔮 Shift Island: Feli Bernutz",
+    "description" : "Uncovering the influence of the male and female hormonal cycle on our creativity, productivity and the way we work.\n\nLocation: The Anchor",
+    "mentors" : "21cf454e-b360-803a-94f4-f7ec1e62e6a8",
+    "createdAt" : "2025-08-19T20:16:00.000Z",
+    "duration (seconds)" : 3600,
+    "lastModified" : "2025-08-19T21:22:00.000Z",
+    "id" : "254f454e-b360-8106-b8c8-f68b8945046f",
+    "location" : "254f454e-b360-81e8-91be-cfa2ad567516",
+    "type" : "Invite only activity"
+  },
+  {
+    "title" : "Playtime",
+    "description" : "Time to integrate your gained knowledge. Free time to let it all sink in; Have a walk in nature, stare into the void, write, draw, juggle, code some more. Give your head some space",
+    "mentors" : [
+
+    ],
+    "createdAt" : "2025-08-19T20:16:00.000Z",
+    "duration (seconds)" : 1800,
+    "lastModified" : "2025-08-19T20:16:00.000Z",
+    "id" : "254f454e-b360-8177-a4fc-fe956ae334d1",
+    "location" : [
+
+    ],
+    "type" : "Social"
+  },
+  {
+    "title" : "📸 Group photo",
+    "description" : "Gather in the Playground for a picture to remember this years Swift Island",
+    "mentors" : [
+
+    ],
+    "createdAt" : "2025-08-19T20:16:00.000Z",
+    "duration (seconds)" : 900,
+    "lastModified" : "2025-08-19T20:27:00.000Z",
+    "id" : "254f454e-b360-81b1-8ceb-ef43334082aa",
+    "location" : "254f454e-b360-8153-b138-f13b75c33815",
+    "type" : "Transport"
+  },
+  {
+    "title" : "🥪 Lunch",
+    "description" : "A scrumptious lunch served by the chef. \n\nVegetarian and vegan options available.",
+    "mentors" : [
+
+    ],
+    "createdAt" : "2025-08-19T20:16:00.000Z",
+    "duration (seconds)" : 5400,
+    "lastModified" : "2025-08-19T20:26:00.000Z",
+    "id" : "254f454e-b360-81fd-90c1-ed297f787f0e",
+    "location" : "254f454e-b360-81e7-9972-ee5c76a296c6",
+    "type" : "Meal"
+  },
+  {
+    "title" : "🍴Dinner",
+    "description" : "Always a treat and always a surprise. But we guarantee it's delicious!\n\nVega and vegan options available.",
+    "mentors" : [
+
+    ],
+    "createdAt" : "2025-08-19T20:16:00.000Z",
+    "duration (seconds)" : 10800,
+    "lastModified" : "2025-08-19T20:26:00.000Z",
+    "id" : "254f454e-b360-819f-a90b-ecc99a743147",
+    "location" : "254f454e-b360-81e7-9972-ee5c76a296c6",
+    "type" : "Meal"
+  },
+  {
+    "title" : "🦩Workshops: Flamingo",
+    "description" : "Workshops:\n\nPaul - The Cove\nMalin - The Anchor\nMikaela - The Outpost\nZeyad - The Sandbox",
+    "mentors" : [
+
+    ],
+    "createdAt" : "2025-08-19T20:16:00.000Z",
+    "duration (seconds)" : 7200,
+    "lastModified" : "2025-08-19T20:16:00.000Z",
+    "id" : "254f454e-b360-81a2-9e49-e5587f55c0cc",
+    "location" : [
+
+    ],
+    "type" : "Workshop"
+  },
+  {
+    "title" : "🎤 Pub quiz",
+    "description" : "Get your game on! Answer questions, win prizes! Our yearly pub quiz hosted by Niels and Sid.",
+    "mentors" : "254f454e-b360-8199-b281-d8b7e3c22a5a",
+    "createdAt" : "2025-08-19T20:16:00.000Z",
+    "duration (seconds)" : 7200,
+    "lastModified" : "2025-08-19T21:17:00.000Z",
+    "id" : "254f454e-b360-81c9-9e8d-d91285ee6e25",
+    "location" : "254f454e-b360-81e8-91be-cfa2ad567516",
+    "type" : "Social"
+  },
+  {
+    "title" : "🏃‍♀️5k run",
+    "description" : "Niels will take you on a 5k run on the dyke. Takes around 30-ish minutes. Don't forget your outfit and shoes!",
+    "mentors" : [
+
+    ],
+    "createdAt" : "2025-08-19T20:16:00.000Z",
+    "duration (seconds)" : 3600,
+    "lastModified" : "2025-08-19T20:26:00.000Z",
+    "id" : "254f454e-b360-810f-920b-ccae9afccd71",
+    "location" : "254f454e-b360-8147-bc0a-c499e7256461",
+    "type" : "Social"
+  },
+  {
+    "title" : "🚪Day opening",
+    "description" : "Niels and Sid will open the day",
+    "mentors" : "254f454e-b360-8199-b281-d8b7e3c22a5a",
+    "createdAt" : "2025-08-19T20:16:00.000Z",
+    "duration (seconds)" : 900,
+    "lastModified" : "2025-08-19T21:17:00.000Z",
+    "id" : "254f454e-b360-815f-9ffc-d45f8c095b28",
+    "location" : "254f454e-b360-81e8-91be-cfa2ad567516",
+    "type" : "Workshop"
+  },
+  {
+    "duration (seconds)" : 7200,
     "mentors" : [
 
     ],
     "title" : "✨Star gazing tour: planet parade",
-    "type" : "Social"
+    "id" : "254f454e-b360-8169-94ca-df8b83208442",
+    "type" : "Social",
+    "location" : "254f454e-b360-8187-aa01-def36dfa458e",
+    "lastModified" : "2025-08-19T20:17:00.000Z",
+    "createdAt" : "2025-08-19T20:16:00.000Z",
+    "description" : "Follow us to the dyke where we will gaze at the stars. We have blankets, and two telescopes. Also there is a perfect alignment of planets on the 28th so hopefully we can see this."
   },
   {
-    "description" : "Niels and Sid will open the day",
-    "duration" : 900,
-    "id" : "0E562426-0743-435A-BA11-9F35E90139DB",
-    "location" : "5F3B4D2F-8A50-4EDF-9752-D1968D206690",
+    "duration (seconds)" : 10800,
     "mentors" : [
 
     ],
-    "title" : "🚪Day opening",
-    "type" : "Transport"
-  },
-  {
-    "description" : "Niels will take you on a 5k run on the dyke. Takes around 30-ish minutes. Don’t forget your outfit and shoes!",
-    "duration" : 3600,
-    "id" : "2199F760-1029-47B4-8ECF-79D6B37845A0",
-    "location" : "41650822-4D5F-4203-853F-1E98AD74794F",
-    "mentors" : [
-
-    ],
-    "title" : "🏃‍♀️5k run",
-    "type" : "Social"
-  },
-  {
-    "description" : "Get your game on! Answer questions, win prizes! Our yearly pub quiz hosted by Niels and Sid.",
-    "duration" : 7200,
-    "id" : "22E73213-5141-4D27-8D83-2C220B78A7ED",
-    "location" : "5F3B4D2F-8A50-4EDF-9752-D1968D206690",
-    "mentors" : [
-
-    ],
-    "title" : "🎤 Pub quiz",
-    "type" : "Social"
-  },
-  {
-    "description" : "Workshops:\n\nPaul - The Cove\nMalin - The Anchor\nMikaela - The Outpost\nZeyad - The Sandbox",
-    "duration" : 7200,
-    "id" : "29666601-030F-4564-AC2F-48D96BAA5DA1",
-    "location" : "5F3B4D2F-8A50-4EDF-9752-D1968D206690",
-    "mentors" : [
-
-    ],
-    "title" : "🦩Workshops: Flamingo",
-    "type" : "Workshop"
-  },
-  {
-    "description" : "Always a treat and always a surprise. But we guarantee it’s delicious!\n\nVega and vegan options available.",
-    "duration" : 10800,
-    "id" : "30B5265A-32E3-4CA6-92E6-80888BAC5423",
-    "location" : "317BE6A3-CC6F-43C2-ACDA-D6B9D1E09D17",
-    "mentors" : [
-
-    ],
-    "title" : "🍴Dinner",
-    "type" : "Meal"
-  },
-  {
-    "description" : "A scrumptious lunch served by the chef. \n\nVegetarian and vegan options available.",
-    "duration" : 5400,
-    "id" : "36E3D504-8271-4E11-8273-959C9BF4E98B",
-    "location" : "317BE6A3-CC6F-43C2-ACDA-D6B9D1E09D17",
-    "mentors" : [
-
-    ],
-    "title" : "🥪 Lunch",
-    "type" : "Meal"
-  },
-  {
-    "description" : "Gather in the Playground for a picture to remember this years Swift Island",
-    "duration" : 900,
-    "id" : "4508D02E-7DCC-4402-9438-3FBD30BE8471",
-    "location" : "D991CA37-CF8D-4C83-8BF9-D8B7034EBA67",
-    "mentors" : [
-
-    ],
-    "title" : "📸 Group photo",
-    "type" : "Transport"
-  },
-  {
-    "description" : "Time to integrate your gained knowledge. Free time to let it all sink in; Have a walk in nature, stare into the void, write, draw, juggle, code some more. Give your head some space ",
-    "duration" : 1800,
-    "id" : "59754732-EE45-4460-A829-9F9048642602",
-    "location" : "",
-    "mentors" : [
-
-    ],
-    "title" : "Playtime",
-    "type" : "Social"
-  },
-  {
-    "description" : "Uncovering the influence of the male and female hormonal cycle on our creativity, productivity and the way we work.\n\nLocation: The Anchor",
-    "duration" : 3600,
-    "id" : "630EF5A9-B52D-4574-96D6-2812577A18CA",
-    "location" : "5F3B4D2F-8A50-4EDF-9752-D1968D206690",
-    "mentors" : [
-
-    ],
-    "title" : "🔮 Shift Island: Francine",
-    "type" : "Invite only activity"
-  },
-  {
-    "description" : "Sidney and Niels will be opening the conference",
-    "duration" : 900,
-    "id" : "64E75D6F-9C75-4365-9706-17AABB4D221D",
-    "location" : "5F3B4D2F-8A50-4EDF-9752-D1968D206690",
-    "mentors" : [
-
-    ],
-    "title" : "🎼 Keynote \/ Welcome",
-    "type" : "Transport"
-  },
-  {
-    "description" : "We can't wait to see you all on Texel!",
-    "duration" : 14400,
-    "id" : "76657007-4ABB-4432-832E-9245975532DF",
-    "location" : "231F3932-3704-45A6-A95B-AB1EC885B117",
-    "mentors" : [
-
-    ],
-    "title" : "🎟️ Conference check-in starts",
-    "type" : "Transport"
-  },
-  {
-    "description" : "Storytelling is magic. It helps us understand things that are complicated, imagine things that are impossible, and enter the worlds and lives of others. In this talk you’ll realize that more than anything else - you are a professional storyteller.\n\nLocation: The Anchor",
-    "duration" : 3600,
-    "id" : "7B81F69C-58BE-45AB-895B-45CE9AD64726",
-    "location" : "5F3B4D2F-8A50-4EDF-9752-D1968D206690",
-    "mentors" : [
-
-    ],
-    "title" : "🔮 Shift Island: Daniel",
-    "type" : "Invite only activity"
-  },
-  {
-    "description" : "Work hard, play harder. After a full day of code, impressions and being social its time to chill. Take your towel, put on your bathing suit\/swimming trunks and relax. The sauna and hottub will be fired up from 14.30 till 23.00",
-    "duration" : 32400,
-    "id" : "7BB52F98-C549-4B35-8E75-03CC6F3BBD5C",
-    "location" : "",
-    "mentors" : [
-
-    ],
-    "title" : "🛁 Sauna and hottub",
-    "type" : "Social"
-  },
-  {
-    "description" : "Workshop: \nAudrey - The Sandbox\nAviel -The Anchor\nJolanda - The Cove\nManu - The Outpost",
-    "duration" : 7200,
-    "id" : "7DF1498F-1DF3-4DB3-9D66-595FD50D5005",
-    "location" : "5F3B4D2F-8A50-4EDF-9752-D1968D206690",
-    "mentors" : [
-
-    ],
-    "title" : "🍊 Workshops: Orange",
-    "type" : "Workshop"
-  },
-  {
-    "description" : "A guided mediation by Sidney to start your day. We have yoga mats for you to sit or lay on. Bring\/put on some relaxing clothes. This session will be given at the Playground. ",
-    "duration" : 900,
-    "id" : "9B140A9D-ACA7-4E4F-9905-B45FD10A1B15",
-    "location" : "D991CA37-CF8D-4C83-8BF9-D8B7034EBA67",
-    "mentors" : [
-
-    ],
-    "title" : "🙏 Morning Meditation",
-    "type" : "Social"
-  },
-  {
-    "description" : "For who wants to join; We will have a lovely bike ride by night. We meet at the parking",
-    "duration" : 7200,
-    "id" : "BE02E5BC-71CE-4EE0-A2B8-97CAFFCC7611",
-    "location" : "41650822-4D5F-4203-853F-1E98AD74794F",
-    "mentors" : [
-
-    ],
-    "title" : "🚲 Bike Ride by Night",
-    "type" : "Social"
-  },
-  {
-    "description" : "A guided yoga session by Fem to start your day. We have yoga mats for you to sit or lay on. Bring\/put on some relaxing clothes. This session will be given at the Playground. ",
-    "duration" : 2700,
-    "id" : "BFEA44FF-A8C9-4298-9CE8-5C23C299F4A9",
-    "location" : "D991CA37-CF8D-4C83-8BF9-D8B7034EBA67",
-    "mentors" : [
-
-    ],
-    "title" : "🧘‍♀️Morning Yoga",
-    "type" : "Social"
-  },
-  {
-    "description" : "Get some eggs, toast or yoghurt. Some coffee and orange juice? Fill your battery.\n\nVega and vegan options available.",
-    "duration" : 7200,
-    "id" : "C67C526B-46BE-4F9C-BBE6-838F59F694CE",
-    "location" : "317BE6A3-CC6F-43C2-ACDA-D6B9D1E09D17",
-    "mentors" : [
-
-    ],
-    "title" : "🍳Breakfast ",
-    "type" : "Meal"
-  },
-  {
-    "description" : "To conclude and land Nizars talk, we will do a cold dip in the ocean to get some deliberate \"positive\" stress exposure.\nWe‘ll move from The Anchor to the dyke.",
-    "duration" : 1800,
-    "id" : "C835DA76-FA7D-4A57-BFDC-D56B533C2B56",
-    "location" : "BFDA61EB-EEEA-4239-BAA0-4792565D2615",
-    "mentors" : [
-
-    ],
-    "title" : "🥶 Shift Island: Cold dip ",
-    "type" : "Invite only activity"
-  },
-  {
-    "description" : "Join us on a bikeride to the lighthouse and the beach next to it.",
-    "duration" : 7200,
-    "id" : "DA4F6F20-2EF0-4221-8983-66999C5D9B20",
-    "location" : "F1F9D075-3ECA-4294-A219-B548138562A0",
-    "mentors" : [
-
-    ],
-    "title" : "🗼Visit the lighthouse ",
-    "type" : "Social"
-  },
-  {
-    "description" : "How to reconnect with your inner genius, ride the waves of flow and \"swiftly\" unfold a fulfilling life. Let’s overcome fundamental obstacles and reframe our perspective. In short: Productivity with a dash of pleasure and joy. We will also do a cold dip afterwards🥶\n\nLocation: The Anchor",
-    "duration" : 3600,
-    "id" : "E8B13334-DBFA-414F-9AC7-E5E365BAC749",
-    "location" : "5F3B4D2F-8A50-4EDF-9752-D1968D206690",
-    "mentors" : [
-
-    ],
-    "title" : "🔮 Shift Island: Nizar",
-    "type" : "Invite only activity"
-  },
-  {
-    "description" : "When you’ve bought a Hassle Free travel ticket, a touring car will transport you between Schiphol Airport and the the conference venue. Tim from our crew will be at the Sheraton Hotel to welcome you!",
-    "duration" : 9000,
-    "id" : "FF4F40B9-A038-42A5-9A19-89AA9A63EDC8",
-    "location" : "41650822-4D5F-4203-853F-1E98AD74794F",
-    "mentors" : [
-
-    ],
-    "title" : "🚌 Hassle Free travel ",
-    "type" : "Transport"
+    "title" : "🍛 Dinner at Prins Hendrik",
+    "id" : "254f454e-b360-81e7-b93b-f7c34a3af8cd",
+    "type" : "Meal",
+    "location" : "254f454e-b360-81e7-9972-ee5c76a296c6",
+    "lastModified" : "2025-08-19T20:17:00.000Z",
+    "createdAt" : "2025-08-19T20:16:00.000Z",
+    "description" : "Pre-conference dinner (at your own account). If you answered \"would you like to have dinner at Prins Hendrik\" then you have a reservation"
   }
 ]
