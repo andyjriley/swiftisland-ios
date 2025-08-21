@@ -148,7 +148,7 @@ internal class DataLogicMock: DataLogic {
 
     var fetchPuzzlesReturnValue: [Puzzle] = []
 
-    var fetchSponsorsReturnValue = Sponsors.forPreview()
+    var fetchSponsorsReturnValue: [Sponsor] = []
 
     required init() { }
 
@@ -196,7 +196,7 @@ internal class DataLogicMock: DataLogic {
         return fetchPuzzlesReturnValue
     }
 
-    func fetchSponsors() async throws -> Sponsors {
+    func fetchSponsors() async -> [Sponsor] {
         return fetchSponsorsReturnValue
     }
     
