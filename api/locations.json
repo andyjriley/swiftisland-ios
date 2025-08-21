@@ -1,83 +1,83 @@
 [
   {
-    "longitude" : 4.897078853510977,
-    "type" : "venue",
-    "createdAt" : "2025-08-19T20:14:00.000Z",
     "id" : "D991CA37-CF8D-4C83-8BF9-D8B7034EBA67",
+    "title" : "The Sandbox (Kleine tent)",
+    "createdAt" : "2025-08-19T20:14:00.000Z",
+    "lastModified" : "2025-08-19T20:23:00.000Z",
+    "longitude" : 4.897078853510977,
     "latitude" : 53.11441847335638,
-    "lastModified" : "2025-08-19T20:23:00.000Z",
-    "title" : "The Sandbox (Kleine tent)"
+    "type" : "venue"
   },
   {
-    "longitude" : 4.855246153907302,
-    "type" : "poi",
-    "createdAt" : "2025-08-19T20:14:00.000Z",
     "id" : "F1F9D075-3ECA-4294-A219-B548138562A0",
+    "title" : "Lighthouse",
+    "createdAt" : "2025-08-19T20:14:00.000Z",
+    "lastModified" : "2025-08-19T20:14:00.000Z",
+    "longitude" : 4.855246153907302,
     "latitude" : 53.18213827879919,
-    "lastModified" : "2025-08-19T20:14:00.000Z",
-    "title" : "Lighthouse"
+    "type" : "poi"
   },
   {
-    "longitude" : 4.897119617926842,
-    "type" : "restaurant",
-    "createdAt" : "2025-08-19T20:14:00.000Z",
     "id" : "317BE6A3-CC6F-43C2-ACDA-D6B9D1E09D17",
+    "title" : "Restaurant",
+    "createdAt" : "2025-08-19T20:14:00.000Z",
+    "lastModified" : "2025-08-19T20:14:00.000Z",
+    "longitude" : 4.897119617926842,
     "latitude" : 53.114833050493225,
-    "lastModified" : "2025-08-19T20:14:00.000Z",
-    "title" : "Restaurant"
+    "type" : "restaurant"
   },
   {
-    "longitude" : 4.8968937409812385,
-    "type" : "workshopRoom",
-    "createdAt" : "2025-08-19T20:14:00.000Z",
     "id" : "1AFEE000-DC23-4DEE-BD22-912BB7A2BE1D",
-    "latitude" : 53.11470652204642,
+    "title" : "The Outpost (Schorrenzaal)",
+    "createdAt" : "2025-08-19T20:14:00.000Z",
     "lastModified" : "2025-08-19T20:22:00.000Z",
-    "title" : "The Outpost (Schorrenzaal)"
+    "longitude" : 4.8968937409812385,
+    "latitude" : 53.11470652204642,
+    "type" : "workshopRoom"
   },
   {
-    "longitude" : 4.896839228788062,
-    "type" : "poi",
-    "createdAt" : "2025-08-19T20:14:00.000Z",
     "id" : "72CC15BC-A4B3-42EE-8149-BEBA00F259A5",
-    "latitude" : 53.1144956373313,
-    "lastModified" : "2025-08-19T20:14:00.000Z",
-    "title" : "Sauna and hottub"
-  },
-  {
-    "longitude" : 4.897341952753361,
-    "type" : "venue",
+    "title" : "Sauna and hottub",
     "createdAt" : "2025-08-19T20:14:00.000Z",
-    "id" : "5F3B4D2F-8A50-4EDF-9752-D1968D206690",
-    "latitude" : 53.11464833839303,
-    "lastModified" : "2025-08-19T20:23:00.000Z",
-    "title" : "The Anchor (Grote tent)"
+    "lastModified" : "2025-08-19T20:14:00.000Z",
+    "longitude" : 4.896839228788062,
+    "latitude" : 53.1144956373313,
+    "type" : "poi"
   },
   {
-    "lastModified" : "2025-08-19T20:14:00.000Z",
-    "longitude" : 4.8985147537527975,
-    "type" : "poi",
+    "id" : "5F3B4D2F-8A50-4EDF-9752-D1968D206690",
+    "title" : "The Anchor (Grote tent)",
+    "createdAt" : "2025-08-19T20:14:00.000Z",
+    "lastModified" : "2025-08-19T20:23:00.000Z",
+    "longitude" : 4.897341952753361,
+    "latitude" : 53.11464833839303,
+    "type" : "venue"
+  },
+  {
+    "id" : "BFDA61EB-EEEA-4239-BAA0-4792565D2615",
     "title" : "Dike",
     "createdAt" : "2025-08-19T20:14:00.000Z",
+    "lastModified" : "2025-08-19T20:14:00.000Z",
+    "longitude" : 4.8985147537527975,
     "latitude" : 53.11529157354689,
-    "id" : "BFDA61EB-EEEA-4239-BAA0-4792565D2615"
+    "type" : "poi"
   },
   {
-    "longitude" : 4.897144204834776,
-    "type" : "venue",
-    "createdAt" : "2025-08-19T20:14:00.000Z",
     "id" : "231F3932-3704-45A6-A95B-AB1EC885B117",
-    "latitude" : 53.11488605967486,
+    "title" : "Reception",
+    "createdAt" : "2025-08-19T20:14:00.000Z",
     "lastModified" : "2025-08-19T20:14:00.000Z",
-    "title" : "Reception"
+    "longitude" : 4.897144204834776,
+    "latitude" : 53.11488605967486,
+    "type" : "venue"
   },
   {
-    "longitude" : 4.8972177443724325,
-    "type" : "parking",
-    "createdAt" : "2025-08-19T20:14:00.000Z",
     "id" : "41650822-4D5F-4203-853F-1E98AD74794F",
-    "latitude" : 53.11475831498307,
+    "title" : "Parking",
+    "createdAt" : "2025-08-19T20:14:00.000Z",
     "lastModified" : "2025-08-19T20:14:00.000Z",
-    "title" : "Parking"
+    "longitude" : 4.8972177443724325,
+    "latitude" : 53.11475831498307,
+    "type" : "parking"
   }
 ]
