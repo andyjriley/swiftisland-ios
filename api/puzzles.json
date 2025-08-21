@@ -1,0 +1,101 @@
+[
+  {
+    "slug": "b9zk1ol1Th",
+    "order": 1,
+    "number": "1",
+    "title": "The Swift Mystery",
+    "filename": "mystery-museum.pdf",
+    "question": "What connects all these Swift concepts together?",
+    "tip": "Think about the fundamental building blocks of Swift",
+    "answerLength": "1,7",
+    "encryptedHint": "U2FsdGVkX1+vupppZksvRf5pq5g5XjFRIrHHGwQsVJE="
+  },
+  {
+    "slug": "puzzle-002", 
+    "order": 2,
+    "number": "2",
+    "title": "Currency Exchange",
+    "filename": "valuta.pdf",
+    "question": "Calculate the correct exchange rate based on the pattern",
+    "tip": "Look for mathematical relationships in the data",
+    "answerLength": "3,2",
+    "encryptedHint": "U2FsdGVkX1+vupppZksvRf5pq5g5XjFRIrHHGwQcVJE="
+  },
+  {
+    "slug": "puzzle-003",
+    "order": 3, 
+    "number": "3",
+    "title": "The Missing Elements",
+    "filename": "elements.pdf",
+    "question": "Which element is missing from the sequence?",
+    "tip": "Consider the periodic table and programming conventions",
+    "answerLength": "2,6",
+    "encryptedHint": "U2FsdGVkX1+vupppZksvRf5pq5g5XjFRIrHHGwQdVJE="
+  },
+  {
+    "slug": "puzzle-004",
+    "order": 4,
+    "number": "4", 
+    "title": "Double Names",
+    "filename": "double-names.pdf",
+    "question": "Find the pattern in these developer names",
+    "tip": "Think about famous developers and their contributions",
+    "answerLength": "4,5",
+    "encryptedHint": "U2FsdGVkX1+vupppZksvRf5pq5g5XjFRIrHHGwQeVJE="
+  },
+  {
+    "slug": "puzzle-005",
+    "order": 5,
+    "number": "5",
+    "title": "The Safe Code",
+    "filename": "safe.pdf", 
+    "question": "What's the combination to open the safe?",
+    "tip": "Binary thinking might help you here",
+    "answerLength": "4",
+    "encryptedHint": "U2FsdGVkX1+vupppZksvRf5pq5g5XjFRIrHHGwQfVJE="
+  },
+  {
+    "slug": "puzzle-006",
+    "order": 6,
+    "number": "6",
+    "title": "Game of Life",
+    "filename": "game-of-life.pdf",
+    "question": "What happens after 3 generations?",
+    "tip": "Conway's rules apply, but with a twist",
+    "answerLength": "1,4,2",
+    "encryptedHint": "U2FsdGVkX1+vupppZksvRf5pq5g5XjFRIrHHGwQgVJE="
+  },
+  {
+    "slug": "puzzle-007",
+    "order": 7,
+    "number": "7",
+    "title": "The Key",
+    "filename": "the-key.pdf",
+    "question": "Which key unlocks the next clue?",
+    "tip": "Cryptography meets Swift development",
+    "answerLength": "3,3,4",
+    "encryptedHint": "U2FsdGVkX1+vupppZksvRf5pq5g5XjFRIrHHGwQhVJE="
+  },
+  {
+    "slug": "puzzle-008",
+    "order": 8,
+    "number": "8",
+    "title": "Rebus Challenge",
+    "filename": "rebus.pdf",
+    "question": "Decode this visual word puzzle",
+    "tip": "Sometimes the answer is right in front of you",
+    "answerLength": "2,5,4",
+    "encryptedHint": "U2FsdGVkX1+vupppZksvRf5pq5g5XjFRIrHHGwQiVJE="
+  },
+    {
+    "slug": "puzzle-009",
+    "order": 9,
+    "number": "9",
+    "title": "Rebus Challenge",
+    "filename": "rebus.pdf",
+    "question": "Decode this visual word puzzle",
+    "tip": "Sometimes the answer is right in front of you",
+    "answerLength": "2,5,4",
+    "encryptedHint": "U2FsdGVkX1+vupppZksvRf5pq5g5XjFRIrHHGwQiVJE="
+  }
+]
