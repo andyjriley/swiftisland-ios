@@ -5,10 +5,8 @@
     "icon" : [
       {
         "name" : "dim_sum_thinking.png",
-        "original_url" : "https:\/\/prod-files-secure.s3.us-west-2.amazonaws.com\/f700fc5e-43a2-490b-9ef1-f04ef9359af2\/e3f46c0e-94d5-4f21-b2b2-dfafba942254\/dim_sum_thinking.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466T534TRXR%2F20250821%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250821T193452Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQC%2BFCDKogJaN2ELb9DozbabsmKpECRAvrm62InPCb1hsgIhANDMMO2z%2BsutNe%2FANja3UsRjJo9Me28T3NSy9HX%2FHi1dKogECPT%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgzZo60NtvgKTX8D6r0q3ANS61cvjjg0lcw05vTnnm4xsBTWBSebnKxNQNwxF79LUrRdzKdXcbe7XUQQO1u9HxtUJLFs60U35EnUxfEG7SnJ83cH9QJcz4A4DyFdp1BUbIhUB6JVnVKyNC7m3%2BagTaaKIpJ7QFa0FQMLk08F6pkjBUU7D4Y1m0agFGMWj6a189jeGwyYMLgG8%2BX1o0N87iMcjK2OGaHVH6ZflJJbm8X0YtM89Sll4HYJbpHHuESjZSkpSjh2dsfebgQIEJTabFukGFs%2BMl4lMBYcPGk5xoJ4jJ76llSPS2ekjdGh77U2vwykRpl3K71qgR4%2FJbGUvP12%2FX6qTO4Onn2Hc0Nj77rUKNpqnpadjXLat24ZqP5wRgAHvAW%2FYwpWUktaOd16DHNUKK84JdRTZqmejVtiAsE0h9AlLPIJAJPTlzIW40y1pvBNDpEdZTtgPZM3aTxfYxvk8ceORPWf9mMdc%2BESYVRdseiDe8F9q%2FWMxfYK%2BPxlEJEO3dFBr52QACX8p%2BwNm4PozDJTDhFb3fBCF3sWPRkEena1Q0e1rrWJZxaIePs2GibLxVJs8uTC0dO0aCZnw%2FvlJg5jy12fvT%2B%2B6Vpa214LNTMEGvcp2bv%2F7sPyFUBGQ0a7LdVXrqSNyfaAzjDF2Z3FBjqkAUHExxd4OdnIeaa2ti%2FFz6Y9%2BcGPQ4bum9M7FMJFrdRoP6QaRZoGuaaQA11Ies5u4aHCdkCqbNiQXXHYsgr9GI2vwzn29ryb41BLMat7BB0d17aV2gJ6cyiMjgQIykTJ4QPC8TOdYGC2Zip%2FXFk2kujYak5ruZvE3h8v%2F%2BWPvNBQhvsOkLXUN2OouaF21tPv3GhpzECaSNCkJzR1ML5zTdfUNvMj&X-Amz-Signature=39345b0f5190680d132a147712cd6268cbb9cacd692786e54933ac071ea2060e&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
         "type" : "file",
-        "url" : "images\/254f454eb36080d7a29dd6f961a4d8d3_icon.png",
-        "url_expires_at" : "2025-08-21T20:34:52.447Z"
+        "url" : "images\/254f454eb36080d7a29dd6f961a4d8d3_icon.png"
       }
     ],
     "id" : "254f454e-b360-80d7-a29d-d6f961a4d8d3",
@@ -24,10 +22,8 @@
     "icon" : [
       {
         "name" : "daisydisk.png",
-        "original_url" : "https:\/\/prod-files-secure.s3.us-west-2.amazonaws.com\/f700fc5e-43a2-490b-9ef1-f04ef9359af2\/80e0471a-4641-4b37-8f10-7411e67fdd92\/daisydisk.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466T534TRXR%2F20250821%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250821T193452Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQC%2BFCDKogJaN2ELb9DozbabsmKpECRAvrm62InPCb1hsgIhANDMMO2z%2BsutNe%2FANja3UsRjJo9Me28T3NSy9HX%2FHi1dKogECPT%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgzZo60NtvgKTX8D6r0q3ANS61cvjjg0lcw05vTnnm4xsBTWBSebnKxNQNwxF79LUrRdzKdXcbe7XUQQO1u9HxtUJLFs60U35EnUxfEG7SnJ83cH9QJcz4A4DyFdp1BUbIhUB6JVnVKyNC7m3%2BagTaaKIpJ7QFa0FQMLk08F6pkjBUU7D4Y1m0agFGMWj6a189jeGwyYMLgG8%2BX1o0N87iMcjK2OGaHVH6ZflJJbm8X0YtM89Sll4HYJbpHHuESjZSkpSjh2dsfebgQIEJTabFukGFs%2BMl4lMBYcPGk5xoJ4jJ76llSPS2ekjdGh77U2vwykRpl3K71qgR4%2FJbGUvP12%2FX6qTO4Onn2Hc0Nj77rUKNpqnpadjXLat24ZqP5wRgAHvAW%2FYwpWUktaOd16DHNUKK84JdRTZqmejVtiAsE0h9AlLPIJAJPTlzIW40y1pvBNDpEdZTtgPZM3aTxfYxvk8ceORPWf9mMdc%2BESYVRdseiDe8F9q%2FWMxfYK%2BPxlEJEO3dFBr52QACX8p%2BwNm4PozDJTDhFb3fBCF3sWPRkEena1Q0e1rrWJZxaIePs2GibLxVJs8uTC0dO0aCZnw%2FvlJg5jy12fvT%2B%2B6Vpa214LNTMEGvcp2bv%2F7sPyFUBGQ0a7LdVXrqSNyfaAzjDF2Z3FBjqkAUHExxd4OdnIeaa2ti%2FFz6Y9%2BcGPQ4bum9M7FMJFrdRoP6QaRZoGuaaQA11Ies5u4aHCdkCqbNiQXXHYsgr9GI2vwzn29ryb41BLMat7BB0d17aV2gJ6cyiMjgQIykTJ4QPC8TOdYGC2Zip%2FXFk2kujYak5ruZvE3h8v%2F%2BWPvNBQhvsOkLXUN2OouaF21tPv3GhpzECaSNCkJzR1ML5zTdfUNvMj&X-Amz-Signature=12bf261c6535976e420d160a7483926246ee23bc33b315582b7c07dcab86e146&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
         "type" : "file",
-        "url" : "images\/254f454eb36080eea257c071f1b48e5f_icon.png",
-        "url_expires_at" : "2025-08-21T20:34:52.447Z"
+        "url" : "images\/254f454eb36080eea257c071f1b48e5f_icon.png"
       }
     ],
     "id" : "254f454e-b360-80ee-a257-c071f1b48e5f",

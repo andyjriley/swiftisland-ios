@@ -42,10 +42,8 @@
     "image" : [
       {
         "name" : "feli-speaker.jpeg",
-        "original_url" : "https:\/\/prod-files-secure.s3.us-west-2.amazonaws.com\/f700fc5e-43a2-490b-9ef1-f04ef9359af2\/263b4691-c079-4aab-a0ea-dc5301486a5e\/feli-speaker.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466QFT6KFJH%2F20250821%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250821T193357Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQC91SD%2F0AHupKl5RqLnryRjrWRJl6xGZzmPDTa6Fj2mcgIhAMW%2BejX%2FtYqXzRcNFlYwHEVOrmcNGlQu4ZJr7ez4p4buKogECPT%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgziXzQNiDzx%2F2egXx8q3AOlX%2FeHIANGzd1pi6uRVtj26o261SLgMpQ6mP%2F9FF1k4PF6s7P%2FqY4aUCwNya0%2Fa7JB3VkH0Q8BWGX0%2Ff8R2xA3d%2FhDfhwFbxo9lUTrPKNxbvQ%2BOZgEBIF2owJGQR8Mn3Z2WNhpfoeVwmtmWNZnLaaw82Qw8sQlsvAPMPIZCr5HuGfHM0UCMnr4DfFKGDB%2BS0cmGHkNe%2B6dIWs%2F4fzb6FdRvQ3U9E86t%2BxoYYou%2F7NAvPTkqUqKJvg3nWABgYmeqH46JfxGURr5v%2FevMs%2BOAZMdc%2BkATzvNJBLanQoH8t2Hz5NDMQe0I5RwIxW6sEj8%2B%2FAkt1z2zb0WS4P2CGDTheuLynVdWk2aBrkyG%2Fy0w18COTh6uhBOwfGT3XfC9xmVAExzC%2FcDTG77oZMf5l2PvFON7B8jZHwYiGaXMuhTUz%2FcWOYKlnXKRasrcGIfFYAazLCG%2FVO7lRQuKvigEqofpahz5w2Ztgax6NNraXoawbud6o%2FUwTx4V5t0GnBmMcppkc1s4DU9x%2F7VsgwVhGhN%2Fk7ZefEGOnJa2W8%2FrAv5NbBK%2BXic7Mk8hFOBQ5sQ7E%2F%2BoEOhEzbiq4iss3oAhRK4o%2F9ippvKf%2FeuV0YRCV5o1PnOIclaxE7nYOf1SDmH%2BjDh2Z3FBjqkAWpC4tRbJ%2BHTUggmk9vlcpNMZGQfgYQn366Wc5NF8xWV72du08s8WDl0L8mlusLM1OJt6iPNLMj0%2FikAspJpuhTLQmM5eJqwHEknZRGasJw1qhNDLl6Cje2DvMLwIYsmrfUavhE6e7yL8714aMtgDc1nMBQ73ZMycX3yX1W%2B5d5JZGR85MxSbpS6Cgc7daGlfnZb9%2BxEQ0ZZcVKumOinbVOd%2Fp%2FW&X-Amz-Signature=4ffed07f385837553a6bd1a40d4cd3a3bfaa7741762b77d134260a901b7db984&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
         "type" : "file",
-        "url" : "images\/21cf454eb360803a94f4f7ec1e62e6a8_image.jpeg",
-        "url_expires_at" : "2025-08-21T20:33:57.315Z"
+        "url" : "images\/21cf454eb360803a94f4f7ec1e62e6a8_image.jpeg"
       }
     ],
     "lastModified" : "2025-08-19T21:14:00.000Z",
@@ -66,10 +64,8 @@
     "image" : [
       {
         "name" : "Fennande hek headshot.png",
-        "original_url" : "https:\/\/prod-files-secure.s3.us-west-2.amazonaws.com\/f700fc5e-43a2-490b-9ef1-f04ef9359af2\/0a95ef64-2516-4c8b-bdeb-d008f12cf134\/Fennande_hek_headshot.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466QFT6KFJH%2F20250821%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250821T193357Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQC91SD%2F0AHupKl5RqLnryRjrWRJl6xGZzmPDTa6Fj2mcgIhAMW%2BejX%2FtYqXzRcNFlYwHEVOrmcNGlQu4ZJr7ez4p4buKogECPT%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgziXzQNiDzx%2F2egXx8q3AOlX%2FeHIANGzd1pi6uRVtj26o261SLgMpQ6mP%2F9FF1k4PF6s7P%2FqY4aUCwNya0%2Fa7JB3VkH0Q8BWGX0%2Ff8R2xA3d%2FhDfhwFbxo9lUTrPKNxbvQ%2BOZgEBIF2owJGQR8Mn3Z2WNhpfoeVwmtmWNZnLaaw82Qw8sQlsvAPMPIZCr5HuGfHM0UCMnr4DfFKGDB%2BS0cmGHkNe%2B6dIWs%2F4fzb6FdRvQ3U9E86t%2BxoYYou%2F7NAvPTkqUqKJvg3nWABgYmeqH46JfxGURr5v%2FevMs%2BOAZMdc%2BkATzvNJBLanQoH8t2Hz5NDMQe0I5RwIxW6sEj8%2B%2FAkt1z2zb0WS4P2CGDTheuLynVdWk2aBrkyG%2Fy0w18COTh6uhBOwfGT3XfC9xmVAExzC%2FcDTG77oZMf5l2PvFON7B8jZHwYiGaXMuhTUz%2FcWOYKlnXKRasrcGIfFYAazLCG%2FVO7lRQuKvigEqofpahz5w2Ztgax6NNraXoawbud6o%2FUwTx4V5t0GnBmMcppkc1s4DU9x%2F7VsgwVhGhN%2Fk7ZefEGOnJa2W8%2FrAv5NbBK%2BXic7Mk8hFOBQ5sQ7E%2F%2BoEOhEzbiq4iss3oAhRK4o%2F9ippvKf%2FeuV0YRCV5o1PnOIclaxE7nYOf1SDmH%2BjDh2Z3FBjqkAWpC4tRbJ%2BHTUggmk9vlcpNMZGQfgYQn366Wc5NF8xWV72du08s8WDl0L8mlusLM1OJt6iPNLMj0%2FikAspJpuhTLQmM5eJqwHEknZRGasJw1qhNDLl6Cje2DvMLwIYsmrfUavhE6e7yL8714aMtgDc1nMBQ73ZMycX3yX1W%2B5d5JZGR85MxSbpS6Cgc7daGlfnZb9%2BxEQ0ZZcVKumOinbVOd%2Fp%2FW&X-Amz-Signature=b160edb844552442996523b65e875ed372caa8f13328d81726ea400fb0c5fb2c&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
         "type" : "file",
-        "url" : "images\/21cf454eb36080449930f544c4ebf0f7_image.png",
-        "url_expires_at" : "2025-08-21T20:33:57.315Z"
+        "url" : "images\/21cf454eb36080449930f544c4ebf0f7_image.png"
       }
     ],
     "lastModified" : "2025-08-19T21:12:00.000Z",
@@ -90,10 +86,8 @@
     "image" : [
       {
         "name" : "IMG_7976.jpeg",
-        "original_url" : "https:\/\/prod-files-secure.s3.us-west-2.amazonaws.com\/f700fc5e-43a2-490b-9ef1-f04ef9359af2\/86385311-dd65-42c7-b7f6-a1108cbf212a\/IMG_7976.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466QFT6KFJH%2F20250821%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250821T193357Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQC91SD%2F0AHupKl5RqLnryRjrWRJl6xGZzmPDTa6Fj2mcgIhAMW%2BejX%2FtYqXzRcNFlYwHEVOrmcNGlQu4ZJr7ez4p4buKogECPT%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgziXzQNiDzx%2F2egXx8q3AOlX%2FeHIANGzd1pi6uRVtj26o261SLgMpQ6mP%2F9FF1k4PF6s7P%2FqY4aUCwNya0%2Fa7JB3VkH0Q8BWGX0%2Ff8R2xA3d%2FhDfhwFbxo9lUTrPKNxbvQ%2BOZgEBIF2owJGQR8Mn3Z2WNhpfoeVwmtmWNZnLaaw82Qw8sQlsvAPMPIZCr5HuGfHM0UCMnr4DfFKGDB%2BS0cmGHkNe%2B6dIWs%2F4fzb6FdRvQ3U9E86t%2BxoYYou%2F7NAvPTkqUqKJvg3nWABgYmeqH46JfxGURr5v%2FevMs%2BOAZMdc%2BkATzvNJBLanQoH8t2Hz5NDMQe0I5RwIxW6sEj8%2B%2FAkt1z2zb0WS4P2CGDTheuLynVdWk2aBrkyG%2Fy0w18COTh6uhBOwfGT3XfC9xmVAExzC%2FcDTG77oZMf5l2PvFON7B8jZHwYiGaXMuhTUz%2FcWOYKlnXKRasrcGIfFYAazLCG%2FVO7lRQuKvigEqofpahz5w2Ztgax6NNraXoawbud6o%2FUwTx4V5t0GnBmMcppkc1s4DU9x%2F7VsgwVhGhN%2Fk7ZefEGOnJa2W8%2FrAv5NbBK%2BXic7Mk8hFOBQ5sQ7E%2F%2BoEOhEzbiq4iss3oAhRK4o%2F9ippvKf%2FeuV0YRCV5o1PnOIclaxE7nYOf1SDmH%2BjDh2Z3FBjqkAWpC4tRbJ%2BHTUggmk9vlcpNMZGQfgYQn366Wc5NF8xWV72du08s8WDl0L8mlusLM1OJt6iPNLMj0%2FikAspJpuhTLQmM5eJqwHEknZRGasJw1qhNDLl6Cje2DvMLwIYsmrfUavhE6e7yL8714aMtgDc1nMBQ73ZMycX3yX1W%2B5d5JZGR85MxSbpS6Cgc7daGlfnZb9%2BxEQ0ZZcVKumOinbVOd%2Fp%2FW&X-Amz-Signature=1b004539cd288b7b19c5bcc5e73b0a6ad0009481847030c14071dc0db7dbb3e6&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
         "type" : "file",
-        "url" : "images\/21cf454eb3608092a54ade86afe97f4c_image.jpeg",
-        "url_expires_at" : "2025-08-21T20:33:57.315Z"
+        "url" : "images\/21cf454eb3608092a54ade86afe97f4c_image.jpeg"
       }
     ],
     "lastModified" : "2025-08-19T21:12:00.000Z",
@@ -114,10 +108,8 @@
     "image" : [
       {
         "name" : "Tim.jpg",
-        "original_url" : "https:\/\/prod-files-secure.s3.us-west-2.amazonaws.com\/f700fc5e-43a2-490b-9ef1-f04ef9359af2\/1c3c2217-1407-40b0-b6fc-a033e184fa48\/Tim.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466QFT6KFJH%2F20250821%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250821T193357Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQC91SD%2F0AHupKl5RqLnryRjrWRJl6xGZzmPDTa6Fj2mcgIhAMW%2BejX%2FtYqXzRcNFlYwHEVOrmcNGlQu4ZJr7ez4p4buKogECPT%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgziXzQNiDzx%2F2egXx8q3AOlX%2FeHIANGzd1pi6uRVtj26o261SLgMpQ6mP%2F9FF1k4PF6s7P%2FqY4aUCwNya0%2Fa7JB3VkH0Q8BWGX0%2Ff8R2xA3d%2FhDfhwFbxo9lUTrPKNxbvQ%2BOZgEBIF2owJGQR8Mn3Z2WNhpfoeVwmtmWNZnLaaw82Qw8sQlsvAPMPIZCr5HuGfHM0UCMnr4DfFKGDB%2BS0cmGHkNe%2B6dIWs%2F4fzb6FdRvQ3U9E86t%2BxoYYou%2F7NAvPTkqUqKJvg3nWABgYmeqH46JfxGURr5v%2FevMs%2BOAZMdc%2BkATzvNJBLanQoH8t2Hz5NDMQe0I5RwIxW6sEj8%2B%2FAkt1z2zb0WS4P2CGDTheuLynVdWk2aBrkyG%2Fy0w18COTh6uhBOwfGT3XfC9xmVAExzC%2FcDTG77oZMf5l2PvFON7B8jZHwYiGaXMuhTUz%2FcWOYKlnXKRasrcGIfFYAazLCG%2FVO7lRQuKvigEqofpahz5w2Ztgax6NNraXoawbud6o%2FUwTx4V5t0GnBmMcppkc1s4DU9x%2F7VsgwVhGhN%2Fk7ZefEGOnJa2W8%2FrAv5NbBK%2BXic7Mk8hFOBQ5sQ7E%2F%2BoEOhEzbiq4iss3oAhRK4o%2F9ippvKf%2FeuV0YRCV5o1PnOIclaxE7nYOf1SDmH%2BjDh2Z3FBjqkAWpC4tRbJ%2BHTUggmk9vlcpNMZGQfgYQn366Wc5NF8xWV72du08s8WDl0L8mlusLM1OJt6iPNLMj0%2FikAspJpuhTLQmM5eJqwHEknZRGasJw1qhNDLl6Cje2DvMLwIYsmrfUavhE6e7yL8714aMtgDc1nMBQ73ZMycX3yX1W%2B5d5JZGR85MxSbpS6Cgc7daGlfnZb9%2BxEQ0ZZcVKumOinbVOd%2Fp%2FW&X-Amz-Signature=913a07c1b40822ca770d526996482761d3e66aad62ecb4c1b7c076400cd64894&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
         "type" : "file",
-        "url" : "images\/218f454eb3608090bdafc9da1f5fb8b5_image.jpg",
-        "url_expires_at" : "2025-08-21T20:33:57.315Z"
+        "url" : "images\/218f454eb3608090bdafc9da1f5fb8b5_image.jpg"
       }
     ],
     "lastModified" : "2025-08-19T21:12:00.000Z",
@@ -138,10 +130,8 @@
     "image" : [
       {
         "name" : "AUG2022-121.jpg",
-        "original_url" : "https:\/\/prod-files-secure.s3.us-west-2.amazonaws.com\/f700fc5e-43a2-490b-9ef1-f04ef9359af2\/a176410b-a84e-4bcf-a244-e0c3206d4036\/AUG2022-121.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466QFT6KFJH%2F20250821%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250821T193357Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQC91SD%2F0AHupKl5RqLnryRjrWRJl6xGZzmPDTa6Fj2mcgIhAMW%2BejX%2FtYqXzRcNFlYwHEVOrmcNGlQu4ZJr7ez4p4buKogECPT%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgziXzQNiDzx%2F2egXx8q3AOlX%2FeHIANGzd1pi6uRVtj26o261SLgMpQ6mP%2F9FF1k4PF6s7P%2FqY4aUCwNya0%2Fa7JB3VkH0Q8BWGX0%2Ff8R2xA3d%2FhDfhwFbxo9lUTrPKNxbvQ%2BOZgEBIF2owJGQR8Mn3Z2WNhpfoeVwmtmWNZnLaaw82Qw8sQlsvAPMPIZCr5HuGfHM0UCMnr4DfFKGDB%2BS0cmGHkNe%2B6dIWs%2F4fzb6FdRvQ3U9E86t%2BxoYYou%2F7NAvPTkqUqKJvg3nWABgYmeqH46JfxGURr5v%2FevMs%2BOAZMdc%2BkATzvNJBLanQoH8t2Hz5NDMQe0I5RwIxW6sEj8%2B%2FAkt1z2zb0WS4P2CGDTheuLynVdWk2aBrkyG%2Fy0w18COTh6uhBOwfGT3XfC9xmVAExzC%2FcDTG77oZMf5l2PvFON7B8jZHwYiGaXMuhTUz%2FcWOYKlnXKRasrcGIfFYAazLCG%2FVO7lRQuKvigEqofpahz5w2Ztgax6NNraXoawbud6o%2FUwTx4V5t0GnBmMcppkc1s4DU9x%2F7VsgwVhGhN%2Fk7ZefEGOnJa2W8%2FrAv5NbBK%2BXic7Mk8hFOBQ5sQ7E%2F%2BoEOhEzbiq4iss3oAhRK4o%2F9ippvKf%2FeuV0YRCV5o1PnOIclaxE7nYOf1SDmH%2BjDh2Z3FBjqkAWpC4tRbJ%2BHTUggmk9vlcpNMZGQfgYQn366Wc5NF8xWV72du08s8WDl0L8mlusLM1OJt6iPNLMj0%2FikAspJpuhTLQmM5eJqwHEknZRGasJw1qhNDLl6Cje2DvMLwIYsmrfUavhE6e7yL8714aMtgDc1nMBQ73ZMycX3yX1W%2B5d5JZGR85MxSbpS6Cgc7daGlfnZb9%2BxEQ0ZZcVKumOinbVOd%2Fp%2FW&X-Amz-Signature=34cba99af952bb3e1335de5fc46a67feddf2e2bc46349ee227e3d9c67a94c171&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
         "type" : "file",
-        "url" : "images\/218f454eb360802e9aeecb4af43f18d6_image.jpg",
-        "url_expires_at" : "2025-08-21T20:33:57.316Z"
+        "url" : "images\/218f454eb360802e9aeecb4af43f18d6_image.jpg"
       }
     ],
     "lastModified" : "2025-08-19T21:13:00.000Z",
@@ -162,10 +152,8 @@
     "image" : [
       {
         "name" : "Image from iOS.jpg",
-        "original_url" : "https:\/\/prod-files-secure.s3.us-west-2.amazonaws.com\/f700fc5e-43a2-490b-9ef1-f04ef9359af2\/b9f9df4f-b550-43c5-86be-726a84c823b6\/Image_from_iOS.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466QFT6KFJH%2F20250821%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250821T193357Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQC91SD%2F0AHupKl5RqLnryRjrWRJl6xGZzmPDTa6Fj2mcgIhAMW%2BejX%2FtYqXzRcNFlYwHEVOrmcNGlQu4ZJr7ez4p4buKogECPT%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgziXzQNiDzx%2F2egXx8q3AOlX%2FeHIANGzd1pi6uRVtj26o261SLgMpQ6mP%2F9FF1k4PF6s7P%2FqY4aUCwNya0%2Fa7JB3VkH0Q8BWGX0%2Ff8R2xA3d%2FhDfhwFbxo9lUTrPKNxbvQ%2BOZgEBIF2owJGQR8Mn3Z2WNhpfoeVwmtmWNZnLaaw82Qw8sQlsvAPMPIZCr5HuGfHM0UCMnr4DfFKGDB%2BS0cmGHkNe%2B6dIWs%2F4fzb6FdRvQ3U9E86t%2BxoYYou%2F7NAvPTkqUqKJvg3nWABgYmeqH46JfxGURr5v%2FevMs%2BOAZMdc%2BkATzvNJBLanQoH8t2Hz5NDMQe0I5RwIxW6sEj8%2B%2FAkt1z2zb0WS4P2CGDTheuLynVdWk2aBrkyG%2Fy0w18COTh6uhBOwfGT3XfC9xmVAExzC%2FcDTG77oZMf5l2PvFON7B8jZHwYiGaXMuhTUz%2FcWOYKlnXKRasrcGIfFYAazLCG%2FVO7lRQuKvigEqofpahz5w2Ztgax6NNraXoawbud6o%2FUwTx4V5t0GnBmMcppkc1s4DU9x%2F7VsgwVhGhN%2Fk7ZefEGOnJa2W8%2FrAv5NbBK%2BXic7Mk8hFOBQ5sQ7E%2F%2BoEOhEzbiq4iss3oAhRK4o%2F9ippvKf%2FeuV0YRCV5o1PnOIclaxE7nYOf1SDmH%2BjDh2Z3FBjqkAWpC4tRbJ%2BHTUggmk9vlcpNMZGQfgYQn366Wc5NF8xWV72du08s8WDl0L8mlusLM1OJt6iPNLMj0%2FikAspJpuhTLQmM5eJqwHEknZRGasJw1qhNDLl6Cje2DvMLwIYsmrfUavhE6e7yL8714aMtgDc1nMBQ73ZMycX3yX1W%2B5d5JZGR85MxSbpS6Cgc7daGlfnZb9%2BxEQ0ZZcVKumOinbVOd%2Fp%2FW&X-Amz-Signature=5210937a89a05e90b30f6ca517217570b618f8d1ec01bc309d2174e20198c7a6&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
         "type" : "file",
-        "url" : "images\/218f454eb360803ba6bae1c1d3cb7ef7_image.jpg",
-        "url_expires_at" : "2025-08-21T20:33:57.316Z"
+        "url" : "images\/218f454eb360803ba6bae1c1d3cb7ef7_image.jpg"
       }
     ],
     "lastModified" : "2025-08-19T21:13:00.000Z",
@@ -186,10 +174,8 @@
     "image" : [
       {
         "name" : "burcu.jpeg",
-        "original_url" : "https:\/\/prod-files-secure.s3.us-west-2.amazonaws.com\/f700fc5e-43a2-490b-9ef1-f04ef9359af2\/3c4df5a6-0d80-4cf4-bf1c-1f81f27dbc7b\/burcu.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466QFT6KFJH%2F20250821%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250821T193357Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQC91SD%2F0AHupKl5RqLnryRjrWRJl6xGZzmPDTa6Fj2mcgIhAMW%2BejX%2FtYqXzRcNFlYwHEVOrmcNGlQu4ZJr7ez4p4buKogECPT%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgziXzQNiDzx%2F2egXx8q3AOlX%2FeHIANGzd1pi6uRVtj26o261SLgMpQ6mP%2F9FF1k4PF6s7P%2FqY4aUCwNya0%2Fa7JB3VkH0Q8BWGX0%2Ff8R2xA3d%2FhDfhwFbxo9lUTrPKNxbvQ%2BOZgEBIF2owJGQR8Mn3Z2WNhpfoeVwmtmWNZnLaaw82Qw8sQlsvAPMPIZCr5HuGfHM0UCMnr4DfFKGDB%2BS0cmGHkNe%2B6dIWs%2F4fzb6FdRvQ3U9E86t%2BxoYYou%2F7NAvPTkqUqKJvg3nWABgYmeqH46JfxGURr5v%2FevMs%2BOAZMdc%2BkATzvNJBLanQoH8t2Hz5NDMQe0I5RwIxW6sEj8%2B%2FAkt1z2zb0WS4P2CGDTheuLynVdWk2aBrkyG%2Fy0w18COTh6uhBOwfGT3XfC9xmVAExzC%2FcDTG77oZMf5l2PvFON7B8jZHwYiGaXMuhTUz%2FcWOYKlnXKRasrcGIfFYAazLCG%2FVO7lRQuKvigEqofpahz5w2Ztgax6NNraXoawbud6o%2FUwTx4V5t0GnBmMcppkc1s4DU9x%2F7VsgwVhGhN%2Fk7ZefEGOnJa2W8%2FrAv5NbBK%2BXic7Mk8hFOBQ5sQ7E%2F%2BoEOhEzbiq4iss3oAhRK4o%2F9ippvKf%2FeuV0YRCV5o1PnOIclaxE7nYOf1SDmH%2BjDh2Z3FBjqkAWpC4tRbJ%2BHTUggmk9vlcpNMZGQfgYQn366Wc5NF8xWV72du08s8WDl0L8mlusLM1OJt6iPNLMj0%2FikAspJpuhTLQmM5eJqwHEknZRGasJw1qhNDLl6Cje2DvMLwIYsmrfUavhE6e7yL8714aMtgDc1nMBQ73ZMycX3yX1W%2B5d5JZGR85MxSbpS6Cgc7daGlfnZb9%2BxEQ0ZZcVKumOinbVOd%2Fp%2FW&X-Amz-Signature=2a3fa4b5dd24059f268757de88de610dc7a637cfb6e17e546afa8d1b884e511e&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
         "type" : "file",
-        "url" : "images\/218f454eb36080628aa7df52586f3b68_image.jpeg",
-        "url_expires_at" : "2025-08-21T20:33:57.316Z"
+        "url" : "images\/218f454eb36080628aa7df52586f3b68_image.jpeg"
       }
     ],
     "lastModified" : "2025-08-19T21:13:00.000Z",
@@ -210,10 +196,8 @@
     "image" : [
       {
         "name" : "BrunoScheele_AIUpscaled.jpg",
-        "original_url" : "https:\/\/prod-files-secure.s3.us-west-2.amazonaws.com\/f700fc5e-43a2-490b-9ef1-f04ef9359af2\/2d3c5a26-b415-48c0-b435-12709fd39b0f\/BrunoScheele_AIUpscaled.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466QFT6KFJH%2F20250821%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250821T193357Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQC91SD%2F0AHupKl5RqLnryRjrWRJl6xGZzmPDTa6Fj2mcgIhAMW%2BejX%2FtYqXzRcNFlYwHEVOrmcNGlQu4ZJr7ez4p4buKogECPT%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgziXzQNiDzx%2F2egXx8q3AOlX%2FeHIANGzd1pi6uRVtj26o261SLgMpQ6mP%2F9FF1k4PF6s7P%2FqY4aUCwNya0%2Fa7JB3VkH0Q8BWGX0%2Ff8R2xA3d%2FhDfhwFbxo9lUTrPKNxbvQ%2BOZgEBIF2owJGQR8Mn3Z2WNhpfoeVwmtmWNZnLaaw82Qw8sQlsvAPMPIZCr5HuGfHM0UCMnr4DfFKGDB%2BS0cmGHkNe%2B6dIWs%2F4fzb6FdRvQ3U9E86t%2BxoYYou%2F7NAvPTkqUqKJvg3nWABgYmeqH46JfxGURr5v%2FevMs%2BOAZMdc%2BkATzvNJBLanQoH8t2Hz5NDMQe0I5RwIxW6sEj8%2B%2FAkt1z2zb0WS4P2CGDTheuLynVdWk2aBrkyG%2Fy0w18COTh6uhBOwfGT3XfC9xmVAExzC%2FcDTG77oZMf5l2PvFON7B8jZHwYiGaXMuhTUz%2FcWOYKlnXKRasrcGIfFYAazLCG%2FVO7lRQuKvigEqofpahz5w2Ztgax6NNraXoawbud6o%2FUwTx4V5t0GnBmMcppkc1s4DU9x%2F7VsgwVhGhN%2Fk7ZefEGOnJa2W8%2FrAv5NbBK%2BXic7Mk8hFOBQ5sQ7E%2F%2BoEOhEzbiq4iss3oAhRK4o%2F9ippvKf%2FeuV0YRCV5o1PnOIclaxE7nYOf1SDmH%2BjDh2Z3FBjqkAWpC4tRbJ%2BHTUggmk9vlcpNMZGQfgYQn366Wc5NF8xWV72du08s8WDl0L8mlusLM1OJt6iPNLMj0%2FikAspJpuhTLQmM5eJqwHEknZRGasJw1qhNDLl6Cje2DvMLwIYsmrfUavhE6e7yL8714aMtgDc1nMBQ73ZMycX3yX1W%2B5d5JZGR85MxSbpS6Cgc7daGlfnZb9%2BxEQ0ZZcVKumOinbVOd%2Fp%2FW&X-Amz-Signature=f13b008c0fb505608db19fcff39a9209ad6528cce1754a24d995c828149364e9&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
         "type" : "file",
-        "url" : "images\/218f454eb360806899addcb7ea9b252a_image.jpg",
-        "url_expires_at" : "2025-08-21T20:33:57.316Z"
+        "url" : "images\/218f454eb360806899addcb7ea9b252a_image.jpg"
       }
     ],
     "lastModified" : "2025-08-19T21:13:00.000Z",
@@ -234,10 +218,8 @@
     "image" : [
       {
         "name" : "Frank profile picture.jpg",
-        "original_url" : "https:\/\/prod-files-secure.s3.us-west-2.amazonaws.com\/f700fc5e-43a2-490b-9ef1-f04ef9359af2\/57ad7b19-feed-4d74-9fc7-690207e5093f\/Frank_profile_picture.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466QFT6KFJH%2F20250821%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250821T193357Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQC91SD%2F0AHupKl5RqLnryRjrWRJl6xGZzmPDTa6Fj2mcgIhAMW%2BejX%2FtYqXzRcNFlYwHEVOrmcNGlQu4ZJr7ez4p4buKogECPT%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgziXzQNiDzx%2F2egXx8q3AOlX%2FeHIANGzd1pi6uRVtj26o261SLgMpQ6mP%2F9FF1k4PF6s7P%2FqY4aUCwNya0%2Fa7JB3VkH0Q8BWGX0%2Ff8R2xA3d%2FhDfhwFbxo9lUTrPKNxbvQ%2BOZgEBIF2owJGQR8Mn3Z2WNhpfoeVwmtmWNZnLaaw82Qw8sQlsvAPMPIZCr5HuGfHM0UCMnr4DfFKGDB%2BS0cmGHkNe%2B6dIWs%2F4fzb6FdRvQ3U9E86t%2BxoYYou%2F7NAvPTkqUqKJvg3nWABgYmeqH46JfxGURr5v%2FevMs%2BOAZMdc%2BkATzvNJBLanQoH8t2Hz5NDMQe0I5RwIxW6sEj8%2B%2FAkt1z2zb0WS4P2CGDTheuLynVdWk2aBrkyG%2Fy0w18COTh6uhBOwfGT3XfC9xmVAExzC%2FcDTG77oZMf5l2PvFON7B8jZHwYiGaXMuhTUz%2FcWOYKlnXKRasrcGIfFYAazLCG%2FVO7lRQuKvigEqofpahz5w2Ztgax6NNraXoawbud6o%2FUwTx4V5t0GnBmMcppkc1s4DU9x%2F7VsgwVhGhN%2Fk7ZefEGOnJa2W8%2FrAv5NbBK%2BXic7Mk8hFOBQ5sQ7E%2F%2BoEOhEzbiq4iss3oAhRK4o%2F9ippvKf%2FeuV0YRCV5o1PnOIclaxE7nYOf1SDmH%2BjDh2Z3FBjqkAWpC4tRbJ%2BHTUggmk9vlcpNMZGQfgYQn366Wc5NF8xWV72du08s8WDl0L8mlusLM1OJt6iPNLMj0%2FikAspJpuhTLQmM5eJqwHEknZRGasJw1qhNDLl6Cje2DvMLwIYsmrfUavhE6e7yL8714aMtgDc1nMBQ73ZMycX3yX1W%2B5d5JZGR85MxSbpS6Cgc7daGlfnZb9%2BxEQ0ZZcVKumOinbVOd%2Fp%2FW&X-Amz-Signature=05b68879101c079e022a178955f7feac046562dd97d9db8660ed5165daf64ec2&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
         "type" : "file",
-        "url" : "images\/218f454eb3608048a38dd8597c57e7a4_image.jpg",
-        "url_expires_at" : "2025-08-21T20:33:57.316Z"
+        "url" : "images\/218f454eb3608048a38dd8597c57e7a4_image.jpg"
       }
     ],
     "lastModified" : "2025-08-19T21:13:00.000Z",
@@ -258,10 +240,8 @@
     "image" : [
       {
         "name" : "john_edit.jpeg",
-        "original_url" : "https:\/\/prod-files-secure.s3.us-west-2.amazonaws.com\/f700fc5e-43a2-490b-9ef1-f04ef9359af2\/c407d879-d15c-4535-a919-99af1920b785\/john_edit.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466QFT6KFJH%2F20250821%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250821T193357Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQC91SD%2F0AHupKl5RqLnryRjrWRJl6xGZzmPDTa6Fj2mcgIhAMW%2BejX%2FtYqXzRcNFlYwHEVOrmcNGlQu4ZJr7ez4p4buKogECPT%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgziXzQNiDzx%2F2egXx8q3AOlX%2FeHIANGzd1pi6uRVtj26o261SLgMpQ6mP%2F9FF1k4PF6s7P%2FqY4aUCwNya0%2Fa7JB3VkH0Q8BWGX0%2Ff8R2xA3d%2FhDfhwFbxo9lUTrPKNxbvQ%2BOZgEBIF2owJGQR8Mn3Z2WNhpfoeVwmtmWNZnLaaw82Qw8sQlsvAPMPIZCr5HuGfHM0UCMnr4DfFKGDB%2BS0cmGHkNe%2B6dIWs%2F4fzb6FdRvQ3U9E86t%2BxoYYou%2F7NAvPTkqUqKJvg3nWABgYmeqH46JfxGURr5v%2FevMs%2BOAZMdc%2BkATzvNJBLanQoH8t2Hz5NDMQe0I5RwIxW6sEj8%2B%2FAkt1z2zb0WS4P2CGDTheuLynVdWk2aBrkyG%2Fy0w18COTh6uhBOwfGT3XfC9xmVAExzC%2FcDTG77oZMf5l2PvFON7B8jZHwYiGaXMuhTUz%2FcWOYKlnXKRasrcGIfFYAazLCG%2FVO7lRQuKvigEqofpahz5w2Ztgax6NNraXoawbud6o%2FUwTx4V5t0GnBmMcppkc1s4DU9x%2F7VsgwVhGhN%2Fk7ZefEGOnJa2W8%2FrAv5NbBK%2BXic7Mk8hFOBQ5sQ7E%2F%2BoEOhEzbiq4iss3oAhRK4o%2F9ippvKf%2FeuV0YRCV5o1PnOIclaxE7nYOf1SDmH%2BjDh2Z3FBjqkAWpC4tRbJ%2BHTUggmk9vlcpNMZGQfgYQn366Wc5NF8xWV72du08s8WDl0L8mlusLM1OJt6iPNLMj0%2FikAspJpuhTLQmM5eJqwHEknZRGasJw1qhNDLl6Cje2DvMLwIYsmrfUavhE6e7yL8714aMtgDc1nMBQ73ZMycX3yX1W%2B5d5JZGR85MxSbpS6Cgc7daGlfnZb9%2BxEQ0ZZcVKumOinbVOd%2Fp%2FW&X-Amz-Signature=dc0ad5b60d609ac028a75cf6471be29d8792e42353352fcb630990bd5fc1fd94&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
         "type" : "file",
-        "url" : "images\/218f454eb3608057b247fb8d110ba1de_image.jpeg",
-        "url_expires_at" : "2025-08-21T20:33:57.316Z"
+        "url" : "images\/218f454eb3608057b247fb8d110ba1de_image.jpeg"
       }
     ],
     "lastModified" : "2025-08-19T21:13:00.000Z",
@@ -282,10 +262,8 @@
     "image" : [
       {
         "name" : "DSCF5103-2_Original.jpg",
-        "original_url" : "https:\/\/prod-files-secure.s3.us-west-2.amazonaws.com\/f700fc5e-43a2-490b-9ef1-f04ef9359af2\/e6c84198-d2f0-47d6-8e5c-f8d67c38e8ff\/DSCF5103-2_Original.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466QFT6KFJH%2F20250821%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250821T193357Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQC91SD%2F0AHupKl5RqLnryRjrWRJl6xGZzmPDTa6Fj2mcgIhAMW%2BejX%2FtYqXzRcNFlYwHEVOrmcNGlQu4ZJr7ez4p4buKogECPT%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgziXzQNiDzx%2F2egXx8q3AOlX%2FeHIANGzd1pi6uRVtj26o261SLgMpQ6mP%2F9FF1k4PF6s7P%2FqY4aUCwNya0%2Fa7JB3VkH0Q8BWGX0%2Ff8R2xA3d%2FhDfhwFbxo9lUTrPKNxbvQ%2BOZgEBIF2owJGQR8Mn3Z2WNhpfoeVwmtmWNZnLaaw82Qw8sQlsvAPMPIZCr5HuGfHM0UCMnr4DfFKGDB%2BS0cmGHkNe%2B6dIWs%2F4fzb6FdRvQ3U9E86t%2BxoYYou%2F7NAvPTkqUqKJvg3nWABgYmeqH46JfxGURr5v%2FevMs%2BOAZMdc%2BkATzvNJBLanQoH8t2Hz5NDMQe0I5RwIxW6sEj8%2B%2FAkt1z2zb0WS4P2CGDTheuLynVdWk2aBrkyG%2Fy0w18COTh6uhBOwfGT3XfC9xmVAExzC%2FcDTG77oZMf5l2PvFON7B8jZHwYiGaXMuhTUz%2FcWOYKlnXKRasrcGIfFYAazLCG%2FVO7lRQuKvigEqofpahz5w2Ztgax6NNraXoawbud6o%2FUwTx4V5t0GnBmMcppkc1s4DU9x%2F7VsgwVhGhN%2Fk7ZefEGOnJa2W8%2FrAv5NbBK%2BXic7Mk8hFOBQ5sQ7E%2F%2BoEOhEzbiq4iss3oAhRK4o%2F9ippvKf%2FeuV0YRCV5o1PnOIclaxE7nYOf1SDmH%2BjDh2Z3FBjqkAWpC4tRbJ%2BHTUggmk9vlcpNMZGQfgYQn366Wc5NF8xWV72du08s8WDl0L8mlusLM1OJt6iPNLMj0%2FikAspJpuhTLQmM5eJqwHEknZRGasJw1qhNDLl6Cje2DvMLwIYsmrfUavhE6e7yL8714aMtgDc1nMBQ73ZMycX3yX1W%2B5d5JZGR85MxSbpS6Cgc7daGlfnZb9%2BxEQ0ZZcVKumOinbVOd%2Fp%2FW&X-Amz-Signature=7b27494bf2465f35b16ac87f499009bcaec4b2697276debe742ff1f6aaad02b5&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
         "type" : "file",
-        "url" : "images\/218f454eb360804aa7cff78cbdc7a0a3_image.jpg",
-        "url_expires_at" : "2025-08-21T20:33:57.316Z"
+        "url" : "images\/218f454eb360804aa7cff78cbdc7a0a3_image.jpg"
       }
     ],
     "lastModified" : "2025-08-19T21:13:00.000Z",
