@@ -3,9 +3,9 @@
     "activity" : "254f454e-b360-8134-b2ee-d688ee0c0ffc",
     "createdAt" : 1755805680,
     "id" : "256f454e-b360-8066-af4e-ed3a12b50604",
-    "lastModified" : 1755808440,
+    "lastModified" : 1755809520,
     "startDate" : {
-      "start" : 1788264000
+      "start" : 1756728000
     },
     "startDate(Deprecated)" : 1756720800,
     "title" : ""
@@ -432,9 +432,10 @@
     "activity" : "254f454e-b360-8153-b9bb-e32d7dff6554",
     "createdAt" : 1755637080,
     "id" : "254f454e-b360-8111-956b-d7588113cafa",
-    "lastModified" : 1755808440,
+    "lastModified" : 1755809880,
     "startDate" : {
-      "start" : 1724677200
+      "end" : 1756735200,
+      "start" : 1756731600
     },
     "startDate(Deprecated)" : 1724677200,
     "title" : ""

@@ -27,8 +27,8 @@ public struct Event {
     internal init(dbEvent: DBEvent, activity: Activity) {
         self.id = dbEvent.id
         self.startDate = dbEvent.startDate.start
-        self.endDate = dbEvent.startDate.start.addingTimeInterval(activity.duration)
-        self.duration = activity.duration
+        self.endDate = dbEvent.startDate.end ?? dbEvent.startDate.start.addingTimeInterval(activity.duration)
+        self.duration = self.endDate.timeIntervalSince(self.startDate)
         self.activity = activity
     }
 }
