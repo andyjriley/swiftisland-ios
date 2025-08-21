@@ -5,10 +5,15 @@
 
 import Foundation
 
+public enum Role: String, Codable {
+    case mentor = "Mentor"
+    case speaker = "Speaker"
+    case organizer = "Organizer"
+}
+
 public struct Mentor: Response {
     public let id: String
     public let description: String
-    public let imageName: String = "speaker-sofia-2025" // Legacy fallback for static images
     public let image: [RemoteImage]
     public let name: String
     public let twitter: String?
@@ -16,9 +21,11 @@ public struct Mentor: Response {
     public let linkedIn: String?
     public let mastodon: String?
     public let order: Int
+    public let role: Role
+    
     
     enum CodingKeys: String, CodingKey {
-        case id, description, image, name, twitter, web, linkedIn, mastodon, order
+        case id, description, image, name, twitter, web, linkedIn, mastodon, order, role
     }
 
     public var twitterUrl: URL? {
@@ -58,7 +65,7 @@ extension Mentor {
                                   web: String? = "https://www.swiftisland.nl",
                                   linkedIn: String? = "ppeelen",
                                   mastodon: String? = nil,
-                                  order: Int = 0) -> Mentor {
+                                  order: Int = 0, role: Role = .mentor) -> Mentor {
         Mentor(
             id: id,
             description: description,
@@ -68,7 +75,8 @@ extension Mentor {
             web: web,
             linkedIn: linkedIn,
             mastodon: mastodon,
-            order: order
+            order: order,
+            role: role
         )
     }
 }

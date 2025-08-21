@@ -27,7 +27,7 @@ struct ConferenceBoxMentors: View {
                 .padding(.bottom, 0)
             ScrollView(.horizontal, showsIndicators: false) {
                 LazyHStack {
-                    ForEach(appDataModel.mentors) { mentor in
+                    ForEach(appDataModel.mentors.filter({mentor in mentor.role != Role.organizer})) { mentor in
                         MentorView(namespace: namespace, mentor: mentor, isShowContent: $isShowingMentor)
                             .matchedGeometryEffect(id: mentor.id, in: namespace)
                             .mask {

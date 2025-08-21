@@ -102,7 +102,7 @@ public class SwiftIslandDataLogic: DataLogic, ObservableObject {
     /// - Returns: Array of `Mentor`
     public func fetchMentors() async -> [Mentor] {
         do {
-            let data = try await DataSync.fetchURL("mentors.json")
+            let data = try await DataSync.fetchURL("presenters.json")
             return try JSONDecoder().decode([Mentor].self, from: data)
         } catch {
             print("Failed to load mentors: \(error)")
@@ -151,7 +151,7 @@ public class SwiftIslandDataLogic: DataLogic, ObservableObject {
             let dbEvents = try JSONDecoder().decode([DBEvent].self, from: data)
             
             let events: [Event] = dbEvents.compactMap { dbEvent in
-                guard let activity = activities.first(where: { $0.id == dbEvent.activityId }) else { return nil }
+                guard let activity = activities.first(where: { $0.id == dbEvent.activity }) else { return nil }
                 return Event(dbEvent: dbEvent, activity: activity)
             }.sorted(by: { $0.startDate < $1.startDate })
 

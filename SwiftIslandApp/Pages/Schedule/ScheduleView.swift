@@ -162,7 +162,7 @@ struct ScheduleView: View {
 
             let secondsSinceStartOfDay = abs(selectedDate.atHour(startHourOfDay)?.timeIntervalSince(event.startDate) ?? 0)
 
-            let frame = CGRect(x: 0, y: secondsSinceStartOfDay * heightPerSecond, width: 60, height: activity.duration * heightPerSecond)
+            let frame = CGRect(x: 0, y: secondsSinceStartOfDay * heightPerSecond, width: 60, height: event.duration * heightPerSecond)
             event.coordinates = frame
 
             let positionedEvents = pos.filter {

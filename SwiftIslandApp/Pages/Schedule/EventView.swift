@@ -14,7 +14,7 @@ struct EventView: View {
 
     var body: some View {
         let mainColor = event.activity.type.color
-        let endDate = event.startDate.addingTimeInterval(event.activity.duration)
+        let endDate = event.endDate
 
         VStack {
             VStack {
@@ -25,14 +25,14 @@ struct EventView: View {
                         .padding(.top, 4)
                         .fontWeight(.semibold)
                         .dynamicTypeSize(.small ... .large)
-                    if (event.activity.duration / 60) < 60 {
+                    if (event.duration / 60) < 60 {
                         if event.columnCount > 0 {
-                            Text("\(event.startDate.formatted(date: .omitted, time: .shortened)), \(Int(event.activity.duration / 60)) min")
+                            Text("\(event.startDate.formatted(date: .omitted, time: .shortened)), \(Int(event.duration / 60)) min")
                                 .foregroundColor(mainColor)
                                 .font(.caption2)
                                 .dynamicTypeSize(.small ... .large)
                         } else {
-                            Text("\(event.startDate.formatted(date: .omitted, time: .shortened)) - \(endDate.formatted(date: .omitted, time: .shortened)), \(Int(event.activity.duration / 60)) min")
+                            Text("\(event.startDate.formatted(date: .omitted, time: .shortened)) - \(endDate.formatted(date: .omitted, time: .shortened)), \(Int(event.duration / 60)) min")
                                 .foregroundColor(mainColor)
                                 .font(.caption2)
                                 .dynamicTypeSize(.small ... .large)
@@ -42,7 +42,7 @@ struct EventView: View {
                             .foregroundColor(mainColor)
                             .font(.caption2)
                             .dynamicTypeSize(.small ... .large)
-                        Text("Duration: \(Int(event.activity.duration / 60)) min")
+                        Text("Duration: \(Int(event.duration / 60)) min")
                             .foregroundColor(mainColor)
                             .font(.caption2)
                             .dynamicTypeSize(.small ... .large)
