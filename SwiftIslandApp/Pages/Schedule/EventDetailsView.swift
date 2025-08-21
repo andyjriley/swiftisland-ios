@@ -42,7 +42,7 @@ struct EventDetailsView: View {
                         .fontWeight(.light)
                         .dynamicTypeSize(DynamicTypeSize.small ... DynamicTypeSize.large)
                     if !event.activity.mentors.isEmpty {
-                        Text("Mentors")
+                        Text("Presenter\(event.activity.mentors.count == 1 ? "" : "s")")
                             .font(.footnote)
                             .foregroundColor(.secondary)
                         let mentors = event.activity.mentors.compactMap({ mentorId in appDataModel.mentors.first(where: {$0.id == mentorId })})
