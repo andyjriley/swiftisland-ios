@@ -5,9 +5,7 @@
     "duration" : 9000,
     "id" : "254f454e-b360-8153-b9bb-e32d7dff6554",
     "lastModified" : "2025-08-19T20:33:00.000Z",
-    "location" : [
-
-    ],
+    "location" : "",
     "mentors" : [
 
     ],
@@ -21,7 +19,9 @@
     "id" : "254f454e-b360-8143-98c9-ddac7c6bafc9",
     "lastModified" : "2025-08-19T21:22:00.000Z",
     "location" : "254f454e-b360-81e8-91be-cfa2ad567516",
-    "mentors" : "21cf454e-b360-8044-9930-f544c4ebf0f7",
+    "mentors" : [
+      "21cf454e-b360-8044-9930-f544c4ebf0f7"
+    ],
     "title" : "🔮 Shift Island: Fennande van der Meulen",
     "type" : "Invite only activity"
   },
@@ -71,7 +71,9 @@
     "id" : "254f454e-b360-8122-8e13-c7d9717f7c17",
     "lastModified" : "2025-08-19T21:18:00.000Z",
     "location" : "254f454e-b360-8147-bc0a-c499e7256461",
-    "mentors" : "254f454e-b360-81a2-85c0-da7625a3ef03",
+    "mentors" : [
+      "254f454e-b360-81a2-85c0-da7625a3ef03"
+    ],
     "title" : "🚲 Bike Ride by Night",
     "type" : "Social"
   },
@@ -82,7 +84,9 @@
     "id" : "254f454e-b360-8148-9e2b-e524d68951be",
     "lastModified" : "2025-08-19T21:19:00.000Z",
     "location" : "254f454e-b360-8153-b138-f13b75c33815",
-    "mentors" : "254f454e-b360-8199-b281-d8b7e3c22a5a",
+    "mentors" : [
+      "254f454e-b360-8199-b281-d8b7e3c22a5a"
+    ],
     "title" : "🙏 Morning Meditation",
     "type" : "Social"
   },
@@ -92,9 +96,7 @@
     "duration" : 7200,
     "id" : "254f454e-b360-81ec-8632-cdf5eb03f012",
     "lastModified" : "2025-08-19T20:16:00.000Z",
-    "location" : [
-
-    ],
+    "location" : "",
     "mentors" : [
 
     ],
@@ -121,7 +123,9 @@
     "id" : "254f454e-b360-813d-91be-e25be4335b7a",
     "lastModified" : "2025-08-19T21:22:00.000Z",
     "location" : "254f454e-b360-81e8-91be-cfa2ad567516",
-    "mentors" : "21cf454e-b360-8092-a54a-de86afe97f4c",
+    "mentors" : [
+      "21cf454e-b360-8092-a54a-de86afe97f4c"
+    ],
     "title" : "🔮 Shift Island: Ryan McLeod",
     "type" : "Invite only activity"
   },
@@ -158,7 +162,9 @@
     "id" : "254f454e-b360-8106-b8c8-f68b8945046f",
     "lastModified" : "2025-08-19T21:22:00.000Z",
     "location" : "254f454e-b360-81e8-91be-cfa2ad567516",
-    "mentors" : "21cf454e-b360-803a-94f4-f7ec1e62e6a8",
+    "mentors" : [
+      "21cf454e-b360-803a-94f4-f7ec1e62e6a8"
+    ],
     "title" : "🔮 Shift Island: Feli Bernutz",
     "type" : "Invite only activity"
   },
@@ -168,9 +174,7 @@
     "duration" : 1800,
     "id" : "254f454e-b360-8177-a4fc-fe956ae334d1",
     "lastModified" : "2025-08-19T20:16:00.000Z",
-    "location" : [
-
-    ],
+    "location" : "",
     "mentors" : [
 
     ],
@@ -222,9 +226,7 @@
     "duration" : 7200,
     "id" : "254f454e-b360-81a2-9e49-e5587f55c0cc",
     "lastModified" : "2025-08-19T20:16:00.000Z",
-    "location" : [
-
-    ],
+    "location" : "",
     "mentors" : [
 
     ],
@@ -238,7 +240,9 @@
     "id" : "254f454e-b360-81c9-9e8d-d91285ee6e25",
     "lastModified" : "2025-08-19T21:17:00.000Z",
     "location" : "254f454e-b360-81e8-91be-cfa2ad567516",
-    "mentors" : "254f454e-b360-8199-b281-d8b7e3c22a5a",
+    "mentors" : [
+      "254f454e-b360-8199-b281-d8b7e3c22a5a"
+    ],
     "title" : "🎤 Pub quiz",
     "type" : "Social"
   },
@@ -262,7 +266,9 @@
     "id" : "254f454e-b360-815f-9ffc-d45f8c095b28",
     "lastModified" : "2025-08-19T21:17:00.000Z",
     "location" : "254f454e-b360-81e8-91be-cfa2ad567516",
-    "mentors" : "254f454e-b360-8199-b281-d8b7e3c22a5a",
+    "mentors" : [
+      "254f454e-b360-8199-b281-d8b7e3c22a5a"
+    ],
     "title" : "🚪Day opening",
     "type" : "Workshop"
   },
