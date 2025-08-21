@@ -1,254 +1,254 @@
 [
   {
-    "createdAt" : "2025-08-19T20:18:00.000Z",
-    "order" : 60,
     "checked" : false,
-    "title" : "Workout gear",
+    "createdAt" : "2025-08-19T20:18:00.000Z",
     "id" : "60",
+    "lastModified" : "2025-08-19T20:18:00.000Z",
+    "order" : 60,
     "subtitle" : "For if you want to participate our morning sessions: yoga, mediation or running. Think pants\/shorts, shirt and shoes.",
-    "lastModified" : "2025-08-19T20:18:00.000Z"
+    "title" : "Workout gear"
   },
   {
-    "createdAt" : "2025-08-19T20:18:00.000Z",
-    "order" : 58,
     "checked" : false,
-    "title" : "Stickers (and\/or other swag)",
+    "createdAt" : "2025-08-19T20:18:00.000Z",
     "id" : "58",
+    "lastModified" : "2025-08-19T20:18:00.000Z",
+    "order" : 58,
     "subtitle" : "You have a product? Made an app you want to promote?",
-    "lastModified" : "2025-08-19T20:18:00.000Z"
+    "title" : "Stickers (and\/or other swag)"
   },
   {
-    "createdAt" : "2025-08-19T20:18:00.000Z",
-    "order" : 57,
     "checked" : false,
-    "title" : "Business cards",
+    "createdAt" : "2025-08-19T20:18:00.000Z",
     "id" : "57",
+    "lastModified" : "2025-08-19T20:18:00.000Z",
+    "order" : 57,
     "subtitle" : "Yes, they are still a thing",
-    "lastModified" : "2025-08-19T20:18:00.000Z"
+    "title" : "Business cards"
   },
   {
-    "createdAt" : "2025-08-19T20:18:00.000Z",
-    "order" : 56,
     "checked" : false,
-    "title" : "External storage",
+    "createdAt" : "2025-08-19T20:18:00.000Z",
     "id" : "56",
+    "lastModified" : "2025-08-19T20:18:00.000Z",
+    "order" : 56,
     "subtitle" : "A USB drive or external harddrive",
-    "lastModified" : "2025-08-19T20:18:00.000Z"
+    "title" : "External storage"
   },
   {
-    "createdAt" : "2025-08-19T20:18:00.000Z",
-    "order" : 55,
     "checked" : false,
-    "title" : "Mosquito\/bug spray",
+    "createdAt" : "2025-08-19T20:18:00.000Z",
     "id" : "55",
+    "lastModified" : "2025-08-19T20:18:00.000Z",
+    "order" : 55,
     "subtitle" : "",
-    "lastModified" : "2025-08-19T20:18:00.000Z"
+    "title" : "Mosquito\/bug spray"
   },
   {
-    "createdAt" : "2025-08-19T20:18:00.000Z",
-    "order" : 54,
     "checked" : false,
-    "title" : "Medication",
+    "createdAt" : "2025-08-19T20:18:00.000Z",
     "id" : "54",
+    "lastModified" : "2025-08-19T20:18:00.000Z",
+    "order" : 54,
     "subtitle" : "If needed a medication passport (Get them at your doctor. Used to speed up crossing borders)",
-    "lastModified" : "2025-08-19T20:18:00.000Z"
+    "title" : "Medication"
   },
   {
-    "createdAt" : "2025-08-19T20:18:00.000Z",
-    "order" : 53,
     "checked" : false,
-    "title" : "Toothbrush",
+    "createdAt" : "2025-08-19T20:18:00.000Z",
     "id" : "53",
+    "lastModified" : "2025-08-19T20:18:00.000Z",
+    "order" : 53,
     "subtitle" : "",
-    "lastModified" : "2025-08-19T20:18:00.000Z"
+    "title" : "Toothbrush"
   },
   {
-    "createdAt" : "2025-08-19T20:18:00.000Z",
-    "order" : 52,
     "checked" : false,
-    "title" : "Toiletries bag",
+    "createdAt" : "2025-08-19T20:18:00.000Z",
     "id" : "52",
+    "lastModified" : "2025-08-19T20:18:00.000Z",
+    "order" : 52,
     "subtitle" : "If you are traveling by plane, use travel-sized products and containers",
-    "lastModified" : "2025-08-19T20:18:00.000Z"
+    "title" : "Toiletries bag"
   },
   {
-    "createdAt" : "2025-08-19T20:18:00.000Z",
-    "order" : 51,
     "checked" : false,
-    "title" : "Clothes for warm weather",
+    "createdAt" : "2025-08-19T20:18:00.000Z",
     "id" : "51",
+    "lastModified" : "2025-08-19T20:18:00.000Z",
+    "order" : 51,
     "subtitle" : "",
-    "lastModified" : "2025-08-19T20:18:00.000Z"
+    "title" : "Clothes for warm weather"
   },
   {
-    "createdAt" : "2025-08-19T20:18:00.000Z",
-    "order" : 50,
     "checked" : false,
-    "title" : "Clothes for cold weather",
+    "createdAt" : "2025-08-19T20:18:00.000Z",
     "id" : "50",
+    "lastModified" : "2025-08-19T20:18:00.000Z",
+    "order" : 50,
     "subtitle" : "Or at least a sweater. It's still summer in the Netherlands, but you never know here",
-    "lastModified" : "2025-08-19T20:18:00.000Z"
+    "title" : "Clothes for cold weather"
   },
   {
-    "createdAt" : "2025-08-19T20:18:00.000Z",
-    "order" : 49,
     "checked" : false,
-    "title" : "Swimming gear",
+    "createdAt" : "2025-08-19T20:18:00.000Z",
     "id" : "49",
+    "lastModified" : "2025-08-19T20:18:00.000Z",
+    "order" : 49,
     "subtitle" : "You will need it for the hottub, sauna and cold dip in the sea",
-    "lastModified" : "2025-08-19T20:18:00.000Z"
+    "title" : "Swimming gear"
   },
   {
-    "lastModified" : "2025-08-19T20:18:00.000Z",
-    "subtitle" : "Boardgames, field games, video games, or any other game you like, as long as it's multiplayer",
+    "checked" : false,
     "createdAt" : "2025-08-19T20:18:00.000Z",
-    "title" : "Games",
     "id" : "41",
-    "checked" : false,
-    "order" : 41
+    "lastModified" : "2025-08-19T20:18:00.000Z",
+    "order" : 41,
+    "subtitle" : "Boardgames, field games, video games, or any other game you like, as long as it's multiplayer",
+    "title" : "Games"
   },
   {
-    "lastModified" : "2025-08-19T20:18:00.000Z",
-    "subtitle" : "If applicable also a VISA (check your local consulate)",
+    "checked" : false,
     "createdAt" : "2025-08-19T20:18:00.000Z",
-    "title" : "Passport",
     "id" : "40",
-    "checked" : false,
-    "order" : 40
+    "lastModified" : "2025-08-19T20:18:00.000Z",
+    "order" : 40,
+    "subtitle" : "If applicable also a VISA (check your local consulate)",
+    "title" : "Passport"
   },
   {
-    "lastModified" : "2025-08-19T20:18:00.000Z",
-    "subtitle" : "",
+    "checked" : false,
     "createdAt" : "2025-08-19T20:18:00.000Z",
-    "title" : "Hat",
     "id" : "33",
-    "checked" : false,
-    "order" : 33
+    "lastModified" : "2025-08-19T20:18:00.000Z",
+    "order" : 33,
+    "subtitle" : "",
+    "title" : "Hat"
   },
   {
-    "lastModified" : "2025-08-19T20:18:00.000Z",
-    "subtitle" : "",
+    "checked" : false,
     "createdAt" : "2025-08-19T20:18:00.000Z",
-    "title" : "Sunscreen",
     "id" : "32",
-    "checked" : false,
-    "order" : 32
+    "lastModified" : "2025-08-19T20:18:00.000Z",
+    "order" : 32,
+    "subtitle" : "",
+    "title" : "Sunscreen"
   },
   {
-    "lastModified" : "2025-08-19T20:18:00.000Z",
-    "subtitle" : "",
+    "checked" : false,
     "createdAt" : "2025-08-19T20:18:00.000Z",
-    "title" : "Sunglasses",
     "id" : "31",
-    "checked" : false,
-    "order" : 31
+    "lastModified" : "2025-08-19T20:18:00.000Z",
+    "order" : 31,
+    "subtitle" : "",
+    "title" : "Sunglasses"
   },
   {
-    "lastModified" : "2025-08-19T20:18:00.000Z",
-    "subtitle" : "",
+    "checked" : false,
     "createdAt" : "2025-08-19T20:18:00.000Z",
-    "title" : "Water bottle",
     "id" : "30",
-    "checked" : false,
-    "order" : 30
+    "lastModified" : "2025-08-19T20:18:00.000Z",
+    "order" : 30,
+    "subtitle" : "",
+    "title" : "Water bottle"
   },
   {
-    "lastModified" : "2025-08-19T20:18:00.000Z",
-    "subtitle" : "",
+    "checked" : false,
     "createdAt" : "2025-08-19T20:18:00.000Z",
-    "title" : "Battery pack",
     "id" : "24",
-    "checked" : false,
-    "order" : 24
+    "lastModified" : "2025-08-19T20:18:00.000Z",
+    "order" : 24,
+    "subtitle" : "",
+    "title" : "Battery pack"
   },
   {
-    "lastModified" : "2025-08-19T20:18:00.000Z",
-    "subtitle" : "",
+    "checked" : false,
     "createdAt" : "2025-08-19T20:18:00.000Z",
-    "title" : "Apple Watch charger",
     "id" : "23",
-    "checked" : false,
-    "order" : 23
+    "lastModified" : "2025-08-19T20:18:00.000Z",
+    "order" : 23,
+    "subtitle" : "",
+    "title" : "Apple Watch charger"
   },
   {
-    "lastModified" : "2025-08-19T20:18:00.000Z",
-    "subtitle" : "",
+    "checked" : false,
     "createdAt" : "2025-08-19T20:18:00.000Z",
-    "title" : "Lightning cables",
     "id" : "22",
-    "checked" : false,
-    "order" : 22
-  },
-  {
     "lastModified" : "2025-08-19T20:18:00.000Z",
+    "order" : 22,
     "subtitle" : "",
+    "title" : "Lightning cables"
+  },
+  {
+    "checked" : false,
     "createdAt" : "2025-08-19T20:18:00.000Z",
-    "title" : "USB-C cables",
     "id" : "21",
-    "checked" : false,
-    "order" : 21
+    "lastModified" : "2025-08-19T20:18:00.000Z",
+    "order" : 21,
+    "subtitle" : "",
+    "title" : "USB-C cables"
   },
   {
-    "createdAt" : "2025-08-19T20:18:00.000Z",
-    "order" : 20,
     "checked" : false,
-    "title" : "MacBook charger",
+    "createdAt" : "2025-08-19T20:18:00.000Z",
     "id" : "20",
+    "lastModified" : "2025-08-19T20:18:00.000Z",
+    "order" : 20,
     "subtitle" : "",
-    "lastModified" : "2025-08-19T20:18:00.000Z"
+    "title" : "MacBook charger"
   },
   {
-    "createdAt" : "2025-08-19T20:18:00.000Z",
-    "order" : 11,
     "checked" : false,
-    "title" : "Travel plug",
+    "createdAt" : "2025-08-19T20:18:00.000Z",
     "id" : "11",
+    "lastModified" : "2025-08-19T20:18:00.000Z",
+    "order" : 11,
     "subtitle" : "If applicable, Type C and Type F are supported in the Netherlands",
-    "lastModified" : "2025-08-19T20:18:00.000Z"
+    "title" : "Travel plug"
   },
   {
-    "createdAt" : "2025-08-19T20:18:00.000Z",
-    "order" : 10,
     "checked" : false,
-    "title" : "Power strip",
+    "createdAt" : "2025-08-19T20:18:00.000Z",
     "id" : "10",
+    "lastModified" : "2025-08-19T20:18:00.000Z",
+    "order" : 10,
     "subtitle" : "If it fits your bag, it helps a lot with sharing power outlets",
-    "lastModified" : "2025-08-19T20:18:00.000Z"
+    "title" : "Power strip"
   },
   {
-    "createdAt" : "2025-08-19T20:18:00.000Z",
-    "order" : 3,
     "checked" : false,
-    "title" : "Apple Watch",
+    "createdAt" : "2025-08-19T20:18:00.000Z",
     "id" : "3",
+    "lastModified" : "2025-08-19T20:18:00.000Z",
+    "order" : 3,
     "subtitle" : "",
-    "lastModified" : "2025-08-19T20:18:00.000Z"
+    "title" : "Apple Watch"
   },
   {
-    "createdAt" : "2025-08-19T20:18:00.000Z",
-    "order" : 2,
     "checked" : false,
-    "title" : "iPad",
+    "createdAt" : "2025-08-19T20:18:00.000Z",
     "id" : "2",
+    "lastModified" : "2025-08-19T20:18:00.000Z",
+    "order" : 2,
     "subtitle" : "",
-    "lastModified" : "2025-08-19T20:18:00.000Z"
+    "title" : "iPad"
   },
   {
-    "createdAt" : "2025-08-19T20:18:00.000Z",
-    "order" : 1,
     "checked" : false,
-    "title" : "iPhone",
+    "createdAt" : "2025-08-19T20:18:00.000Z",
     "id" : "1",
+    "lastModified" : "2025-08-19T20:18:00.000Z",
+    "order" : 1,
     "subtitle" : "",
-    "lastModified" : "2025-08-19T20:18:00.000Z"
+    "title" : "iPhone"
   },
   {
-    "createdAt" : "2025-08-19T20:18:00.000Z",
-    "order" : 0,
     "checked" : false,
-    "title" : "MacBook",
+    "createdAt" : "2025-08-19T20:18:00.000Z",
     "id" : "0",
+    "lastModified" : "2025-08-19T20:18:00.000Z",
+    "order" : 0,
     "subtitle" : "",
-    "lastModified" : "2025-08-19T20:18:00.000Z"
+    "title" : "MacBook"
   }
 ]
