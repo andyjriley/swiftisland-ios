@@ -79,20 +79,23 @@ struct PuzzlePageView: View {
     var puzzleHints
     @State var currentPuzzleSlug: String?
     var body: some View {
-        VStack {
-            if appDataModel.puzzles.isEmpty {
-                Text("Loading...")
-            } else {
-                Text("Hints").font(.title)
-                VStack(alignment: .leading) {
-                    Text("Put your phone against any seal you discover ").strikethrough(!puzzleStatus.isEmpty)
-                    ForEach(puzzleHints.keys.sorted(), id: \.self) { slug in
-                        if let hint = puzzleHints[slug] {
-                            let status = puzzleStatus[slug]
-                            let usedHint = status != nil && status != .notFound
-                            Text(hint).strikethrough(usedHint)
+        ScrollView {
+            VStack {
+                if appDataModel.puzzles.isEmpty {
+                    Text("Loading...")
+                } else {
+                    Text("Hints").font(.title)
+                    VStack(alignment: .leading) {
+                        Text("Put your phone against any seal you discover ").strikethrough(!puzzleStatus.isEmpty)
+                        ForEach(puzzleHints.keys.sorted(), id: \.self) { slug in
+                            if let hint = puzzleHints[slug] {
+                                let status = puzzleStatus[slug]
+                                let usedHint = status != nil && status != .notFound
+                                Text(hint).strikethrough(usedHint)
+                            }
                         }
                     }
+                    .padding(20)
                     Spacer()
                     PuzzleGrid(currentPuzzleSlug: currentPuzzleSlug)
                 }
