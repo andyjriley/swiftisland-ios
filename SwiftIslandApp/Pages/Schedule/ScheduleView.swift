@@ -157,7 +157,6 @@ struct ScheduleView: View {
 
         // Go over each event and check if there is another event ongoing at the same time
         events.forEach { event in
-            let activity = event.activity
             var event = event
 
             let secondsSinceStartOfDay = abs(selectedDate.atHour(startHourOfDay)?.timeIntervalSince(event.startDate) ?? 0)

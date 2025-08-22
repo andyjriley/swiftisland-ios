@@ -923,6 +923,7 @@
 		};
 		B37B7C6A2E57CF4600B116C1 /* Copy API Data */ = {
 			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
 			buildActionMask = 2147483647;
 			files = (
 			);
