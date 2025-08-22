@@ -68,7 +68,7 @@ struct PuzzleView: View {
 
     var body: some View {
         VStack(alignment: .center) {
-            let url = Bundle.main.url(forResource: puzzle.filename, withExtension: "pdf")
+            let url = Bundle.main.url(forResource: puzzle.slug, withExtension: "pdf")
             if let url = url {
                 let frameColor: Color = colorScheme == .light ? .black : .white
                 let pdfBackgroundColor = colorScheme == .light ? Color(white: 0.9) : Color(white: 0.1)
@@ -84,7 +84,7 @@ struct PuzzleView: View {
                 .aspectRatio(1, contentMode: .fit)
             }
             if puzzle.state != .solved {
-                Text("\(puzzle.question) (\(puzzle.answerLength))").font(.headline)
+                Text(puzzle.question).font(.headline)
                 if let tip = puzzle.tip {
                     Text(tip).font(.footnote)
                 }
@@ -121,7 +121,7 @@ struct PuzzleView: View {
 }
 
 struct PuzzleView_Previews: PreviewProvider {
-    @State static var puzzle = Puzzle.forPreview(number: "16", filename: "marquee")
+    @State static var puzzle = Puzzle.forPreview(slug: "marquee", number: "16")
     static var previews: some View {
         PuzzleView( puzzle: $puzzle.wrappedValue).preferredColorScheme(.light)
         PuzzleView( puzzle: $puzzle.wrappedValue).preferredColorScheme(.dark)
