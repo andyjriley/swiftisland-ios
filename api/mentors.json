@@ -1,41 +1,5 @@
 [
   {
-    "createdAt" : 1755637920,
-    "description" : "Sidney is an Swift Island organizer",
-    "id" : "254f454e-b360-8199-b281-d8b7e3c22a5a",
-    "image" : [
-
-    ],
-    "lastModified" : 1755638280,
-    "linkedin" : "",
-    "mastodon" : "",
-    "name" : "Sidney de Koning",
-    "order" : 0,
-    "published" : false,
-    "role" : "Organizer",
-    "title" : "Sidney de Koning",
-    "twitter" : "",
-    "year" : "2025"
-  },
-  {
-    "createdAt" : 1755637920,
-    "description" : "Niels is an Swift Island organizer",
-    "id" : "254f454e-b360-81a2-85c0-da7625a3ef03",
-    "image" : [
-
-    ],
-    "lastModified" : 1755638280,
-    "linkedin" : "",
-    "mastodon" : "",
-    "name" : "Niels van Hoorn",
-    "order" : 0,
-    "published" : false,
-    "role" : "Organizer",
-    "title" : "Niels van Hoorn",
-    "twitter" : "",
-    "year" : "2025"
-  },
-  {
     "createdAt" : 1750754580,
     "description" : "Feli is an iOS Engineer at Spotify and a strong advocate for accessibility and usability. She’s often seen at conferences creating sketchnotes of talks but occasionally, she switches perspectives and takes the speaker stage herself. With a love of learning and adventure, Feli approaches everything with a passion for the unexpected – including her pizza toppings, where pineapple always has a place.",
     "id" : "21cf454e-b360-803a-94f4-f7ec1e62e6a8",
