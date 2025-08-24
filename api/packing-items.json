@@ -5,7 +5,7 @@
     "id" : "60",
     "lastModified" : 1755634680,
     "order" : 60,
-    "subtitle" : "For if you want to participate our morning sessions: yoga, mediation or running. Think pants\/shorts, shirt and shoes.",
+    "subTitle" : "For if you want to participate our morning sessions: yoga, mediation or running. Think pants\/shorts, shirt and shoes.",
     "title" : "Workout gear"
   },
   {
@@ -14,7 +14,7 @@
     "id" : "58",
     "lastModified" : 1755634680,
     "order" : 58,
-    "subtitle" : "You have a product? Made an app you want to promote?",
+    "subTitle" : "You have a product? Made an app you want to promote?",
     "title" : "Stickers (and\/or other swag)"
   },
   {
@@ -23,7 +23,7 @@
     "id" : "57",
     "lastModified" : 1755634680,
     "order" : 57,
-    "subtitle" : "Yes, they are still a thing",
+    "subTitle" : "Yes, they are still a thing",
     "title" : "Business cards"
   },
   {
@@ -32,7 +32,7 @@
     "id" : "56",
     "lastModified" : 1755634680,
     "order" : 56,
-    "subtitle" : "A USB drive or external harddrive",
+    "subTitle" : "A USB drive or external harddrive",
     "title" : "External storage"
   },
   {
@@ -41,7 +41,7 @@
     "id" : "55",
     "lastModified" : 1755634680,
     "order" : 55,
-    "subtitle" : "",
+    "subTitle" : "",
     "title" : "Mosquito\/bug spray"
   },
   {
@@ -50,7 +50,7 @@
     "id" : "54",
     "lastModified" : 1755634680,
     "order" : 54,
-    "subtitle" : "If needed a medication passport (Get them at your doctor. Used to speed up crossing borders)",
+    "subTitle" : "If needed a medication passport (Get them at your doctor. Used to speed up crossing borders)",
     "title" : "Medication"
   },
   {
@@ -59,7 +59,7 @@
     "id" : "53",
     "lastModified" : 1755634680,
     "order" : 53,
-    "subtitle" : "",
+    "subTitle" : "",
     "title" : "Toothbrush"
   },
   {
@@ -68,7 +68,7 @@
     "id" : "52",
     "lastModified" : 1755634680,
     "order" : 52,
-    "subtitle" : "If you are traveling by plane, use travel-sized products and containers",
+    "subTitle" : "If you are traveling by plane, use travel-sized products and containers",
     "title" : "Toiletries bag"
   },
   {
@@ -77,7 +77,7 @@
     "id" : "51",
     "lastModified" : 1755634680,
     "order" : 51,
-    "subtitle" : "",
+    "subTitle" : "",
     "title" : "Clothes for warm weather"
   },
   {
@@ -86,7 +86,7 @@
     "id" : "50",
     "lastModified" : 1755634680,
     "order" : 50,
-    "subtitle" : "Or at least a sweater. It's still summer in the Netherlands, but you never know here",
+    "subTitle" : "Or at least a sweater. It's still summer in the Netherlands, but you never know here",
     "title" : "Clothes for cold weather"
   },
   {
@@ -95,7 +95,7 @@
     "id" : "49",
     "lastModified" : 1755634680,
     "order" : 49,
-    "subtitle" : "You will need it for the hottub, sauna and cold dip in the sea",
+    "subTitle" : "You will need it for the hottub, sauna and cold dip in the sea",
     "title" : "Swimming gear"
   },
   {
@@ -104,7 +104,7 @@
     "id" : "41",
     "lastModified" : 1755634680,
     "order" : 41,
-    "subtitle" : "Boardgames, field games, video games, or any other game you like, as long as it's multiplayer",
+    "subTitle" : "Boardgames, field games, video games, or any other game you like, as long as it's multiplayer",
     "title" : "Games"
   },
   {
@@ -113,7 +113,7 @@
     "id" : "40",
     "lastModified" : 1755634680,
     "order" : 40,
-    "subtitle" : "If applicable also a VISA (check your local consulate)",
+    "subTitle" : "If applicable also a VISA (check your local consulate)",
     "title" : "Passport"
   },
   {
@@ -122,7 +122,7 @@
     "id" : "33",
     "lastModified" : 1755634680,
     "order" : 33,
-    "subtitle" : "",
+    "subTitle" : "",
     "title" : "Hat"
   },
   {
@@ -131,7 +131,7 @@
     "id" : "32",
     "lastModified" : 1755634680,
     "order" : 32,
-    "subtitle" : "",
+    "subTitle" : "",
     "title" : "Sunscreen"
   },
   {
@@ -140,7 +140,7 @@
     "id" : "31",
     "lastModified" : 1755634680,
     "order" : 31,
-    "subtitle" : "",
+    "subTitle" : "",
     "title" : "Sunglasses"
   },
   {
@@ -149,7 +149,7 @@
     "id" : "30",
     "lastModified" : 1755634680,
     "order" : 30,
-    "subtitle" : "",
+    "subTitle" : "",
     "title" : "Water bottle"
   },
   {
@@ -158,7 +158,7 @@
     "id" : "24",
     "lastModified" : 1755634680,
     "order" : 24,
-    "subtitle" : "",
+    "subTitle" : "",
     "title" : "Battery pack"
   },
   {
@@ -167,7 +167,7 @@
     "id" : "23",
     "lastModified" : 1755634680,
     "order" : 23,
-    "subtitle" : "",
+    "subTitle" : "",
     "title" : "Apple Watch charger"
   },
   {
@@ -176,7 +176,7 @@
     "id" : "22",
     "lastModified" : 1755634680,
     "order" : 22,
-    "subtitle" : "",
+    "subTitle" : "",
     "title" : "Lightning cables"
   },
   {
@@ -185,7 +185,7 @@
     "id" : "21",
     "lastModified" : 1755634680,
     "order" : 21,
-    "subtitle" : "",
+    "subTitle" : "",
     "title" : "USB-C cables"
   },
   {
@@ -194,7 +194,7 @@
     "id" : "20",
     "lastModified" : 1755634680,
     "order" : 20,
-    "subtitle" : "",
+    "subTitle" : "",
     "title" : "MacBook charger"
   },
   {
@@ -203,7 +203,7 @@
     "id" : "11",
     "lastModified" : 1755634680,
     "order" : 11,
-    "subtitle" : "If applicable, Type C and Type F are supported in the Netherlands",
+    "subTitle" : "If applicable, Type C and Type F are supported in the Netherlands",
     "title" : "Travel plug"
   },
   {
@@ -212,7 +212,7 @@
     "id" : "10",
     "lastModified" : 1755634680,
     "order" : 10,
-    "subtitle" : "If it fits your bag, it helps a lot with sharing power outlets",
+    "subTitle" : "If it fits your bag, it helps a lot with sharing power outlets",
     "title" : "Power strip"
   },
   {
@@ -221,7 +221,7 @@
     "id" : "3",
     "lastModified" : 1755634680,
     "order" : 3,
-    "subtitle" : "",
+    "subTitle" : "",
     "title" : "Apple Watch"
   },
   {
@@ -230,7 +230,7 @@
     "id" : "2",
     "lastModified" : 1755634680,
     "order" : 2,
-    "subtitle" : "",
+    "subTitle" : "",
     "title" : "iPad"
   },
   {
@@ -239,7 +239,7 @@
     "id" : "1",
     "lastModified" : 1755634680,
     "order" : 1,
-    "subtitle" : "",
+    "subTitle" : "",
     "title" : "iPhone"
   },
   {
@@ -248,7 +248,7 @@
     "id" : "0",
     "lastModified" : 1755634680,
     "order" : 0,
-    "subtitle" : "",
+    "subTitle" : "",
     "title" : "MacBook"
   }
 ]
