@@ -84,6 +84,12 @@ struct PuzzlePageView: View {
                 if appDataModel.puzzles.isEmpty {
                     Text("Loading...")
                 } else {
+                    Text("🦭 Find hidden seals around the venue! Tap them with your phone to scan and reveal a secret fact about a person at Swift Island. Find out who it is, enter their full name and make a new friend!")
+                        .font(.title3)
+                        .foregroundColor(.primary)
+                        .multilineTextAlignment(.leading)
+                        .padding(.horizontal)
+                    
                     PuzzleGrid(currentPuzzleSlug: currentPuzzleSlug)
                 }
             }
