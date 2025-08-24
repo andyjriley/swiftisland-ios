@@ -53,7 +53,7 @@ extension Puzzle {
 
 struct PuzzleGrid: View {
     @EnvironmentObject private var appDataModel: AppDataModel
-    @State var currentPuzzleSlug: String?
+    let currentPuzzleSlug: String?
     private let spacing: CGFloat = 0
     private let columns = Array(repeatElement(GridItem(.flexible(minimum: 44), spacing: 0), count: 4))
     var body: some View {
@@ -77,7 +77,6 @@ struct PuzzlePageView: View {
     var puzzleStatus
     @Default(.puzzleHints)
     var puzzleHints
-    @State var currentPuzzleSlug: String?
     var body: some View {
         ScrollView {
             VStack {
@@ -90,7 +89,7 @@ struct PuzzlePageView: View {
                         .multilineTextAlignment(.leading)
                         .padding(.horizontal)
                     
-                    PuzzleGrid(currentPuzzleSlug: currentPuzzleSlug)
+                    PuzzleGrid(currentPuzzleSlug: appDataModel.currentPuzzleSlug)
                 }
             }
         }

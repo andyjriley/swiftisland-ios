@@ -103,6 +103,7 @@
 		B3733D792A9951B10069D490 /* PuzzleItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3733D752A9951B10069D490 /* PuzzleItemView.swift */; };
 		B3733D7A2A9951B10069D490 /* PuzzlePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3733D762A9951B10069D490 /* PuzzlePageView.swift */; };
 		B3738AFE2E57DC8600392FED /* PuzzleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3738AFD2E57DC8600392FED /* PuzzleView.swift */; };
+		B391297F2E5BDB6500919229 /* ConfettiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B391297E2E5BDB5D00919229 /* ConfettiView.swift */; };
 		B3B01ECF2C70002300FFBAC9 /* Payload.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B01ECB2C70002200FFBAC9 /* Payload.swift */; };
 		B3B01ED02C70002300FFBAC9 /* ContactData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B01ECC2C70002300FFBAC9 /* ContactData.swift */; };
 		B3B01ED32C70013700FFBAC9 /* NFCPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B01ED22C70013700FFBAC9 /* NFCPageView.swift */; };
@@ -255,6 +256,7 @@
 		B3733D752A9951B10069D490 /* PuzzleItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PuzzleItemView.swift; sourceTree = "<group>"; };
 		B3733D762A9951B10069D490 /* PuzzlePageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PuzzlePageView.swift; sourceTree = "<group>"; };
 		B3738AFD2E57DC8600392FED /* PuzzleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzleView.swift; sourceTree = "<group>"; };
+		B391297E2E5BDB5D00919229 /* ConfettiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfettiView.swift; sourceTree = "<group>"; };
 		B3B01ECB2C70002200FFBAC9 /* Payload.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Payload.swift; sourceTree = "<group>"; };
 		B3B01ECC2C70002300FFBAC9 /* ContactData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactData.swift; sourceTree = "<group>"; };
 		B3B01ED22C70013700FFBAC9 /* NFCPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFCPageView.swift; sourceTree = "<group>"; };
@@ -718,6 +720,7 @@
 		B3733D722A9951600069D490 /* Spot the Seal */ = {
 			isa = PBXGroup;
 			children = (
+				B391297E2E5BDB5D00919229 /* ConfettiView.swift */,
 				B3738AFD2E57DC8600392FED /* PuzzleView.swift */,
 				B3733D762A9951B10069D490 /* PuzzlePageView.swift */,
 				B3733D752A9951B10069D490 /* PuzzleItemView.swift */,
@@ -972,6 +975,7 @@
 				2AEDC4C32A4A089100CD0180 /* ConferencePageView.swift in Sources */,
 				B3733D792A9951B10069D490 /* PuzzleItemView.swift in Sources */,
 				2A7F12792A640730007C28EA /* ScrollViewOffset.swift in Sources */,
+				B391297F2E5BDB6500919229 /* ConfettiView.swift in Sources */,
 				2A16EB362A4CDA4200CC881D /* ConferenceHeaderView.swift in Sources */,
 				B3C626442A94956A002754A8 /* TicketEditView.swift in Sources */,
 				B3F443032A9765E700AFDF43 /* TicketAddButton.swift in Sources */,
