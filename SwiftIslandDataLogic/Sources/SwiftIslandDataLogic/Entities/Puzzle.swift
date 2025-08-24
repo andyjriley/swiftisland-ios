@@ -14,7 +14,7 @@ public struct Puzzle: Response {
     public let title: String
     public let question: String
     public let tip: String?
-    public let encryptedHint: String
+    public let encrypted: String
 }
 
 extension Puzzle: Identifiable, Hashable {
@@ -28,7 +28,7 @@ extension Puzzle {
                                   title: String = "Hard Puzzle",
                                   question: String = "What is the answer",
                                   tip: String? = "You should be smart",
-                                  encryptedHint: String = "EncryptedData") -> Puzzle {
+                                  encrypted: String = "EncryptedData") -> Puzzle {
         Puzzle(
             slug: slug,
             order: order,
@@ -36,7 +36,7 @@ extension Puzzle {
             title: title,
             question: question,
             tip: tip,
-            encryptedHint: encryptedHint
+            encrypted: encrypted
         )
     }
 }

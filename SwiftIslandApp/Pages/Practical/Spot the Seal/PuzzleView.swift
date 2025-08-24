@@ -8,33 +8,8 @@ import PDFKit
 import Defaults
 import SwiftIslandDataLogic
 
-struct Hint: Decodable, Encodable {
+struct EncryptedValue: Decodable, Encodable {
     let text: String
-    let forPuzzle: String
-}
-
-struct PDFViewUI: UIViewRepresentable {
-    let pdfView = PDFView()
-    var url: URL?
-    init(url: URL, backgroundColor: Color = .gray) {
-        self.url = url
-        self.pdfView.backgroundColor = UIColor(backgroundColor)
-
-        self.pdfView.pageShadowsEnabled = false
-        self.pdfView.pageBreakMargins = UIEdgeInsets()
-    }
-
-    func makeUIView(context: Context) -> UIView {
-        if let url = url {
-            pdfView.document = PDFDocument(url: url)
-        }
-        pdfView.scaleFactor = 0.1
-        return pdfView
-    }
-
-    func updateUIView(_ uiView: UIView, context: Context) {
-        // Empty
-    }
 }
 
 struct ShakeEffect: GeometryEffect {
@@ -67,24 +42,8 @@ struct PuzzleView: View {
     @State var invalidAttempts = 0
 
     var body: some View {
-        VStack(alignment: .center) {
-            let url = Bundle.main.url(forResource: puzzle.slug, withExtension: "pdf")
-            if let url = url {
-                let frameColor: Color = colorScheme == .light ? .black : .white
-                let pdfBackgroundColor = colorScheme == .light ? Color(white: 0.9) : Color(white: 0.1)
-                ZStack {
-                    PDFViewUI(url: url, backgroundColor: pdfBackgroundColor)
-                    Image("frame")
-                        .renderingMode(.template)
-                        .resizable(capInsets: EdgeInsets(), resizingMode: .stretch)
-                        .foregroundColor(frameColor)
-                        .allowsHitTesting(false)
-                        .colorInvert()
-                }
-                .aspectRatio(1, contentMode: .fit)
-            }
             if puzzle.state != .solved {
-                Text(puzzle.question).font(.headline)
+                Text(puzzle.question).font(.largeTitle)
                 if let tip = puzzle.tip {
                     Text(tip).font(.footnote)
                 }
@@ -94,10 +53,7 @@ struct PuzzleView: View {
                         .modifier(ShakeEffect(shakes: invalidAttempts * 2))
                     Button("Check") {
                         do {
-                            let hint = try decrypt(value: puzzle.encryptedHint, solution: solution, type: Hint.self)
-                            if let forPuzzle = appDataModel.puzzles.first(where: { $0.number == hint.forPuzzle }) {
-                                Defaults[.puzzleHints][forPuzzle.slug] = hint.text
-                            }
+                            let hint = try decrypt(value: puzzle.encrypted, solution: solution, type: EncryptedValue.self)
                             withAnimation {
                                 puzzle.state = .solved
                             }
@@ -108,6 +64,8 @@ struct PuzzleView: View {
                         }
                     }
                 }
+                .padding(20)
+                .navigationTitle(puzzle.title)
             } else {
                 Image(systemName: "checkmark.seal")
                     .resizable()
@@ -115,8 +73,7 @@ struct PuzzleView: View {
                     .foregroundColor(.green)
                     .frame(width: 100)
             }
-        }.padding(20)
-            .navigationTitle(puzzle.title)
+            
     }
 }
 

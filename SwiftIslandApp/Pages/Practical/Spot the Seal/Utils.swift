@@ -10,6 +10,12 @@ enum EncryptError: Error {
     case invalidKey(key: String)
 }
 
+func sanitizeInput(_ input: String) -> String {
+    return input.lowercased()
+        .components(separatedBy: CharacterSet.letters.inverted)
+        .joined()
+}
+
 let encoder = JSONEncoder()
 func encrypt<T: Encodable>(value: T, solution: String) throws -> String {
     let json = try encoder.encode(value)
@@ -42,4 +48,11 @@ func decrypt<T: Decodable>(value: String, solution: String, type: T.Type) throws
     let decryptedData = try ChaChaPoly.open(sealedBox, using: symmetricKey)
     let decoded = try JSONDecoder().decode(type, from: decryptedData)
     return decoded
+}
+
+// Utility function to generate encrypted data for puzzle answers
+func generateEncryptedAnswer(name: String) throws -> String {
+    let sanitizedName = sanitizeInput(name)
+    let encryptedValue = EncryptedValue(text: name)
+    return try encrypt(value: encryptedValue, solution: sanitizedName)
 }
