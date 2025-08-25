@@ -9,7 +9,7 @@ import SwiftIslandDataLogic
 
 extension Defaults.Keys {
     static let puzzleStatus = Key<[String: PuzzleState]>("puzzleStatus", default: [:])
-    static let puzzleHints = Key<[String: Hint]>("puzzleHints", default: [:])
+    static let puzzleHints = Key<[String: String]>("puzzleHints", default: [:])
 }
 
 enum PuzzleState: String, Defaults.Serializable {
@@ -18,10 +18,10 @@ enum PuzzleState: String, Defaults.Serializable {
     case nearby = "Nearby"
     case activated = "Activated"
     case solved = "Solved"
-    
+
     var next: PuzzleState {
         switch self {
-            // Not all states are currently used, they were part of an more elaborate flow we had in mind initially. Currently we only use .NotFound, .Found and .Solved
+        // Not all states are currently used, they were part of an more elaborate flow we had in mind initially. Currently we only use .NotFound, .Found and .Solved
         case .notFound: return .found
         case .found: return .nearby
         case .nearby: return .activated
@@ -53,64 +53,54 @@ extension Puzzle {
 
 struct PuzzleGrid: View {
     @EnvironmentObject private var appDataModel: AppDataModel
+    let currentPuzzleSlug: String?
     private let spacing: CGFloat = 0
     private let columns = Array(repeatElement(GridItem(.flexible(minimum: 44), spacing: 0), count: 4))
     var body: some View {
         LazyVGrid(columns: columns, spacing: spacing) {
             ForEach(appDataModel.puzzles) { puzzle in
-                PuzzleItemView(puzzle: puzzle, isCurrent: (puzzle.slug == appDataModel.currentPuzzleSlug))
+                NavigationLink(value: puzzle) {
+                    PuzzleItemView(puzzle: puzzle, isCurrent: (puzzle.slug == currentPuzzleSlug))
+                }
+                .disabled(puzzle.state == .notFound)
             }
         }
+        .padding(20)
+        .navigationTitle("Spot the Seal")
     }
 }
 
 struct PuzzlePageView: View {
     @EnvironmentObject private var appDataModel: AppDataModel
-    
+
     @Default(.puzzleStatus)
     var puzzleStatus
     @Default(.puzzleHints)
     var puzzleHints
-    
     var body: some View {
         ScrollView {
-            VStack(alignment: .leading) {
+            VStack {
                 if appDataModel.puzzles.isEmpty {
                     Text("Loading...")
                 } else {
-                    Text("Search for seals all across the conference grounds to find the 16 clues to solve this puzzle!")
-                    Spacer()
-                    Text("Puzzle").font(.title)
-                    Text("Ten attendees of Swift Island met another person while on their way to the conference. Together they planned a trip on one of the conference days.\n\nWho met who and where did they meet?\nWhat trip did they plan together on which day?")
-                    Spacer()
-                    Text("Clues").font(.title)
-                    VStack(alignment: .leading) {
-                        ForEach(puzzleHints.keys.sorted(by: { slug1, slug2 in
-                            guard let hint1 = puzzleHints[slug1], let hint2 = puzzleHints[slug2] else {
-                                return false
-                            }
-                            return hint1.number < hint2.number
-                        }), id: \.self) { slug in
-                            if let hint = puzzleHints[slug] {
-                                Text(hint.description).strikethrough(hint.used).onTapGesture {
-                                    puzzleHints[slug]?.toggleUsed()
-                                }
-                                Spacer()
-                            }
-                        }
-                    }
-                    Spacer()
-                    PuzzleGrid()
+                    Text("🦭 Find hidden seals around the venue! Tap them with your phone to scan and reveal a secret fact about a person at Swift Island. Find out who it is, enter their full name and make a new friend!")
+                        .font(.title3)
+                        .foregroundColor(.primary)
+                        .multilineTextAlignment(.leading)
+                        .padding(.horizontal)
+                    
+                    PuzzleGrid(currentPuzzleSlug: appDataModel.currentPuzzleSlug)
                 }
             }
-            .padding(20)
-            .task {
-                await appDataModel.fetchPuzzles()
-            }
-        }.navigationTitle("Spot the Seal")
+        }
+        .task {
+            await appDataModel.fetchPuzzles()
+        }
+        .navigationDestination(for: Puzzle.self) { puzzle in
+            PuzzleView(puzzle: puzzle)
+        }
     }
 }
-
 
 struct PuzzlePageView_Previews: PreviewProvider {
     static var previews: some View {

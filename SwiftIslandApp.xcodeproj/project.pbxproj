@@ -85,7 +85,6 @@
 		2E19CADE2A7EEC9700177B61 /* UpNextSystemLargeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E19CADD2A7EEC9700177B61 /* UpNextSystemLargeView.swift */; };
 		2E19CAE02A7EF7B100177B61 /* UpNextSystemRectangularView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E19CADF2A7EF7B100177B61 /* UpNextSystemRectangularView.swift */; };
 		2E19CAE22A7EFD9800177B61 /* UpNextSystemCircularView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E19CAE12A7EFD9800177B61 /* UpNextSystemCircularView.swift */; };
-		B30E2E172C6E5E71007A48E5 /* Hint.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30E2E162C6E5E71007A48E5 /* Hint.swift */; };
 		B30E2E1C2C6F9B5E007A48E5 /* NFCDelegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30E2E1B2C6F9B5E007A48E5 /* NFCDelegates.swift */; };
 		B332ADF72A9A813C00557AA7 /* truchet-tiles.pdf in Resources */ = {isa = PBXBuildFile; fileRef = B332ADF12A9A813900557AA7 /* truchet-tiles.pdf */; };
 		B332ADF82A9A813C00557AA7 /* double-names.pdf in Resources */ = {isa = PBXBuildFile; fileRef = B332ADF22A9A813B00557AA7 /* double-names.pdf */; };
@@ -103,6 +102,8 @@
 		B362F5E12AA1044F00AFE1EE /* ConferenceBoxSponsors.swift in Sources */ = {isa = PBXBuildFile; fileRef = B362F5E02AA1044F00AFE1EE /* ConferenceBoxSponsors.swift */; };
 		B3733D792A9951B10069D490 /* PuzzleItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3733D752A9951B10069D490 /* PuzzleItemView.swift */; };
 		B3733D7A2A9951B10069D490 /* PuzzlePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3733D762A9951B10069D490 /* PuzzlePageView.swift */; };
+		B3738AFE2E57DC8600392FED /* PuzzleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3738AFD2E57DC8600392FED /* PuzzleView.swift */; };
+		B391297F2E5BDB6500919229 /* ConfettiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B391297E2E5BDB5D00919229 /* ConfettiView.swift */; };
 		B3B01ECF2C70002300FFBAC9 /* Payload.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B01ECB2C70002200FFBAC9 /* Payload.swift */; };
 		B3B01ED02C70002300FFBAC9 /* ContactData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B01ECC2C70002300FFBAC9 /* ContactData.swift */; };
 		B3B01ED32C70013700FFBAC9 /* NFCPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B01ED22C70013700FFBAC9 /* NFCPageView.swift */; };
@@ -237,7 +238,6 @@
 		2E19CADD2A7EEC9700177B61 /* UpNextSystemLargeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpNextSystemLargeView.swift; sourceTree = "<group>"; };
 		2E19CADF2A7EF7B100177B61 /* UpNextSystemRectangularView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpNextSystemRectangularView.swift; sourceTree = "<group>"; };
 		2E19CAE12A7EFD9800177B61 /* UpNextSystemCircularView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpNextSystemCircularView.swift; sourceTree = "<group>"; };
-		B30E2E162C6E5E71007A48E5 /* Hint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hint.swift; sourceTree = "<group>"; };
 		B30E2E1B2C6F9B5E007A48E5 /* NFCDelegates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFCDelegates.swift; sourceTree = "<group>"; };
 		B332ADF12A9A813900557AA7 /* truchet-tiles.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "truchet-tiles.pdf"; sourceTree = "<group>"; };
 		B332ADF22A9A813B00557AA7 /* double-names.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "double-names.pdf"; sourceTree = "<group>"; };
@@ -255,6 +255,8 @@
 		B362F5E02AA1044F00AFE1EE /* ConferenceBoxSponsors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConferenceBoxSponsors.swift; sourceTree = "<group>"; };
 		B3733D752A9951B10069D490 /* PuzzleItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PuzzleItemView.swift; sourceTree = "<group>"; };
 		B3733D762A9951B10069D490 /* PuzzlePageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PuzzlePageView.swift; sourceTree = "<group>"; };
+		B3738AFD2E57DC8600392FED /* PuzzleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzleView.swift; sourceTree = "<group>"; };
+		B391297E2E5BDB5D00919229 /* ConfettiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfettiView.swift; sourceTree = "<group>"; };
 		B3B01ECB2C70002200FFBAC9 /* Payload.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Payload.swift; sourceTree = "<group>"; };
 		B3B01ECC2C70002300FFBAC9 /* ContactData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactData.swift; sourceTree = "<group>"; };
 		B3B01ED22C70013700FFBAC9 /* NFCPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFCPageView.swift; sourceTree = "<group>"; };
@@ -718,10 +720,11 @@
 		B3733D722A9951600069D490 /* Spot the Seal */ = {
 			isa = PBXGroup;
 			children = (
+				B391297E2E5BDB5D00919229 /* ConfettiView.swift */,
+				B3738AFD2E57DC8600392FED /* PuzzleView.swift */,
 				B3733D762A9951B10069D490 /* PuzzlePageView.swift */,
 				B3733D752A9951B10069D490 /* PuzzleItemView.swift */,
 				B354DDE42A9BEEE700C24461 /* Utils.swift */,
-				B30E2E162C6E5E71007A48E5 /* Hint.swift */,
 			);
 			path = "Spot the Seal";
 			sourceTree = "<group>";
@@ -972,6 +975,7 @@
 				2AEDC4C32A4A089100CD0180 /* ConferencePageView.swift in Sources */,
 				B3733D792A9951B10069D490 /* PuzzleItemView.swift in Sources */,
 				2A7F12792A640730007C28EA /* ScrollViewOffset.swift in Sources */,
+				B391297F2E5BDB6500919229 /* ConfettiView.swift in Sources */,
 				2A16EB362A4CDA4200CC881D /* ConferenceHeaderView.swift in Sources */,
 				B3C626442A94956A002754A8 /* TicketEditView.swift in Sources */,
 				B3F443032A9765E700AFDF43 /* TicketAddButton.swift in Sources */,
@@ -989,7 +993,6 @@
 				2AEDC4C62A4A08AF00CD0180 /* TabBarView.swift in Sources */,
 				2AEDC4972A4A030F00CD0180 /* MainApp.swift in Sources */,
 				2AE43FFF2A702999009078E3 /* ConferenceBoxEvent.swift in Sources */,
-				B30E2E172C6E5E71007A48E5 /* Hint.swift in Sources */,
 				2A7F12832A648C59007C28EA /* SwiftIslandButtonStyle.swift in Sources */,
 				2A7F12902A69D9C7007C28EA /* PracticalGenericPageView.swift in Sources */,
 				2AE440012A702BC0009078E3 /* Date+Formatting.swift in Sources */,
@@ -1007,6 +1010,7 @@
 				2A7F12772A6401C4007C28EA /* NFCManager.swift in Sources */,
 				2A16EB412A4CDD4A00CC881D /* Color+Helper.swift in Sources */,
 				2A7F128D2A69CC39007C28EA /* Defaults.swift in Sources */,
+				B3738AFE2E57DC8600392FED /* PuzzleView.swift in Sources */,
 				2ACF55A42A605BA300C051FC /* GettingThereMapView.swift in Sources */,
 				B3B01ECF2C70002300FFBAC9 /* Payload.swift in Sources */,
 				2A7F127F2A6488EC007C28EA /* RequestLocationView.swift in Sources */,

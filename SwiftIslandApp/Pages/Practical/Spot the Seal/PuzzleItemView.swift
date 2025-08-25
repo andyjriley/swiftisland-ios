@@ -5,6 +5,7 @@
 
 import SwiftUI
 import SwiftIslandDataLogic
+import Defaults
 
 let sealAngle: Double = 24
 let fromAngle: Double = -45 - sealAngle
@@ -19,24 +20,36 @@ class PuzzleItemViewModel: ObservableObject {
     @Published var scale: Double = 1
     @Published var flipAngle: CGFloat = 0
     @Published var isCurrent = false
-    
+
     init(puzzle: Puzzle, isCurrent: Bool = false) {
         self.puzzle = puzzle
         self.isCurrent = isCurrent
         self.flipAngle = puzzle.state == .solved ? 180 : 0
     }
+    
+    func updateForStateChanges() {
+        let newFlipAngle: CGFloat = puzzle.state == .solved ? 180 : 0
+        if flipAngle != newFlipAngle {
+            withAnimation(.easeInOut(duration: 0.6)) {
+                flipAngle = newFlipAngle
+            }
+        }
+    }
 }
 
 struct PuzzleItemView: View {
     @StateObject var viewModel: PuzzleItemViewModel
-    
+
     @Environment(\.colorScheme)
     private var colorScheme
     
+    @Default(.puzzleStatus)
+    private var puzzleStatus
+
     init(puzzle: Puzzle, isCurrent: Bool = false) {
         _viewModel = StateObject(wrappedValue: PuzzleItemViewModel(puzzle: puzzle, isCurrent: isCurrent))
     }
-    
+
     var body: some View {
         let color: Color = colorScheme == .light ? .black : .white
         let puzzle = viewModel.puzzle
@@ -62,7 +75,9 @@ struct PuzzleItemView: View {
         }
             .aspectRatio(1, contentMode: .fit)
             .foregroundColor(color)
-        switch puzzle.state {
+        
+        return Group {
+            switch puzzle.state {
         case .found:
             stack
                 .onAppear {
@@ -82,8 +97,12 @@ struct PuzzleItemView: View {
                         }
                     }
                 }
-        case .solved, .notFound, .nearby, .activated:
-            stack
+            case .solved, .notFound, .nearby, .activated:
+                stack
+            }
+        }
+        .onChange(of: puzzleStatus) {
+            viewModel.updateForStateChanges()
         }
     }
 }

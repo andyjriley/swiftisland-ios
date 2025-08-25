@@ -12,11 +12,9 @@ public struct Puzzle: Response {
     public let order: Int
     public let number: String
     public let title: String
-    public let filename: String
     public let question: String
     public let tip: String?
-    public let answerLength: String
-    public let encryptedHint: String
+    public let encrypted: String
 }
 
 extension Puzzle: Identifiable, Hashable {
@@ -28,21 +26,17 @@ extension Puzzle {
                                   order: Int = 0,
                                   number: String = "1",
                                   title: String = "Hard Puzzle",
-                                  filename: String = "valuta.pdf",
                                   question: String = "What is the answer",
                                   tip: String? = "You should be smart",
-                                  answerLength: String = "1,4",
-                                  encryptedHint: String = "EncryptedData") -> Puzzle {
+                                  encrypted: String = "EncryptedData") -> Puzzle {
         Puzzle(
             slug: slug,
             order: order,
             number: number,
             title: title,
-            filename: filename,
             question: question,
             tip: tip,
-            answerLength: answerLength,
-            encryptedHint: encryptedHint
+            encrypted: encrypted
         )
     }
 }

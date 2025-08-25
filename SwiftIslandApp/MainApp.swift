@@ -66,13 +66,13 @@ private extension MainApp {
                     print(error)
                 }
             }
-        case .seal(let slug, let key):
+        case .seal(let slug):
             if slug == "reset" {
                 Defaults.reset(.puzzleStatus)
                 Defaults.reset(.puzzleHints)
                 appDataModel.currentPuzzleSlug = nil
             } else {
-                findSlug(slug: slug, key: key)
+                findSlug(slug: slug)
             }
         case .contact(let contact):
             addContact(contact: contact)
@@ -87,7 +87,7 @@ private extension MainApp {
         Defaults[.contacts][Date().timeIntervalSinceReferenceDate] = contact
     }
     
-    func findSlug(slug: String, key: String) {
+    func findSlug(slug: String) {
         if slug == "reset" {
             Defaults.reset(.puzzleStatus)
             Defaults.reset(.puzzleHints)
@@ -95,11 +95,6 @@ private extension MainApp {
             let currentStatus = Defaults[.puzzleStatus][slug]
             if currentStatus == nil || currentStatus == .notFound {
                 Defaults[.puzzleStatus][slug] = .found
-            }
-            if let puzzle = appDataModel.puzzles.first(where: { $0.slug == slug }) {
-                if let hint = try? decrypt(value: puzzle.encryptedHint, solution: key, type: Hint.self) {
-                    Defaults[.puzzleHints][puzzle.slug] = hint
-                }
             }
             appDataModel.currentPuzzleSlug = slug
         }
@@ -132,8 +127,8 @@ private extension MainApp {
 enum URLTask: Equatable {
     case action(appAction: AppActions)
     case ticket(slug: String)
-    case seal(slug: String, key: String)
     case contact(contact: String)
+    case seal(slug: String)
 
     init?(items: [URLQueryItem]) {
         for item in items {
@@ -144,7 +139,7 @@ enum URLTask: Equatable {
         }
         return nil
     }
-    
+
     static func parseItem(item: URLQueryItem, allItems: [URLQueryItem]) -> URLTask? {
         switch item.name {
         case "action":
@@ -157,10 +152,8 @@ enum URLTask: Equatable {
             guard let value = item.value else { return nil }
             return .contact(contact: value)
         case "seal":
-            guard let value = item.value, let key
-                    = allItems.first(where: {$0.name == "key"})?.value else { return nil }
-            
-            return .seal(slug: value, key: key)
+            guard let value = item.value else { return nil }
+            return .seal(slug: value)
         default:
             return nil
         }
