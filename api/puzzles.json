@@ -5,8 +5,14 @@
     "number": "1",
     "title": "1",
     "question": "Who has been learning to play button accordion?",
-    "encrypted": "aT1B4YaW0zmQOIIwH5L0Owm7Dm+5GyNiievsnoqpF8vriP8PBLlhvZroZxHXlA7uX4NEg5TrDckqzUc=",
-    "emojis": ["🪗","🎶"]
+    "encrypted": "G2nPaH3bbpezEgkZRRAAmDC2WJkz5JbbfbFmWhPf/lqvE1sMmL3sPZliaVtvaSnttAg9+HOboA/AYZI=",
+    "emojis": [
+      "🪗",
+      "🎶",
+      "🎵",
+      "🎼",
+      "🦭"
+    ]
   },
   {
     "slug": "ezlmeqjovv",
@@ -14,8 +20,14 @@
     "number": "2",
     "title": "2",
     "question": "Who has a masters in Chemistry?",
-    "encrypted": "+wa2lxx9wPuztUNJOVI2KBLleLzHeZ/M5nlrx7KiLx+xDbf6cbU9XUt/Ao3MDrgrEjMW",
-    "emojis": ["🧪","⚗️","🔬","⚛️"]
+    "encrypted": "oxlZyKO0H2H08hRm3AKTe3UcHzJ5G2YvacivjtuiFFUyu+FNIt7qRzhYh4D8AqfgvhCR",
+    "emojis": [
+      "🧪",
+      "⚗️",
+      "🔬",
+      "⚛️",
+      "🎉"
+    ]
   },
   {
     "slug": "lzgwpfwcsc",
@@ -23,8 +35,14 @@
     "number": "3",
     "title": "3",
     "question": "Who can fall asleep in a plane instantly?",
-    "encrypted": "1gBn7RC49Bcx5RUS3SFw9vbl4VsQbQlZkhdZh+lZBe6XEVqSHRsOKSjKhkSGatG3OGWo",
-    "emojis": ["✈️","😴","💤","🛫","☁️"]
+    "encrypted": "NFBWD923smqqkmfrJZ3oIdR87bb+JMFIQND1cljSFPsdI6K+PZu40s7bAE7bB246h/MC",
+    "emojis": [
+      "✈️",
+      "😴",
+      "💤",
+      "🛫",
+      "☁️"
+    ]
   },
   {
     "slug": "rxnjxqnsbj",
@@ -32,16 +50,58 @@
     "number": "4",
     "title": "4",
     "question": "Who has been a junior Dutch minigolf champion two times?",
-    "encrypted": "DLv/AGhbRwsDM7JLJx0lipkojaO2roNlKX3JgccxSD8EWSoj/KC1rNvu2IL5LmOZvNPpCZUj",
-    "emojis": ["⛳","🏌️","🇳🇱","🏆","🥇"]
+    "encrypted": "Ta9tvKyUNdkdFkJ7MDUSCbBH/dGVAr0zW94GE29ONiPvF3qF5CIcwJrw/Cc28hbzlAanDgyE",
+    "emojis": [
+      "⛳",
+      "🏌️",
+      "🇳🇱",
+      "🏆",
+      "🥇"
+    ]
   },
   {
-    "slug": "hklsxarifb",
+    "slug": "cafcntuneb",
     "order": 4,
     "number": "5",
     "title": "5",
-    "question": "Who used to have long hair?",
-    "encrypted": "lvBjiNw/Gti+9mXswxlSyRM+OdWBjnsj2EPqPvJtBElm2EANQtAsdytp1Zs6xZ0JtWwZCg==",
-    "emojis": ["💇","💇‍♂️","✂️","💫","🦭"]
+    "question": "Who used to have longer hair than his girlfriend?",
+    "encrypted": "z+vEOuYBLVqiXrxE3wkrstwWwZxutGx+IWqcJmHq2J0zHlmoHyZzS0raRgyusOr7DTTP3A==",
+    "emojis": [
+      "💇",
+      "💇‍♂️",
+      "✂️",
+      "💫",
+      "🦭"
+    ]
+  },
+  {
+    "slug": "jrerjowxkf",
+    "order": 5,
+    "number": "6",
+    "title": "6",
+    "question": "Who has hitchhikers thumbs?",
+    "encrypted": "t33xf8sw/pEPKbEoX0kZ5XiZy0wbsDnj9elDJwO/vxM2JIHtBAqJ+CDK5UZlhaOSMTW7gQychysw",
+    "emojis": [
+      "👍",
+      "🤏",
+      "🚗",
+      "🛣️",
+      "🦭"
+    ]
+  },
+  {
+    "slug": "pzrefrmjlp",
+    "order": 6,
+    "number": "7",
+    "title": "7",
+    "question": "Who can tap dance?",
+    "encrypted": "H2YAtR7Tkq4J1g8nOy3I6BqYjPAe8kI/oIblmJ0fD44WdJSzcjpEZniEEwCszOA7Jzg=",
+    "emojis": [
+      "💃",
+      "🕺",
+      "👠",
+      "🥁",
+      "🎵"
+    ]
   }
 ]
