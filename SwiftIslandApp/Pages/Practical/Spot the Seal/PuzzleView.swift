@@ -94,7 +94,7 @@ struct PuzzleView: View {
         .overlay(
             Group {
                 if showCelebration {
-                    ConfettiView()
+                    ConfettiView(emojis: puzzle.emojis ?? ["🦭"])
                 }
             }
         )

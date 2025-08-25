@@ -5,7 +5,8 @@
     "number": "1",
     "title": "1",
     "question": "Who has been learning to play button accordion?",
-    "encrypted": "aT1B4YaW0zmQOIIwH5L0Owm7Dm+5GyNiievsnoqpF8vriP8PBLlhvZroZxHXlA7uX4NEg5TrDckqzUc="
+    "encrypted": "aT1B4YaW0zmQOIIwH5L0Owm7Dm+5GyNiievsnoqpF8vriP8PBLlhvZroZxHXlA7uX4NEg5TrDckqzUc=",
+    "emojis": ["🪗","🎶"]
   },
   {
     "slug": "ezlmeqjovv",
@@ -13,7 +14,8 @@
     "number": "2",
     "title": "2",
     "question": "Who has a masters in Chemistry?",
-    "encrypted": "+wa2lxx9wPuztUNJOVI2KBLleLzHeZ/M5nlrx7KiLx+xDbf6cbU9XUt/Ao3MDrgrEjMW"
+    "encrypted": "+wa2lxx9wPuztUNJOVI2KBLleLzHeZ/M5nlrx7KiLx+xDbf6cbU9XUt/Ao3MDrgrEjMW",
+    "emojis": ["🧪","⚗️","🔬","⚛️"]
   },
   {
     "slug": "lzgwpfwcsc",
@@ -21,7 +23,8 @@
     "number": "3",
     "title": "3",
     "question": "Who can fall asleep in a plane instantly?",
-    "encrypted": "1gBn7RC49Bcx5RUS3SFw9vbl4VsQbQlZkhdZh+lZBe6XEVqSHRsOKSjKhkSGatG3OGWo"
+    "encrypted": "1gBn7RC49Bcx5RUS3SFw9vbl4VsQbQlZkhdZh+lZBe6XEVqSHRsOKSjKhkSGatG3OGWo",
+    "emojis": ["✈️","😴","💤","🛫","☁️"]
   },
   {
     "slug": "rxnjxqnsbj",
@@ -29,7 +32,8 @@
     "number": "4",
     "title": "4",
     "question": "Who has been a junior Dutch minigolf champion two times?",
-    "encrypted": "DLv/AGhbRwsDM7JLJx0lipkojaO2roNlKX3JgccxSD8EWSoj/KC1rNvu2IL5LmOZvNPpCZUj"
+    "encrypted": "DLv/AGhbRwsDM7JLJx0lipkojaO2roNlKX3JgccxSD8EWSoj/KC1rNvu2IL5LmOZvNPpCZUj",
+    "emojis": ["⛳","🏌️","🇳🇱","🏆","🥇"]
   },
   {
     "slug": "hklsxarifb",
@@ -37,6 +41,7 @@
     "number": "5",
     "title": "5",
     "question": "Who used to have long hair?",
-    "encrypted": "lvBjiNw/Gti+9mXswxlSyRM+OdWBjnsj2EPqPvJtBElm2EANQtAsdytp1Zs6xZ0JtWwZCg=="
+    "encrypted": "lvBjiNw/Gti+9mXswxlSyRM+OdWBjnsj2EPqPvJtBElm2EANQtAsdytp1Zs6xZ0JtWwZCg==",
+    "emojis": ["💇","💇‍♂️","✂️","💫","🦭"]
   }
 ]
